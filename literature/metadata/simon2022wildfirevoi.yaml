@@ -9,7 +9,8 @@ issue: None
 pages: "804958"
 doi: 10.3389/fenvs.2022.804958
 url: https://doi.org/10.3389/fenvs.2022.804958
-publication_status: peer_reviewed_journal
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: open_access
 date_verified: 2026-09-19
 verified_via: WebFetch of Frontiers full text (E3)

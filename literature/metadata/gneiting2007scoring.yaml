@@ -11,7 +11,8 @@ issue: "477"
 pages: "359-378"
 doi: "10.1198/016214506000001437"
 url: "https://doi.org/10.1198/016214506000001437"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "closed"
 date_verified: 2026-09-19
 verified_via: "Crossref API (DOI lookup)"

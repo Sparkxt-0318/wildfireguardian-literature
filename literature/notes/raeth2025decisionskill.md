@@ -1,4 +1,4 @@
-# raeth2026decisionskill
+# raeth2025decisionskill
 
 ## Citation
 Raeth, K., and N. Ludwig, 2026: Forecast skill is not decision skill: evidence

@@ -14,7 +14,7 @@ issue: "-"
 pages: "-"
 doi: "UNVERIFIED"
 url: "https://arxiv.org/abs/2605.18911"
-publication_status: "PREPRINT"
+publication_status: PREPRINT
 open_access_status: "green"
 date_verified: 2026-09-19
 verified_via: "alphaXiv get_paper_content (full text)"

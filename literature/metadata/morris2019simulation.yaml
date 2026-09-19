@@ -12,7 +12,8 @@ issue: "11"
 pages: "2074-2102"
 doi: "10.1002/sim.8086"
 url: "https://doi.org/10.1002/sim.8086"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic)"

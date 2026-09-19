@@ -16,7 +16,8 @@ issue: "11"
 pages: "1926-1939"
 doi: "10.1111/2041-210X.14415"
 url: "https://doi.org/10.1111/2041-210X.14415"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (DOI lookup); WebSearch"

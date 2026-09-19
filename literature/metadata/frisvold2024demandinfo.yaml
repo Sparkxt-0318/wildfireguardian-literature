@@ -9,7 +9,8 @@ issue: 11
 pages: "1364"
 doi: 10.3390/atmos15111364
 url: https://doi.org/10.3390/atmos15111364
-publication_status: peer_reviewed_journal
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: open_access
 date_verified: 2026-09-19
 verified_via: Crossref API + search summary (E1/E2)

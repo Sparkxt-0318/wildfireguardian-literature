@@ -16,7 +16,8 @@ issue: "-"
 pages: "1623-1701"
 doi: "10.1613/jair.1.15320"
 url: "https://doi.org/10.1613/jair.1.15320"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); alphaXiv (arXiv 2307.13565)"

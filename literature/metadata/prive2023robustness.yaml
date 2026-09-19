@@ -14,7 +14,8 @@ issue: "1"
 pages: "309-333"
 doi: "10.16993/tellusa.3254"
 url: "https://doi.org/10.16993/tellusa.3254"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (DOI lookup); WebFetch tellusjournal.org"

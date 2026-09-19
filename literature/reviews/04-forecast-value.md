@@ -129,7 +129,7 @@ trigger or buffer** and reports the skill boundary.
 | `olivetti2026compounding` | multi-hazard urban | protect / don't protect | competing forecast systems | varying C/L | yes (rank flips by C/L) | no |
 | `ardid2026forecastvalue` | **wildfire** | fire-potential warning / preparedness | Fire Behaviour Index | **not stated** | no explicit boundary | no (sub-hourly cadence only) |
 | `berlinghieri2024pm25` | **wildfire smoke** | go outside? when to go outside? | **persistence** | baseline is strong, not tuned | partial (task-dependent) | no |
-| `raeth2026decisionskill` | weather (generic) | frost/heat protection, wind dispatch | competing forecast models | thresholds varied | partial | no |
+| `raeth2025decisionskill` | weather (generic) | frost/heat protection, wind dispatch | competing forecast models | thresholds varied | partial | no |
 | `masiwal2026decisionoriented` | monsoon | when to disseminate onset forecast | climatology | no | yes (skill horizon ~3 weeks) | operational runnability, not quantified |
 
 ---
@@ -143,7 +143,7 @@ trigger or buffer** and reports the skill boundary.
    Richardson 2000, Zhu 2002. Closed.
 3. **Accuracy (or quality) is not monotone with value/decision quality.**
    Murphy & Ehrendorfer 1987; Chen, Ehrendorfer & Murphy 1987; restated by
-   `mandi2024dfl`, `liu2026dflfail`, `raeth2026decisionskill`. **Closed.**
+   `mandi2024dfl`, `liu2026dflfail`, `raeth2025decisionskill`. **Closed.**
 4. **Act now vs wait for a better forecast, with forecast quality indexed by
    lead time.** Regnier & Harr 2006. Closed.
 5. **A boundary in forecast-quality space separating "act on the forecast" from

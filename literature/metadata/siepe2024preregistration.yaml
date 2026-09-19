@@ -15,7 +15,8 @@ issue: "UNVERIFIED"
 pages: "UNVERIFIED"
 doi: "10.1037/met0000695"
 url: "https://doi.org/10.1037/met0000695"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "green"
 date_verified: 2026-09-19
 verified_via: "Crossref API (DOI lookup); WebSearch (ADEMP-PreReg)"

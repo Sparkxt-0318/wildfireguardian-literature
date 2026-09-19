@@ -78,5 +78,5 @@ the task of deciding whether to go outside" (Appendix A.4, regional results).
 Francisco case).
 
 ## Follow-up papers
-- raeth2026decisionskill
+- raeth2025decisionskill
 - ardid2026forecastvalue

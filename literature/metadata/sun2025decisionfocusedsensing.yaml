@@ -9,7 +9,8 @@ issue: None
 pages: "117-127"
 doi: 10.1145/3736425.3770102
 url: https://doi.org/10.1145/3736425.3770102
-publication_status: peer_reviewed_conference
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_conference"
 open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: alphaXiv full-text retrieval + Crossref API (E3)

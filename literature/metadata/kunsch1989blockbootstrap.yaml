@@ -10,7 +10,8 @@ issue: "3"
 pages: "UNVERIFIED"
 doi: "10.1214/aos/1176347265"
 url: "https://doi.org/10.1214/aos/1176347265"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "green"
 date_verified: 2026-09-19
 verified_via: "Crossref API (DOI lookup)"

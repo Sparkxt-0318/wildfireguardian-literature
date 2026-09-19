@@ -9,7 +9,8 @@ issue: 1
 pages: "69-73"
 doi: 10.1002/j.1469-8080.1994.tb00007.x
 url: https://doi.org/10.1002/j.1469-8080.1994.tb00007.x
-publication_status: peer_reviewed_journal
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: Crossref API + Wiley listing

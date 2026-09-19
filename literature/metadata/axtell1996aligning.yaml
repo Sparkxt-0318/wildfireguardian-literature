@@ -13,7 +13,8 @@ issue: "2"
 pages: "123-141"
 doi: "10.1007/bf01299065"
 url: "https://doi.org/10.1007/bf01299065"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "closed"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic)"

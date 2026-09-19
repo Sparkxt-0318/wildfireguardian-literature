@@ -60,7 +60,7 @@ budget with a non-myopic scheduler". Any WildfireGuardian claim phrased as
 ## WildfireGuardian difference
 The decisive difference is the objective: Shao et al. optimise a *predictive*
 loss (hazard-map accuracy). WG-C-008 proposes to optimise the *decision* — which
-observation most changes the dispatch-by deadline. Given raeth2026decisionskill,
+observation most changes the dispatch-by deadline. Given raeth2025decisionskill,
 mandi2024dfl and sun2025decisionfocusedsensing, these are demonstrably not the
 same objective, which is exactly why the gap is worth occupying.
 

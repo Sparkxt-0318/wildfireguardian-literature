@@ -11,7 +11,8 @@ issue: "9"
 pages: "1601-1616"
 doi: "10.1175/BAMS-D-15-00200.1"
 url: "https://doi.org/10.1175/BAMS-D-15-00200.1"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); cited as twin-bias source by Yu et al. 2019"

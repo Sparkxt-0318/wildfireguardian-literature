@@ -21,7 +21,8 @@ issue: "2"
 pages: "1493-1519"
 doi: "10.1007/s11069-023-05913-2"
 url: "https://doi.org/10.1007/s11069-023-05913-2"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); WebFetch PMC10220130"

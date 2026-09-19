@@ -10,7 +10,8 @@ issue: "2"
 pages: "187-211"
 doi: "10.2307/1942661"
 url: "https://doi.org/10.2307/1942661"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "closed"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); Consensus (abstract)"

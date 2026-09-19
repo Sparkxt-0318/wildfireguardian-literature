@@ -9,7 +9,8 @@ issue: None
 pages: "100375"
 doi: 10.1016/j.crm.2021.100375
 url: https://doi.org/10.1016/j.crm.2021.100375
-publication_status: peer_reviewed_journal
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: Crossref API + Consensus abstract

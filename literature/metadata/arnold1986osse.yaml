@@ -11,7 +11,8 @@ issue: "6"
 pages: "687-695"
 doi: "10.1175/1520-0477(1986)067<0687:OSSEPP>2.0.CO;2"
 url: "https://doi.org/10.1175/1520-0477(1986)067%3C0687:OSSEPP%3E2.0.CO;2"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); cited as twin-bias source by Yu et al. 2019"

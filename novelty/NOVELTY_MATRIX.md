@@ -29,7 +29,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `li2018coupling` | CRITICAL | Y | Y | . | Y | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | . | . |
 | `malings2016voisensor` | CRITICAL | . | . | . | . | . | . | . | . | . | . | . | . | Y | . | Y | Y | . | . | . |
 | `moradi2026supported` | CRITICAL | ~ | ~ | . | . | . | Y | Y | Y | Y | ~ | . | . | . | Y | . | . | . | ~ | . |
-| `raeth2026decisionskill` | CRITICAL | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . | . |
+| `raeth2025decisionskill` | CRITICAL | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . | . |
 | `rossa2026actionbed` | CRITICAL | . | . | . | . | . | . | . | . | . | . | . | . | Y | . | Y | Y | . | . | . |
 | `sun2025decisionfocusedsensing` | CRITICAL | . | . | . | . | . | . | . | . | ~ | . | . | . | Y | Y | Y | Y | . | Y | . |
 | `alexander2026nursing` | HIGH | . | ~ | . | . | . | Y | Y | Y | Y | . | . | . | ~ | Y | . | . | . | ~ | . |

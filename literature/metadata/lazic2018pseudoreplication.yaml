@@ -12,7 +12,8 @@ issue: "4"
 pages: "e2005282"
 doi: "10.1371/journal.pbio.2005282"
 url: "https://doi.org/10.1371/journal.pbio.2005282"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "gold"
 date_verified: 2026-09-19
 verified_via: "Crossref API (DOI lookup); Consensus (abstract)"

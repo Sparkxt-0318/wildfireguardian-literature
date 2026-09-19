@@ -9,7 +9,8 @@ issue: 12
 pages: "3751-3765"
 doi: 10.5194/hess-15-3751-2011
 url: https://doi.org/10.5194/hess-15-3751-2011
-publication_status: peer_reviewed_journal
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: open_access
 date_verified: 2026-09-19
 verified_via: Crossref API + Copernicus listing

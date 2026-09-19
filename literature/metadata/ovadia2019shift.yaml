@@ -18,7 +18,8 @@ issue: "-"
 pages: "-"
 doi: "UNVERIFIED"
 url: "https://arxiv.org/abs/1906.02530"
-publication_status: "PREPRINT (arXiv record verified; NeurIPS proceedings record NOT verified)"
+publication_status: PREPRINT
+publication_status_as_recorded: "PREPRINT (arXiv record verified; NeurIPS proceedings record NOT verified)"
 open_access_status: "green"
 date_verified: 2026-09-19
 verified_via: "arXiv API"

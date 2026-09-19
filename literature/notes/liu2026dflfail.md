@@ -64,5 +64,5 @@ are among the tools "not directly suited to decision-focused settings".
 
 ## Follow-up papers
 - mandi2024dfl (the benchmark survey)
-- raeth2026decisionskill (weather instantiation)
+- raeth2025decisionskill (weather instantiation)
 - sun2025decisionfocusedsensing (flood instantiation)

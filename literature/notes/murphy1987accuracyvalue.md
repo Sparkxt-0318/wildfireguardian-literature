@@ -69,4 +69,4 @@ No quotes — full text not retrieved. Title is itself the load-bearing evidence
 ## Follow-up papers
 - chen1987qualityvalue (generalised N-action version, same year)
 - richardson2000relative, zhu2002economic (REV as the operational form)
-- raeth2026decisionskill, mandi2024dfl (the ML-era restatement)
+- raeth2025decisionskill, mandi2024dfl (the ML-era restatement)

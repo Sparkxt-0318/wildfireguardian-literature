@@ -11,7 +11,8 @@ issue: "2"
 pages: "493-504"
 doi: "10.1016/j.cam.2005.09.027"
 url: "https://doi.org/10.1016/j.cam.2005.09.027"
-publication_status: "published"
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "published"
 open_access_status: "bronze"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); Semantic Scholar Graph API (abstract elided by publisher)"

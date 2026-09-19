@@ -9,7 +9,8 @@ issue: 5
 pages: "764-780"
 doi: 10.1175/WAF958.1
 url: https://journals.ametsoc.org/view/journals/wefo/21/5/waf958_1.xml
-publication_status: peer_reviewed_journal
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: Crossref API + AMS page + search summary (abstract paraphrase, E2)

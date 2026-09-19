@@ -120,7 +120,7 @@ Ehrendorfer (1987), and it is a danger zone exactly as the task brief warned.
   separately, that **data-collection strategies driven purely by predictive
   uncertainty are not suited to decision-focused settings**. That one sentence
   pre-empts the *motivation* for both WG-C-014 and WG-C-008.
-- `raeth2026decisionskill` (arXiv 2026) supplies the weather-domain empirical
+- `raeth2025decisionskill` (arXiv 2026) supplies the weather-domain empirical
   demonstration, including that model rankings change between *similar* decision
   tasks (review 04 §1.1).
 - Portfolio-domain instances (`arXiv:2601.04062`, `arXiv:2605.01176` — author

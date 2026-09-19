@@ -9,7 +9,8 @@ issue: 7
 pages: "803-816"
 doi: 10.1175/1520-0493(1977)105<0803:TVOCCA>2.0.CO;2
 url: https://journals.ametsoc.org/view/journals/mwre/105/7/1520-0493_1977_105_0803_tvocca_2_0_co_2.xml
-publication_status: peer_reviewed_journal
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: Crossref API + AMS journal page + Consensus abstract
