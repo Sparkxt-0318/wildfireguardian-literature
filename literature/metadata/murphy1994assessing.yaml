@@ -15,7 +15,8 @@ open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: Crossref API + Wiley listing
 category: [4]
-threat_level: MODERATE (review/ownership)
+threat_level: MODERATE
+threat_level_qualifier: "(review/ownership)"
 threatens_claims: [WG-C-002, WG-C-006]
 matrix:
   future_fire: no

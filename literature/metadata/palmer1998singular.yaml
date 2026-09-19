@@ -15,7 +15,8 @@ open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: Crossref API + AMS page + search summary (E2)
 category: [5]
-threat_level: HIGH (framework ownership)
+threat_level: HIGH
+threat_level_qualifier: "(framework ownership)"
 threatens_claims: [WG-C-008]
 matrix:
   future_fire: no

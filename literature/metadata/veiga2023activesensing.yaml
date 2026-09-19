@@ -15,7 +15,8 @@ open_access_status: UNVERIFIED
 date_verified: 2026-09-19
 verified_via: Crossref API (bibliographic); ACM full text 403 (E1/E2)
 category: [5]
-threat_level: HIGH (field ownership)
+threat_level: HIGH
+threat_level_qualifier: "(field ownership)"
 threatens_claims: [WG-C-008]
 matrix:
   future_fire: no

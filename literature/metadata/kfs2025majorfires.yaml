@@ -16,7 +16,7 @@ open_access_status: publicly_accessible_web_page
 date_verified: 2026-09-19
 verified_via: "WebFetch of the KFS page; cross-checked against e-나라지표 indicator 1309"
 category: [8]
-threat_level: NONE
+threat_level: BACKGROUND
 threatens_claims: []
 matrix:
   future_fire: no

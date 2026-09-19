@@ -16,7 +16,7 @@ open_access_status: OA
 date_verified: 2026-09-19
 verified_via: "WebFetch of the j-kosham.or.kr article page"
 category: [8]
-threat_level: NONE
+threat_level: BACKGROUND
 threatens_claims: []
 matrix:
   future_fire: partial

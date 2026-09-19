@@ -16,7 +16,7 @@ open_access_status: gold_OA_CC-BY
 date_verified: 2026-09-19
 verified_via: "OpenAlex API record (title search); abstract via Consensus. NOTE: Consensus returned no volume/issue/DOI for this record — supplied here from OpenAlex."
 category: [8]
-threat_level: NONE
+threat_level: BACKGROUND
 threatens_claims: []
 matrix:
   future_fire: no

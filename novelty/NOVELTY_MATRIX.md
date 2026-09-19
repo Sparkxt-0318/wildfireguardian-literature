@@ -54,17 +54,22 @@ useful reading is column-wise and pairwise, not row-wise.
 | `mitchell2023peril` | HIGH | Y | . | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | ~ | . |
 | `mois2025evacuationstages` | HIGH | Y | . | ~ | . | . | ~ | . | . | Y | . | . | . | . | . | . | . | Y | . | . |
 | `mois2026aievacroute` | HIGH | Y | ? | . | ? | ? | . | Y | . | Y | . | . | . | . | ? | . | ~ | Y | ? | . |
+| `murphy1977costloss` | HIGH | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . | . |
 | `murphy1987accuracyvalue` | HIGH | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . | . |
 | `orphanoudakis2025mora` | HIGH | ~ | . | . | . | . | . | ~ | . | . | . | . | . | ~ | Y | . | . | . | . | . |
+| `palmer1998singular` | HIGH | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . |
 | `papaioannou2026adaptive` | HIGH | Y | . | . | . | . | . | . | . | . | . | ~ | . | . | ~ | Y | Y | . | . | . |
+| `rainforth2024modernbed` | HIGH | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . |
 | `rambha2021staged` | HIGH | . | Y | . | Y | . | Y | ~ | ~ | Y | ~ | . | . | Y | ~ | ~ | . | . | ~ | . |
 | `ramirez2019stochastic` | HIGH | Y | . | Y | Y | . | . | . | . | Y | . | ~ | . | ~ | . | . | . | . | ~ | . |
 | `regnier2006dynamic` | HIGH | . | . | . | . | . | . | . | . | . | . | ~ | ~ | Y | . | . | . | . | . | . |
 | `regnier2008public` | HIGH | . | . | . | . | . | . | . | . | ~ | . | ~ | Y | Y | . | . | . | . | . | . |
+| `richardson2000relative` | HIGH | . | . | . | ~ | . | . | . | . | . | . | . | Y | Y | . | . | . | . | . | . |
 | `roysingh2025constellation` | HIGH | Y | . | . | . | . | . | . | . | . | . | Y | . | . | Y | ~ | Y | . | ~ | . |
 | `shahparvari2017robust` | HIGH | . | . | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | ~ | . |
 | `shao2026beliefaware` | HIGH | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | Y |
 | `tang2025transit` | HIGH | . | Y | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | . | . |
+| `veiga2023activesensing` | HIGH | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . |
 | `wahlqvist2021wuinity` | HIGH | Y | Y | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | . | . |
 | `wu2025denkf` | HIGH | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
 | `yu2020disruption` | HIGH | . | ~ | . | . | . | ~ | Y | . | . | . | . | . | ~ | ~ | . | . | . | Y | . |
@@ -88,6 +93,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `kwak2021evacroute` | MODERATE | ~ | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | . | Y | . | . |
 | `masiwal2026decisionoriented` | MODERATE | . | . | . | . | . | . | . | . | . | . | ~ | Y | Y | . | . | . | . | Y | . |
 | `mendes2024robustsuppression` | MODERATE | Y | . | . | ~ | . | . | ~ | . | . | . | . | . | . | Y | . | . | . | . | . |
+| `murphy1994assessing` | MODERATE | . | . | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . |
 | `nifos2018evacsystem` | MODERATE | ~ | . | . | . | . | ~ | . | . | ~ | . | . | . | . | . | . | ~ | Y | ? | . |
 | `olivetti2026compounding` | MODERATE | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . | . | . | . |
 | `rodriguezfernandez2025mcda` | MODERATE | ~ | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . |
@@ -117,6 +123,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `sun2024kincade` | LOW | . | ? | ? | . | . | ~ | . | . | Y | . | . | . | . | . | . | . | . | Y | . |
 | `xu2026wildfirescoring` | LOW | . | . | . | . | . | . | . | . | . | . | . | . | ? | . | . | . | . | . | . |
 | `allaire2021emulation` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | Y | ~ | . | . | . | . | . | . | . |
+| `an2008slope` | BACKGROUND | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
 | `andrews2018rothermel` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `arnold1986osse` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
 | `atlas1997observations` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
@@ -127,6 +134,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `cameron2008clusterbootstrap` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `cameron2015clusterrobust` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `cheng2022surrogate` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | Y | ~ | . | . | . | . | . | Y | . |
+| `choi2025gee` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
 | `cruz2013uncertainty` | BACKGROUND | Y | . | . | . | Y | . | . | . | . | . | . | ~ | . | . | . | . | . | Y | . |
 | `dacrema2019progress` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `elmachtoub2022smartpredict` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | ? | . | . | . | . | . | . |
@@ -141,11 +149,18 @@ useful reading is column-wise and pairwise, not row-wise.
 | `hoffman2016osse` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
 | `hurlbert1984pseudoreplication` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `kaipio2007inversecrime` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ? |
+| `kang2020hfri` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
+| `kfs2025majorfires` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ? | . |
+| `kfs2026statistics` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ? | . |
 | `kunsch1989blockbootstrap` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `lakens2017equivalence` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `lakens2018equivalence` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `lautenberger2013elmfire` | BACKGROUND | Y | . | . | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | . |
 | `lazic2018pseudoreplication` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+| `lee2021crownfuel` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
+| `lee2026occurrence` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | . | . | Y | ~ | . |
+| `lim2022fueldanger` | BACKGROUND | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
+| `lim2025fwi` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
 | `linn2002firetec` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `mandel2014wrfsfire` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | ~ | . | . | . | . | . | . | ~ | . |
 | `mandi2024dfl` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | ? | . | . | . | . | . | . |
@@ -155,6 +170,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `nasafirms2026latency` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | . | . |
 | `oreskes1994verification` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `ovadia2019shift` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+| `park2025drivers` | BACKGROUND | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
 | `paugam2026mtgfci` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | Y | . |
 | `prive2023robustness` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
 | `ronchi2023verification` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ? | . |
@@ -170,22 +186,6 @@ useful reading is column-wise and pairwise, not row-wise.
 | `zehra2024systematic` | BACKGROUND | . | ~ | . | . | . | ~ | ? | . | Y | . | . | . | . | . | . | . | . | . | . |
 | `zeng2020osse` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | ? | . | . | . | . | . | Y |
 | `zhang2023karst` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
-| `an2008slope` | NONE | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `choi2025gee` | NONE | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `kang2020hfri` | NONE | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `kfs2025majorfires` | NONE | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ? | . |
-| `kfs2026statistics` | NONE | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ? | . |
-| `lee2021crownfuel` | NONE | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `lee2026occurrence` | NONE | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | . | . | Y | ~ | . |
-| `lim2022fueldanger` | NONE | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `lim2025fwi` | NONE | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `murphy1977costloss` | HIGH (framework ownership) | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . | . |
-| `murphy1994assessing` | MODERATE (review/ownership) | . | . | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . |
-| `palmer1998singular` | HIGH (framework ownership) | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . |
-| `park2025drivers` | NONE | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `rainforth2024modernbed` | HIGH (field ownership) | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . |
-| `richardson2000relative` | HIGH (framework ownership) | . | . | . | ~ | . | . | . | . | . | . | . | Y | Y | . | . | . | . | . | . |
-| `veiga2023activesensing` | HIGH (field ownership) | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . |
 
 ---
 

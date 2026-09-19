@@ -7,7 +7,7 @@ Threat levels rank **conceptual overlap**, never venue prestige. A 2026 arXiv
 preprint and a NIST report outrank a famous journal paper here whenever they
 sit closer to what we want to claim.
 
-Counts: **CRITICAL 11 · HIGH 37 · MODERATE 35 · LOW 12 · BACKGROUND 54**
+Counts: **CRITICAL 11 · HIGH 42 · MODERATE 36 · LOW 12 · BACKGROUND 64**
 
 ---
 

@@ -20,7 +20,7 @@ verified_via: >
   recorded as UNVERIFIED. Statutory basis (산림재난방지법 시행규칙 제19조제2항) and February
   publication cycle corroborated by e-나라지표.
 category: [8]
-threat_level: NONE
+threat_level: BACKGROUND
 threatens_claims: []
 matrix:
   future_fire: no
