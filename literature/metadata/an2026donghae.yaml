@@ -1,0 +1,49 @@
+paper_id: an2026donghae
+title: "Analysis of Evacuation Behavior among Disaster-Vulnerable Groups during Wildfire Events Using Mobile Floating Population Data: A Case Study of the 2022 Mangsang and Mukho-dong, Donghae"
+title_original: UNVERIFIED
+language: UNVERIFIED
+authors: >
+  An, Seung Yeon; Choi, Minji.
+  NOTE: Crossref and OpenAlex both additionally list "Korea Safety Culture Society" in the
+  author field; this is treated as a publishing-society indexing artefact and is NOT
+  asserted as an author.
+year: 2026
+venue: "Forum of Public Safety and Culture"
+venue_type: journal
+volume: 56
+issue: UNVERIFIED
+pages: 135-147
+doi: 10.52902/kjsc.2026.56.135
+url: "https://doi.org/10.52902/kjsc.2026.56.135"
+publication_status: PEER_REVIEWED
+open_access_status: closed
+date_verified: 2026-09-19
+verified_via: "Crossref API record and OpenAlex API record; abstract via Consensus"
+category: [8, 9]
+threat_level: MODERATE
+threatens_claims: [WG-C-007, WG-C-005]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: partial  # vulnerable-group behaviour; no assistance logistics
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: yes          # observed mobile-phone mobility, real fire
+  osse: no
+one_line_difference: >
+  Measures OBSERVED Korean evacuation response time and movement intensity by population
+  group after a real disaster text message (2022 Donghae fire), finding older adults had
+  the lowest movement intensity; it measures behaviour, it does not compute any deadline.
+  Its finding is the strongest empirical Korean support for the premise behind WG-C-005.

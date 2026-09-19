@@ -1,0 +1,45 @@
+paper_id: gu2016spreadalgorithm
+title: "Prediction of Wildfire Spread and Propagation Algorithm for Disaster Area"
+title_original: "재난 재해 지역의 산불 확산경로와 이동속도 예측 알고리즘"
+language: ko+en
+authors: "Gu, Nam-kyung (구남경); Lee, Kang-hwan (이강환)"
+year: 2016
+venue: "Journal of the Korea Institute of Information and Communication Engineering / 한국정보통신학회논문지"
+venue_type: journal
+volume: 20
+issue: 8
+pages: 1581-1586
+doi: 10.6109/jkiice.2016.20.8.1581
+url: "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201626360540384"
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "WebFetch of the ScienceON/KISTI bibliographic record"
+category: [8]
+threat_level: LOW
+threatens_claims: [WG-C-007]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: partial
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: partial  # "fire suppression resource optimization" claimed in abstract
+  voi: no
+  active_sensing: yes        # sensor-node temperature/wind/smoke inputs
+  korean_setting: yes
+  real_validation: NEEDS_FULL_TEXT
+  osse: no
+one_line_difference: >
+  A sensor-network spread-direction/speed predictor whose abstract says the result could
+  tell nearby residents whether and by when to evacuate; the paper reports a prediction
+  algorithm, not any computed evacuation deadline. Claim only what the abstract supports
+  (evidence level E2 — abstract only).

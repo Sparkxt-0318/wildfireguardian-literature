@@ -1,0 +1,44 @@
+paper_id: nifos2026kfdrs
+title: "National Forest Fire Danger Forecasting System [translation]"
+title_original: "국가산불위험예보시스템"
+language: ko
+authors: "National Institute of Forest Science (국립산림과학원), Forest Disaster Prediction and Analysis Center (산림재난예측분석센터)"
+year: 2026
+venue: "Operational national system, forestfire.nifos.go.kr; statutory basis 산림보호법 제31조 및 시행령 제23조"
+venue_type: operational_government_system
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: "https://forestfire.nifos.go.kr/"
+publication_status: GOVERNMENT_REPORT
+open_access_status: publicly_accessible_web_service
+date_verified: 2026-09-19
+verified_via: "WebSearch + system description pages; independently characterised by Han et al. 2026 (han2026dangerrating)"
+category: [8]
+threat_level: LOW
+threatens_claims: [WG-C-007]
+matrix:
+  future_fire: partial      # danger rating, not spread
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial
+  osse: no
+one_line_difference: >
+  KFDRS issues a 1–100 ignition-danger index from weather, terrain and forest type (임상);
+  it says nothing about when anyone should leave. It is an input layer, not an evacuation
+  decision tool.

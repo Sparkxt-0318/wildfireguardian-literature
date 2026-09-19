@@ -1,0 +1,39 @@
+paper_id: miller2015spark
+title: "SPARK - A Bushfire Spread Prediction Tool"
+authors: ["Claire Miller", "James Hilton", "Andrew Sullivan", "Mahesh Prakash"]
+year: 2015
+venue: "IFIP Advances in Information and Communication Technology (Environmental Software Systems)"
+venue_type: conference
+volume: UNVERIFIED
+issue: null
+pages: "262-271"
+doi: 10.1007/978-3-319-15994-2_26
+url: https://doi.org/10.1007/978-3-319-15994-2_26
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query (type: book-chapter in IFIP AICT conference series)"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: partial
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: "GPU level-set spread tool (CSIRO) whose per-run cost is low enough for large ensembles; a simulator paper, with no decision quantity."

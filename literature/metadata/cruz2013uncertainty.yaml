@@ -1,0 +1,39 @@
+paper_id: cruz2013uncertainty
+title: "Uncertainty associated with model predictions of surface and crown fire rates of spread"
+authors: ["Miguel G. Cruz", "Martin E. Alexander"]
+year: 2013
+venue: "Environmental Modelling & Software"
+venue_type: journal
+volume: "47"
+issue: null
+pages: "16-28"
+doi: 10.1016/j.envsoft.2013.04.004
+url: https://doi.org/10.1016/j.envsoft.2013.04.004
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API; abstract text verified via FRAMES catalog record 16277"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: yes
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "The canonical synthesis of rate-of-spread prediction error across 49 datasets and 1278 observations; it establishes the error magnitudes WildfireGuardian's forecast-skill ranges must span, but says nothing about what those errors cost a decision-maker."

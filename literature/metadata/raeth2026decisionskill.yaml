@@ -1,0 +1,47 @@
+paper_id: raeth2026decisionskill
+title: "Forecast skill is not decision skill: evidence from weather-dependent decision tasks"
+authors: "Raeth, Kornelius; Ludwig, Nicole"
+year: 2025
+year_note: >
+  arXiv 2512.14779 was first posted 2025-12; the retrieved v2 is 2026-09. Per CITATION_RULES.md the PRIORITY DATE is the first disclosure: 2025.
+venue: "arXiv (2512.14779v2, cs.LG)"
+venue_type: preprint
+volume: None
+issue: None
+pages: "None"
+doi: 10.48550/arXiv.2512.14779
+url: https://arxiv.org/abs/2512.14779
+publication_status: PREPRINT
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: alphaXiv full-text retrieval (E3)
+category: [4]
+threat_level: CRITICAL
+threatens_claims: [WG-C-014, WG-C-006, WG-C-002]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  States and demonstrates the general negative result WildfireGuardian wants
+  for WG-C-014: forecast-level performance does not reliably translate to
+  decision-level performance and model rankings change between similar
+  decision tasks; the tasks are frost/heat protection and wind dispatch with
+  scalar cost functions, not a spatial fire forecast scored by IoU against an
+  evacuation-mission decision.

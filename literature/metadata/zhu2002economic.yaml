@@ -1,0 +1,42 @@
+paper_id: zhu2002economic
+title: "The Economic Value of Ensemble-Based Weather Forecasts"
+authors: "Zhu, Yuejian; Toth, Zoltan; Wobus, Richard; Richardson, David; Mylne, Kenneth"
+year: 2002
+venue: "Bulletin of the American Meteorological Society"
+venue_type: journal
+volume: 83
+issue: 1
+pages: "73-83"
+doi: 10.1175/1520-0477(2002)083<0073:TEVOEB>2.3.CO;2
+url: https://doi.org/10.1175/1520-0477(2002)083<0073:TEVOEB>2.3.CO;2
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + AMS listing
+category: [4]
+threat_level: MODERATE
+threatens_claims: [WG-C-002, WG-C-004]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: partial
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Shows ensembles beat a higher-resolution control forecast across the cost-
+  loss spectrum; the comparator is a competing forecast system, not a tuned
+  non-forecast policy.

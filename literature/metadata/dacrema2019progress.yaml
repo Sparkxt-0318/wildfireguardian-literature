@@ -1,0 +1,43 @@
+paper_id: dacrema2019progress
+title: "Are we really making much progress? A worrying analysis of recent neural recommendation approaches"
+authors:
+  - "Maurizio Ferrari Dacrema"
+  - "Paolo Cremonesi"
+  - "Dietmar Jannach"
+year: 2019
+venue: "Proceedings of the 13th ACM Conference on Recommender Systems (RecSys '19)"
+venue_type: conference
+volume: "-"
+issue: "-"
+pages: "101-109"
+doi: "10.1145/3298689.3347058"
+url: "https://doi.org/10.1145/3298689.3347058"
+publication_status: "published (conference proceedings)"
+open_access_status: "green"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006]
+imposes_requirement: "Tune the positional-trigger baseline with the same budget, on the same scenario distribution, as the forecast-aware policy, and report the tuning grid."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "The canonical demonstration that weak/untuned baselines manufacture apparent progress; recommender systems, not hazards."

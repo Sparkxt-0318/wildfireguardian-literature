@@ -1,0 +1,44 @@
+paper_id: axtell1996aligning
+title: "Aligning simulation models: A case study and results"
+authors:
+  - "Robert Axtell"
+  - "Robert Axelrod"
+  - "Joshua M. Epstein"
+  - "Michael D. Cohen"
+year: 1996
+venue: "Computational and Mathematical Organization Theory"
+venue_type: journal
+volume: "1"
+issue: "2"
+pages: "123-141"
+doi: "10.1007/bf01299065"
+url: "https://doi.org/10.1007/bf01299065"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Run a docking/alignment exercise between the truth fire model and the forecast fire model and report where and how far they diverge."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Introduces docking (model-to-model alignment) as the evidence standard when two models are supposed to represent the same system."

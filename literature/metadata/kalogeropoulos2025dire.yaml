@@ -1,0 +1,40 @@
+paper_id: kalogeropoulos2025dire
+title: "Quantifying dire evacuations in case of wildfire using trigger boundaries and case study of the 2018 Mati wildfire in Greece"
+authors: ["Nikolaos Kalogeropoulos", "Harry Mitchell", "Erica Kuligowski", "Enrico Ronchi", "Guillermo Rein"]
+year: 2025
+venue: "Safety Science"
+venue_type: journal
+volume: "181"
+issue: ""
+pages: "106691"
+doi: 10.1016/j.ssci.2024.106691
+url: https://doi.org/10.1016/j.ssci.2024.106691
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "OpenAlex record with full abstract (is_oa=true, hybrid)", "Semantic Scholar citation graph of k-PERIL"]
+category: [1]
+threat_level: CRITICAL
+threatens_claims: ["WG-C-004", "WG-C-002"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: >
+  Treats BOTH wildfire spread and evacuation time as probabilistic variables and outputs an 'evacuation safety factor' in [0,1] — a scalar decision-relevant probability of mission failure — which is structurally the same kind of output WG-C-003 wants, but computed for community egress rather than a responder round trip.

@@ -1,0 +1,41 @@
+paper_id: matsuo2025evacuation
+title: "Evacuation and Transportation Barriers Among Vulnerable Populations in Natural Hazard-Related Disasters: A Scoping Review"
+authors: ["Yuriko Matsuo", "Kathryn Kietzman", "Ron D. Hays", "Yeonsu Song"]
+year: 2025
+venue: International Journal of Environmental Research and Public Health
+venue_type: journal
+volume: 22
+issue: 11
+pages: 1680
+doi: 10.3390/ijerph22111680
+url: https://doi.org/10.3390/ijerph22111680
+publication_status: PEER_REVIEWED
+open_access_status: OA   # GOLD
+date_verified: 2026-09-19
+verified_via: Semantic Scholar API (full abstract, venue, year, OA status); WebFetch of PMC12652914 (citation, population definitions, quoted figures)
+category: [9]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: false
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: partial   # reviews the need for assistance, not any model of it
+  inbound_responder: false
+  pickup: false
+  egress: false
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: false
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: true   # 20 primary studies of disaster survivors across five databases
+  osse: false
+one_line_difference: >
+  The best available synthesis of the EVIDENCE BASE for who cannot self-evacuate; contains no model, no optimisation and no
+  timing quantity. WildfireGuardian should cite it to justify the population definition, never as prior art on the method.

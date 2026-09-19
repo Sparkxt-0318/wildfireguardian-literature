@@ -1,0 +1,44 @@
+paper_id: liu2026dflfail
+title: "Decision-Focused Learning: When and Why Traditional Prediction Models Fail"
+authors: "Liu, Mo"
+year: 2026
+venue: "arXiv (2606.21773)"
+venue_type: preprint
+volume: None
+issue: None
+pages: "None"
+doi: 10.48550/arXiv.2606.21773
+url: https://arxiv.org/abs/2606.21773
+publication_status: PREPRINT
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: WebFetch of arXiv abstract page (E2)
+category: [5]
+threat_level: HIGH
+threatens_claims: [WG-C-014, WG-C-008]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: partial
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Tutorial stating flatly that improved predictive accuracy does not in
+  general translate into improved decision quality, and that uncertainty-
+  driven data collection is the wrong criterion in decision-focused settings -
+  which pre-empts BOTH the WG-C-014 headline and the WG-C-008 motivation in
+  generic form.

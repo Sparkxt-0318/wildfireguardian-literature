@@ -1,0 +1,42 @@
+paper_id: malings2018voispatiotemporal
+title: "Value-of-information in spatio-temporal systems: Sensor placement and scheduling"
+authors: "Malings, C.; Pozzi, M."
+year: 2018
+venue: "Reliability Engineering & System Safety"
+venue_type: journal
+volume: 172
+issue: None
+pages: "45-57"
+doi: 10.1016/j.ress.2017.11.019
+url: https://doi.org/10.1016/j.ress.2017.11.019
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Consensus abstract (E2)
+category: [5]
+threat_level: HIGH
+threatens_claims: [WG-C-008]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: yes
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Adds WHEN to sense (scheduling) to VOI-optimal WHERE, over a management time
+  horizon; the temporal structure is system ageing, not a hard mission
+  deadline against an advancing hazard.

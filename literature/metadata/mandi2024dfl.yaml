@@ -1,0 +1,47 @@
+paper_id: mandi2024dfl
+title: "Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future Opportunities"
+authors:
+  - "Jayanta Mandi"
+  - "James Kotary"
+  - "Senne Berden"
+  - "Maxime Mulamba"
+  - "Victor Bucarey"
+  - "Tias Guns"
+  - "Ferdinando Fioretto"
+year: 2024
+venue: "Journal of Artificial Intelligence Research"
+venue_type: journal
+volume: "80"
+issue: "-"
+pages: "1623-1701"
+doi: "10.1613/jair.1.15320"
+url: "https://doi.org/10.1613/jair.1.15320"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); alphaXiv (arXiv 2307.13565)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-014]
+imposes_requirement: "Position WG-C-014 inside the decision-focused-learning literature rather than presenting prediction-metric/decision-metric divergence as a new observation."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "yes (survey)"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Survey establishing that the prediction-metric vs decision-metric gap is a named, mature research area."

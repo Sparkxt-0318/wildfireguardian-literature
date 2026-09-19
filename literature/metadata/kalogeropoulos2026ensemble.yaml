@@ -1,0 +1,40 @@
+paper_id: kalogeropoulos2026ensemble
+title: "Defining probabilistic evacuation triggers for wildfires using an ensemble of flame spread models: The Fort McMurray case study"
+authors: ["Nikolaos Kalogeropoulos", "Guillermo Rein"]
+year: 2026
+venue: "Fire Safety Journal"
+venue_type: journal
+volume: "165"
+issue: ""
+pages: "104912"
+doi: 10.1016/j.firesaf.2026.104912
+url: https://doi.org/10.1016/j.firesaf.2026.104912
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "OpenAlex record with full abstract (is_oa=true, hybrid)", "Semantic Scholar forward-citation list of k-PERIL"]
+category: [1]
+threat_level: CRITICAL
+threatens_claims: ["WG-C-004", "WG-C-014", "WG-C-009"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: yes
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: >
+  Builds trigger boundaries from a MULTI-MODEL ENSEMBLE (Farsite, Prometheus/WISE, ELMFIRE, Google EPD, EPD-ConvLSTM) and shows the boundary location depends on which spread model you believe — this kills WG-C-004 outright and puts strong pressure on WG-C-014 and WG-C-009.

@@ -1,0 +1,43 @@
+paper_id: stephenson2025extremeloss
+title: "The Economic Value of Forecasts in Reducing Extreme Total Losses"
+authors: "Stephenson, David B."
+year: 2025
+venue: "Meteorological Applications"
+venue_type: journal
+volume: 32
+issue: 6
+pages: "UNVERIFIED"
+doi: 10.1002/met.70117
+url: https://doi.org/10.1002/met.70117
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Consensus abstract
+category: [4]
+threat_level: MODERATE
+threatens_claims: [WG-C-002, WG-C-014]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Derives expected loss and loss VARIANCE as functions of hit rate and false
+  alarm rate, showing the minimum-VaR operating point differs from the
+  minimum-expected-loss point - another accuracy/value non-alignment result,
+  in closed form, hazard-generic.

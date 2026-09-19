@@ -1,0 +1,41 @@
+paper_id: zehra2024systematic
+title: "Systematic review and research gaps on wildfire evacuations: infrastructure, transportation modes, networks, and planning"
+authors: ["Syeda Narmeen Zehra", "Stephen D. Wong"]
+year: 2024
+venue: Transportation Planning and Technology
+venue_type: journal
+volume: 47
+issue: 8
+pages: 1364-1398
+doi: 10.1080/03081060.2024.2348713
+url: https://doi.org/10.1080/03081060.2024.2348713
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, issue, pages, authors, date). Full text NOT retrieved -- NEEDS_FULL_TEXT for the stated research gaps.
+category: [2, 9]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: false
+  traffic: partial
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: partial   # transportation modes for wildfire evacuation are one of the four review axes
+  inbound_responder: UNKNOWN
+  pickup: false
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: false
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: false
+  osse: false
+one_line_difference: >
+  Review, not primary work. Its declared research gaps must be read in full before WildfireGuardian asserts any gap of its own,
+  because a review that already names our gap converts our contribution from "unnoticed" to "known and open".

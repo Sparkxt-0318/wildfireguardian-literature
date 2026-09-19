@@ -1,0 +1,157 @@
+paper_id,doi,resolution_status,metadata_agreement,resolved_title,resolved_year,resolved_container
+abbasi2015vehicle,,NO_DOI,,,,PEER_REVIEWED
+alexander2026nursing,10.1145/3795095.3805113,RESOLVED,MATCH,Operational Decision Support for Evacuating Nursing Home Residents: A Hamburg Benchmark and Metaheuristic Comparison Under a 5-Minute Time Budget,2026,Proceedings of the Genetic and Evolutionary Computation Conference
+allaire2020ensemble,10.1071/wf19073,RESOLVED,MATCH,Generation and evaluation of an ensemble of wildland fire simulations,2020,International Journal of Wildland Fire
+allaire2021emulation,10.1016/j.neunet.2021.04.006,RESOLVED,MATCH,Emulation of wildland fire spread simulation using deep learning,2021,Neural Networks
+an2008slope,,NO_DOI,,,,PEER_REVIEWED
+an2026donghae,10.52902/kjsc.2026.56.135,RESOLVED,MATCH,"Analysis of Evacuation Behavior among Disaster-Vulnerable Groups during Wildfire Events Using Mobile Floating Population Data : A Case Study of the 2022 Mangsang and Mukho-dong, Donghae",2026,Forum of Public Safety and Culture
+andrews2018rothermel,10.2737/RMRS-GTR-371,RESOLVED,MATCH,The Rothermel surface fire spread model and associated developments: A comprehensive explanation,2018,
+ardid2026forecastvalue,10.1071/WF25221,RESOLVED,MATCH,From forecast skill to economic value: sub-hourly wildfire potential forecasting across Australian regions,2026,International Journal of Wildland Fire
+arnold1986osse,10.1175/1520-0477(1986)067<0687:OSSEPP>2.0.CO;2,RESOLVED,MATCH,"Observing-Systems Simulation Experiments: Past, Present, and Future",1986,Bulletin of the American Meteorological Society
+atlas1997observations,10.2151/jmsj1965.75.1b_111,RESOLVED,MATCH,Atmospheric Observations and Experiments to Assess Their Usefulness in Data Assimilation (gtSpecial IssueltData Assimilation in Meteology and Oceanography: Theory and Practice),1997,Journal of the Meteorological Society of Japan. Ser. II
+averill2007emergencyresponse,10.6028/nist.ir.7425,RESOLVED,MATCH,Accounting for emergency response in building evacuation:,2007,
+axtell1996aligning,10.1007/bf01299065,RESOLVED,MATCH,Aligning simulation models: A case study and results,1996,Computational and Mathematical Organization Theory
+bennett2026wise,10.1071/WF26072,RESOLVED,MATCH,Assessment of fire spread predictions from the Wildfire Intelligence and Simulation Engine (W.I.S.E.) using a large set of satellite-derived wildfire perimeters,2026,International Journal of Wildland Fire
+berlinghieri2024pm25,10.48550/arXiv.2409.05866,RESOLVED_DATACITE,MATCH,Are Hourly PM2.5 Forecasts Sufficiently Accurate to Plan Your Day? Individual Decision Making in the Face of Increasing Wildfire Smoke,2024,arXiv
+beyki2026modular,10.1016/j.ssci.2026.107200,RESOLVED,MATCH,"A modular agent-based framework for wildfire evacuation: Integrating fire spread, multimodal transport, and dynamic routing",2026,Safety Science
+bischiniotis2019tradeoffs,10.1016/j.ijdrr.2019.101252,RESOLVED,MATCH,"Assessing time, cost and quality trade-offs in forecast-based action for floods",2019,International Journal of Disaster Risk Reduction
+bish2011planning,10.1007/s00291-011-0256-1,RESOLVED,MATCH,Planning for a bus-based evacuation,2011,OR Spectrum
+borgwardt2024evacuation,,NO_DOI,,,,PREPRINT
+bouttier2024optimal,10.5194/nhess-24-2793-2024,RESOLVED,MATCH,Probabilistic short-range forecasts of high-precipitation events: optimal decision thresholds and predictability limits,2024,Natural Hazards and Earth System Sciences
+cameron2008clusterbootstrap,10.1162/rest.90.3.414,RESOLVED,MATCH,Bootstrap-Based Improvements for Inference with Clustered Errors,2008,Review of Economics and Statistics
+cameron2015clusterrobust,10.3368/jhr.50.2.317,RESOLVED,MATCH,A Practitioner’s Guide to Cluster-Robust Inference,2015,Journal of Human Resources
+chang2024stochastic,,NO_DOI,,,,PEER_REVIEWED
+chang2026marin,10.1111/risa.70338,RESOLVED,MATCH,"Multiscale Wildfire‐Evacuation Modeling: Assessing Differential Access to Safe Egress in Marin County, CA",2026,Risk Analysis
+chang2026multiscale,10.1111/risa.70338,RESOLVED,MATCH,"Multiscale Wildfire‐Evacuation Modeling: Assessing Differential Access to Safe Egress in Marin County, CA",2026,Risk Analysis
+chen1987qualityvalue,10.1175/1520-0493(1987)115<1534:OTRBTQ>2.0.CO;2,RESOLVED,MATCH,On the Relationship between the Quality and Value of Forecasts in the Generalized Cost-Loss Ratio Situation,1987,Monthly Weather Review
+cheng2022surrogate,10.1016/j.jcp.2022.111302,RESOLVED,MATCH,Data-driven surrogate model with latent data assimilation: Application to wildfire forecasting,2022,Journal of Computational Physics
+choi2025gee,10.3390/land14061155,RESOLVED,MATCH,Forest Fire Risk Prediction in South Korea Using Google Earth Engine: Comparison of Machine Learning Models,2025,Land
+choi2026ridgeline,10.3390/fire9060247,RESOLVED,MATCH,Wildfire Perimeters Align with Topographic Ridge Lines: A Null Model Benchmark for Fire-Spread Modelling in 118 Korean Wildfires (2018–2025),2026,Fire
+cova2005trigger,10.1111/j.1467-9671.2005.00237.x,RESOLVED,MATCH,Setting Wildfire Evacuation Trigger Points Using Fire Spread Modeling and GIS,2005,Transactions in GIS
+cova2011shelter,10.3390/su3101662,RESOLVED,MATCH,Modeling Evacuate versus Shelter-in-Place Decisions in Wildfires,2011,Sustainability
+cruz2013uncertainty,10.1016/j.envsoft.2013.04.004,RESOLVED,MATCH,Uncertainty associated with model predictions of surface and crown fire rates of spread,2013,Environmental Modelling &amp; Software
+dacrema2019progress,10.1145/3298689.3347058,RESOLVED,MATCH,Are we really making much progress? A worrying analysis of recent neural recommendation approaches,2019,Proceedings of the 13th ACM Conference on Recommender Systems
+dennison2007wuivac,10.1007/s11069-006-9032-y,RESOLVED,MATCH,WUIVAC: a wildland-urban interface evacuation trigger model applied in strategic wildfire scenarios,2006,Natural Hazards
+dubois2022capacitated,10.1109/access.2022.3170446,RESOLVED,MATCH,Capacitated Vehicle Routing Problem Under Deadlines: An Application to Flooding Crisis,2022,IEEE Access
+ebrahimnejad2021disability,10.24200/sci.2021.57431.5237,RESOLVED,MATCH,An optimization model for evacuating people with disability in extreme disaster conditions: A case study,2021,Scientia Iranica
+elmachtoub2022smartpredict,10.1287/mnsc.2020.3922,RESOLVED,MATCH,"Smart “Predict, then Optimize”",2022,Management Science
+elmfire2025validation,,NO_DOI,,,,SOFTWARE_DOC
+errico2013osse,10.1002/qj.2027,RESOLVED,MATCH,Development and validation of observing‐system simulation experiments at NASA's Global Modeling and Assimilation Office,2012,Quarterly Journal of the Royal Meteorological Society
+finney1998farsite,,NO_DOI,,,,GOVERNMENT_REPORT
+flores2020supported,10.3390/math8040648,RESOLVED,MATCH,Supported Evacuation for Disaster Relief through Lexicographic Goal Programming,2020,Mathematics
+flores2023goal,10.1016/j.ssci.2023.106117,RESOLVED,MATCH,A goal programming model for early evacuation of vulnerable people and relief distribution during a wildfire,2023,Safety Science
+frisvold2024demandinfo,10.3390/atmos15111364,RESOLVED,MATCH,Demand for Information for Wildland Fire Management,2024,Atmosphere
+fryer2013entrapment,10.1071/wf12160,ERROR:URLError,,,,
+georgakakos2025evacuationtiming,10.1007/s11069-025-07540-5,RESOLVED,MATCH,Determinants of evacuation timing in response to probabilistic forecasts,2025,Natural Hazards
+gneiting2007scoring,10.1198/016214506000001437,RESOLVED,MATCH,"Strictly Proper Scoring Rules, Prediction, and Estimation",2007,Journal of the American Statistical Association
+grajdura2022fastmoving,10.1016/j.trd.2022.103190,RESOLVED,MATCH,Fast-moving dire wildfire evacuation simulation,2022,Transportation Research Part D: Transport and Environment
+gu2016spreadalgorithm,10.6109/jkiice.2016.20.8.1581,RESOLVED,MATCH,Prediction of Wildfire Spread and Propagation Algorithm for Disaster Area,2016,Journal of the Korea Institute of Information and Communication Engineering
+gwynne2023roxborough,10.1007/s10694-023-01371-1,RESOLVED,MATCH,Roxborough Park Community Wildfire Evacuation Drill: Data Collection and Model Benchmarking,2023,Fire Technology
+halliwell2014fraternal,10.1175/JTECH-D-13-00011.1,RESOLVED,MATCH,Rigorous Evaluation of a Fraternal Twin Ocean OSSE System for the Open Gulf of Mexico,2014,Journal of Atmospheric and Oceanic Technology
+han2026dangerrating,10.3390/f17040486,RESOLVED,MATCH,A Comparative Review of Wildfire Danger Rating Systems: Focus on Fuel Moisture Modeling Frameworks,2026,Forests
+henderson2016inversecrime,10.1007/s40295-016-0105-1,RESOLVED,MATCH,‘Inverse Crime’ and Model Integrity in Lightcurve Inversion applied to unresolved Space Object Identification,2016,The Journal of the Astronautical Sciences
+heo2026vulnerability,10.3390/f17020182,RESOLVED,MATCH,Bridging Climate and Socio-Environmental Vulnerability for Wildfire Risk Assessment Using Explainable Machine Learning: Evidence from the 2025 Wildfire in Korea,2026,Forests
+hoffman2016osse,10.1175/BAMS-D-15-00200.1,RESOLVED,MATCH,Future Observing System Simulation Experiments,2016,Bulletin of the American Meteorological Society
+hope2024wildfiresat,10.1371/journal.pone.0302699,RESOLVED,MATCH,"A cost-benefit analysis of WildFireSat, a wildfire monitoring satellite mission for Canada",2024,PLOS ONE
+hurlbert1984pseudoreplication,10.2307/1942661,RESOLVED,MATCH,Pseudoreplication and the Design of Ecological Field Experiments,1984,Ecological Monographs
+janfeshanaraghi2025silverado,10.1007/s10694-025-01813-y,ERROR:URLError,,,,
+kaipio2007inversecrime,10.1016/j.cam.2005.09.027,RESOLVED,MATCH,"Statistical inverse problems: Discretization, model reduction and inverse crimes",2007,Journal of Computational and Applied Mathematics
+kalogeropoulos2022kperil,10.14195/978-989-26-2298-9_43,RESOLVED,MATCH,k-PERIL: probabilistic creation of trigger boundaries for rural communities evacuating from a wildfire.,2022,Advances in Forest Fire Research 2022
+kalogeropoulos2023kperil,10.1016/j.firesaf.2023.103854,RESOLVED,MATCH,Design of stochastic trigger boundaries for rural communities evacuating from a wildfire,2023,Fire Safety Journal
+kalogeropoulos2025dire,10.1016/j.ssci.2024.106691,RESOLVED,MATCH,Quantifying dire evacuations in case of wildfire using trigger boundaries and case study of the 2018 Mati wildfire in Greece,2025,Safety Science
+kalogeropoulos2026ensemble,10.1016/j.firesaf.2026.104912,RESOLVED,MATCH,Defining probabilistic evacuation triggers for wildfires using an ensemble of flame spread models: The Fort McMurray case study,2026,Fire Safety Journal
+kang2020hfri,10.3390/app10228213,RESOLVED,MATCH,Developing a New Hourly Forest Fire Risk Index Based on Catboost in South Korea,2020,Applied Sciences
+kfs2025majorfires,,NO_DOI,,,,GOVERNMENT_REPORT
+kfs2026statistics,,NO_DOI,,,,GOVERNMENT_REPORT
+kim2024directional,10.1016/j.ssci.2023.106378,RESOLVED,MATCH,Directional analysis of community wildfire evacuation capabilities,2024,Safety Science
+kunsch1989blockbootstrap,10.1214/aos/1176347265,RESOLVED,MATCH,The Jackknife and the Bootstrap for General Stationary Observations,1989,The Annals of Statistics
+kwak2021evacroute,10.9798/KOSHAM.2021.21.6.63,RESOLVED,MATCH,Development of Evacuation Route Planning Algorithm for Responding to Urban Forest Fires,2021,Journal of the Korean Society of Hazard Mitigation
+kwon2025koreaevac,10.3390/systems13121125,RESOLVED,MATCH,An Integrated Optimization for Resilient Wildfire Evacuation System Design: A Case Study of a Rural County in Korea,2025,Systems
+lakens2017equivalence,10.1177/1948550617697177,RESOLVED,TITLE_MISMATCH,Equivalence Tests,2017,Social Psychological and Personality Science
+lakens2018equivalence,10.1177/2515245918770963,RESOLVED,MATCH,Equivalence Testing for Psychological Research: A Tutorial,2018,Advances in Methods and Practices in Psychological Science
+larsen2011cedar,10.1016/j.apgeog.2010.05.003,RESOLVED,MATCH,Evaluating dynamic wildfire evacuation trigger buffers using the 2003 Cedar Fire,2011,Applied Geography
+lautenberger2013elmfire,10.1016/j.firesaf.2013.08.014,RESOLVED,MATCH,Wildland fire modeling with an Eulerian level set method and automated calibration,2013,Fire Safety Journal
+lazic2018pseudoreplication,10.1371/journal.pbio.2005282,RESOLVED,MATCH,What exactly is ‘N’ in cell culture and animal experiments?,2018,PLOS Biology
+lee2021crownfuel,,NO_DOI,,,,PEER_REVIEWED
+lee2026occurrence,10.3390/f17020281,RESOLVED,MATCH,Spatial Prediction of Forest Fire Occurrence Integrating Human Proximity: A Machine Learning Approach for Korea’s Eastern Coast,2026,Forests
+li2015household,10.1016/j.compenvurbsys.2015.05.008,RESOLVED,MATCH,A household-level approach to staging wildfire evacuation warnings using trigger modeling,2015,"Computers, Environment and Urban Systems"
+li2017reversegeocoding,10.1016/j.apgeog.2017.05.008,RESOLVED,MATCH,Using reverse geocoding to identify prominent wildfire evacuation trigger points,2017,Applied Geography
+li2018coupling,10.1007/s10694-018-0771-6,RESOLVED,MATCH,Setting Wildfire Evacuation Triggers by Coupling Fire and Traffic Simulation Models: A Spatiotemporal GIS Approach,2018,Fire Technology
+lim2022fueldanger,10.9798/KOSHAM.2022.22.6.125,RESOLVED,MATCH,Predicting Forest Fire Danger Using Fuel Characteristics of Forest,2022,Journal of the Korean Society of Hazard Mitigation
+lim2025fwi,10.3390/f16071058,RESOLVED,MATCH,Application of the Canadian Fire Weather Index for Forest Fire Danger Assessment in South Korea,2025,Forests
+linn2002firetec,10.1071/wf02007,RESOLVED,MATCH,Studying wildfire behavior using FIRETEC,2002,International Journal of Wildland Fire
+liu2026dflfail,10.48550/arXiv.2606.21773,RESOLVED_DATACITE,MATCH,Decision-Focused Learning: When and Why Traditional Prediction Models Fail,2026,arXiv
+lopez2020bridging,10.1016/j.wace.2018.03.006,RESOLVED,MATCH,Bridging forecast verification and humanitarian decisions: A valuation approach for setting up action-oriented early warnings,2020,Weather and Climate Extremes
+lu2026lahaina,,NO_DOI,,,,PREPRINT
+ma2025damaged,10.1016/j.ssci.2025.106835,RESOLVED,MATCH,Analyzing wildfire evacuation dynamics with agent-based modeling in damaged road networks,2025,Safety Science
+macleod2021anticipatory,10.1016/j.crm.2021.100375,RESOLVED,MATCH,Playing the long game: Anticipatory action based on seasonal forecasts,2021,Climate Risk Management
+malings2016voisensor,10.1016/j.ress.2016.05.010,RESOLVED,MATCH,Value of information for spatially distributed systems: Application to sensor placement,2016,Reliability Engineering &amp; System Safety
+malings2018voispatiotemporal,10.1016/j.ress.2017.11.019,RESOLVED,MATCH,Value-of-information in spatio-temporal systems: Sensor placement and scheduling,2018,Reliability Engineering &amp; System Safety
+mandel2014wrfsfire,10.5194/nhess-14-2829-2014,RESOLVED,MATCH,Recent advances and applications of WRF–SFIRE,2014,Natural Hazards and Earth System Sciences
+mandi2024dfl,10.1613/jair.1.15320,RESOLVED,MATCH,"Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future Opportunities",2024,Journal of Artificial Intelligence Research
+masiwal2026decisionoriented,10.48550/arXiv.2602.03767,RESOLVED_DATACITE,MATCH,Decision-oriented benchmarking to transform AI weather forecast access: Application to the Indian monsoon,2026,arXiv
+matsuo2025evacuation,10.3390/ijerph22111680,RESOLVED,MATCH,Evacuation and Transportation Barriers Among Vulnerable Populations in Natural Hazard-Related Disasters: A Scoping Review,2025,International Journal of Environmental Research and Public Health
+mendes2024robustsuppression,10.1111/itor.13524,RESOLVED,MATCH,A robust optimisation approach for the placement of forest fire suppression resources,2024,International Transactions in Operational Research
+miller2015spark,10.1007/978-3-319-15994-2_26,RESOLVED,MATCH,SPARK – A Bushfire Spread Prediction Tool,2015,IFIP Advances in Information and Communication Technology
+mitchell2023peril,10.1016/j.ssci.2022.105914,RESOLVED,MATCH,Integrating wildfire spread and evacuation times to design safe triggers: Application to two rural communities using PERIL model,2023,Safety Science
+mois2025evacuationstages,,NO_DOI,,,,GOVERNMENT_REPORT
+mois2026aievacroute,,NO_DOI,,,,GOVERNMENT_REPORT
+moradi2026supported,,NO_DOI,,,,PREPRINT
+morris2019simulation,10.1002/sim.8086,RESOLVED,MATCH,Using simulation studies to evaluate statistical methods,2019,Statistics in Medicine
+murphy1977costloss,10.1175/1520-0493(1977)105<0803:TVOCCA>2.0.CO;2,RESOLVED,MATCH,"The Value of Climatological, Categorical and Probabilistic Forecasts in the Cost-Loss Ratio Situation",1977,Monthly Weather Review
+murphy1987accuracyvalue,10.1175/1520-0434(1987)002<0243:OTRBTA>2.0.CO;2,RESOLVED,MATCH,On the Relationship between the Accuracy and Value of Forecasts in the Cost–Loss Ratio Situation,1987,Weather and Forecasting
+murphy1994assessing,10.1002/j.1469-8080.1994.tb00007.x,RESOLVED,MATCH,"Assessing the economic value of weather forecasts: an overview of methods, results and issues",1994,Meteorological Applications
+nifos2018evacsystem,,NO_DOI,,,,GOVERNMENT_REPORT
+nifos2026kfdrs,,NO_DOI,,,,GOVERNMENT_REPORT
+olivetti2026compounding,10.1088/1748-9326/ae9327,RESOLVED,MATCH,Assessing the real-world economic value of weather forecasts for compounding extremes,2026,Environmental Research Letters
+oreskes1994verification,10.1126/science.263.5147.641,RESOLVED,MATCH,"Verification, Validation, and Confirmation of Numerical Models in the Earth Sciences",1994,Science
+orphanoudakis2025mora,10.3390/a18110677,RESOLVED,MATCH,MORA: A Multicriteria Optimal Resource Allocation and Decision Support Toolkit for Wildfire Management,2025,Algorithms
+ovadia2019shift,,NO_DOI,,,,PREPRINT (arXiv record verified; NeurIPS proceedings record NOT verified)
+palmer1998singular,10.1175/1520-0469(1998)055<0633:SVMAAO>2.0.CO;2,RESOLVED,MATCH,"Singular Vectors, Metrics, and Adaptive Observations",1998,Journal of the Atmospheric Sciences
+pandey2025savrural,,NO_DOI,,,,PREPRINT
+park2025drivers,10.3390/f16091476,RESOLVED,MATCH,"Climatic and Forest Drivers of Wildfires in South Korea (1980–2024): Trends, Predictions, and the Role of the Wildland–Urban Interface",2025,Forests
+prive2023robustness,10.16993/tellusa.3254,RESOLVED,MATCH,Robustness of Observing System Simulation Experiments,2023,Tellus A: Dynamic Meteorology and Oceanography
+raeth2026decisionskill,10.48550/arXiv.2512.14779,RESOLVED_DATACITE,MATCH,Forecast Skill Is Not Decision Skill: Evidence from Weather-Dependent Decision Tasks,2025,arXiv
+rainforth2024modernbed,10.1214/23-STS915,RESOLVED,MATCH,Modern Bayesian Experimental Design,2024,Statistical Science
+rambha2021staged,10.1016/j.tre.2021.102321,RESOLVED,MATCH,A stochastic optimization model for staged hospital evacuation during hurricanes,2021,Transportation Research Part E: Logistics and Transportation Review
+ramirez2019stochastic,10.1016/j.scitotenv.2019.07.311,RESOLVED,MATCH,Stochastic decision trigger modelling to assess the probability of wildland fire impact,2019,Science of The Total Environment
+regnier2006dynamic,10.1175/WAF958.1,RESOLVED,MATCH,A Dynamic Decision Model Applied to Hurricane Landfall,2006,Weather and Forecasting
+regnier2008public,10.1287/mnsc.1070.0764,RESOLVED,MATCH,Public Evacuation Decisions and Hurricane Track Uncertainty,2008,Management Science
+richardson2000relative,10.1002/qj.49712656313,RESOLVED,MATCH,Skill and relative economic value of the ECMWF ensemble prediction system,2000,Quarterly Journal of the Royal Meteorological Society
+rodriguezfernandez2025mcda,10.3389/ffgc.2025.1654107,RESOLVED,MATCH,Participatory multi-criteria decision analysis to prioritize management areas that help suppress wildfires,2025,Frontiers in Forests and Global Change
+ronchi2023verification,10.1007/s11069-023-05913-2,RESOLVED,MATCH,The verification of wildland–urban interface fire evacuation models,2023,Natural Hazards
+rossa2026actionbed,10.48550/arXiv.2606.23662,RESOLVED_DATACITE,MATCH,Action-BED: Task-Driven Bayesian Experimental Design with Singly Intractable Objectives,2026,arXiv
+rothermel1972spread,10.2737/INT-RP-115,RESOLVED,MATCH,A mathematical model for predicting fire spread in wildland fuels,1972,
+sargent2013verification,10.1057/jos.2012.20,RESOLVED,MATCH,Verification and validation of simulation models,2013,Journal of Simulation
+shahparvari2016enhancing,10.1016/j.tre.2016.05.010,RESOLVED,MATCH,Enhancing emergency evacuation response of late evacuees: Revisiting the case of Australian Black Saturday bushfire,2016,Transportation Research Part E: Logistics and Transportation Review
+shahparvari2017possibilistic,10.1016/j.omega.2016.11.007,RESOLVED,MATCH,Possibilistic scheduling routing for short-notice bushfire emergency evacuation under uncertainties: An Australian case study,2017,Omega
+shahparvari2017robust,10.1016/j.tra.2017.04.036,RESOLVED,MATCH,Robust stochastic vehicle routing and scheduling for bushfire emergency evacuation: An Australian case study,2017,Transportation Research Part A: Policy and Practice
+shahparvari2019fleet,10.1016/j.trd.2016.11.015,RESOLVED,MATCH,Fleet routing and scheduling in bushfire emergency evacuation: A regional case study of the Black Saturday bushfires in Australia,2019,Transportation Research Part D: Transport and Environment
+shao2026beliefaware,10.48550/arXiv.2606.06917,RESOLVED_DATACITE,MATCH,Belief-Aware Scheduling for Predictive Wildfire Hazard Mapping under Sparse-Window Telemetry,2026,arXiv
+siam2022interdisciplinary,10.1016/j.trd.2021.103147,RESOLVED,MATCH,An interdisciplinary agent-based multimodal wildfire evacuation model: Critical decisions and life safety,2022,Transportation Research Part D: Transport and Environment
+siepe2024preregistration,10.1037/met0000695,RESOLVED,MATCH,"Simulation studies for methodological research in psychology: A standardized template for planning, preregistration, and reporting.",2024,Psychological Methods
+simon2022wildfirevoi,10.3389/fenvs.2022.804958,RESOLVED,MATCH,The Costs and Costs Avoided From Wildfire Fire Management—A Conceptual Framework for a Value of Information Analysis,2022,Frontiers in Environmental Science
+stephenson2025extremeloss,10.1002/met.70117,RESOLVED,MATCH,The Economic Value of Forecasts in Reducing Extreme Total Losses,2025,Meteorological Applications
+sun2025decisionfocusedsensing,10.1145/3736425.3770102,RESOLVED,MATCH,Decision-focused Sensing and Forecasting for Adaptive and Rapid Flood Response: An Implicit Learning Approach,2025,"Proceedings of the 12th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation"
+sung2025geostationary,10.7780/kjrs.2025.41.3.6,RESOLVED,MATCH,Real-Time Wildfire Monitoring via Geostationary Satellite and Artificial Intelligence: Insights from the March 2025 South Korea Wildfires,2025,Korean Journal of Remote Sensing
+tang2025transit,10.1016/j.trc.2025.105342,RESOLVED,MATCH,Strategizing equitable transit evacuations: A data-driven reinforcement learning approach,2025,Transportation Research Part C: Emerging Technologies
+tibshirani2019conformalshift,,NO_DOI,,,,PREPRINT (arXiv record verified; NeurIPS proceedings record NOT verified)
+veiga2023activesensing,10.1145/3583068,RESOLVED,MATCH,From Reactive to Active Sensing: A Survey on Information Gathering in Decision-theoretic Planning,2023,ACM Computing Surveys
+verkade2011estimating,10.5194/hess-15-3751-2011,RESOLVED,MATCH,Estimating the benefits of single value and probability forecasting for flood warning,2011,Hydrology and Earth System Sciences
+wahlqvist2021wuinity,10.1016/j.ssci.2020.105145,RESOLVED,MATCH,The simulation of wildland-urban interface fire evacuation: The WUI-NITY platform,2021,Safety Science
+weise2016chaparral,10.1071/wf15177,RESOLVED,MATCH,Fire spread in chaparral – a comparison of laboratory data and model predictions in burning live fuels,2016,International Journal of Wildland Fire
+williams2024reporting,10.1111/2041-210X.14415,RESOLVED,MATCH,Transparent reporting items for simulation studies evaluating statistical methods: Foundations for reproducibility and reliability,2024,Methods in Ecology and Evolution
+wirgin2004inversecrime,,NO_DOI,,,,PREPRINT
+wong2024kincade,,NO_DOI,,,,PREPRINT
+wu2025denkf,10.1007/s10694-024-01690-x,RESOLVED,MATCH,Forest Fire Spread Prediction and Assimilation Using the Deterministic Ensemble Kalman Filter,2025,Fire Technology
+xu2022multiparking,10.1109/access.2022.3163715,RESOLVED,MATCH,Multi-Parking Lot and Shelter Heterogeneous Vehicle Routing Problem With Split Pickup Under Emergencies,2022,IEEE Access
+xu2026wildfirefm,10.48550/arXiv.2605.18911,RESOLVED_DATACITE,MATCH,"Does Your Wildfire Prediction Model Actually Work, or Just Score Well?",2026,arXiv
+xu2026wildfirescoring,,NO_DOI,,,,PREPRINT
+yu2019twin,10.5194/os-15-1801-2019,RESOLVED,MATCH,Evaluation of nonidentical versus identical twin approaches for observation impact assessments: an ensemble-Kalman-filter-based   ocean assimilation application for the Gulf of Mexico,2019,Ocean Science
+yu2020disruption,10.1038/s41893-020-0516-7,RESOLVED,MATCH,Disruption of emergency response to vulnerable populations during floods,2020,Nature Sustainability
+zehra2024systematic,10.1080/03081060.2024.2348713,RESOLVED,MATCH,"Systematic review and research gaps on wildfire evacuations: infrastructure, transportation modes, networks, and planning",2024,Transportation Planning and Technology
+zeng2020osse,10.1175/BAMS-D-19-0155.1,RESOLVED,MATCH,Use of Observing System Simulation Experiments in the United States,2020,Bulletin of the American Meteorological Society
+zha2024distributed,10.1071/wf23165,RESOLVED,MATCH,The distributed strategy for asynchronous observations in data-driven wildland fire spread prediction,2024,International Journal of Wildland Fire
+zhang2023karst,10.3390/f14061088,RESOLVED,MATCH,Examining and Reforming the Rothermel Surface Fire Spread Model under No-Wind and Zero-Slope Conditions for the Karst Ecosystems,2023,Forests
+zhao2020roundtrip,10.1016/j.tra.2020.05.008,RESOLVED,MATCH,A round-trip bus evacuation model with scheduling and routing planning,2020,Transportation Research Part A: Policy and Practice
+zhu2002economic,10.1175/1520-0477(2002)083<0073:TEVOEB>2.3.CO;2,RESOLVED,MATCH,The Economic Value Of Ensemble-Based Weather Forecasts,2002,Bulletin of the American Meteorological Society

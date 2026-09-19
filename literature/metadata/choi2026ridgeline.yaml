@@ -1,0 +1,46 @@
+paper_id: choi2026ridgeline
+title: "Wildfire Perimeters Align with Topographic Ridge Lines: A Null Model Benchmark for Fire-Spread Modelling in 118 Korean Wildfires (2018-2025)"
+title_original: n/a
+language: en
+authors: "Choi, J. H.; Chae, HeeMun"
+year: 2026
+venue: "Fire"
+venue_type: journal
+volume: 9
+issue: 6
+pages: 247
+doi: 10.3390/fire9060247
+url: "https://doi.org/10.3390/fire9060247"
+publication_status: PEER_REVIEWED
+open_access_status: gold_OA_CC-BY
+date_verified: 2026-09-19
+verified_via: "OpenAlex API record (api.openalex.org/works/doi:10.3390/fire9060247); MDPI page blocked (HTTP 403)"
+category: [8]
+threat_level: LOW
+threatens_claims: [WG-C-007, WG-C-014]
+matrix:
+  future_fire: no            # observational benchmark, not a forward model
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: yes       # 118 observed Korean fire perimeters, Sentinel-2
+  osse: no
+one_line_difference: >
+  Establishes a Korea-specific observational benchmark (fire perimeters are ridge-proximal
+  AND ridge-aligned, mean enrichment 2.3 vs 1.5 for proximity alone) against which a
+  fire-spread model must be judged in Korea. This is the single best candidate evidence
+  for a NOVELTY_STANDARD §4(a)/(b) argument, because it gives a documented Korean terrain
+  signal that a spread model can be shown to reproduce or miss.

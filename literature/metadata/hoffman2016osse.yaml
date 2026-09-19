@@ -1,0 +1,42 @@
+paper_id: hoffman2016osse
+title: "Future Observing System Simulation Experiments"
+authors:
+  - "Ross N. Hoffman"
+  - "Robert Atlas"
+year: 2016
+venue: "Bulletin of the American Meteorological Society"
+venue_type: journal
+volume: "97"
+issue: "9"
+pages: "1601-1616"
+doi: "10.1175/BAMS-D-15-00200.1"
+url: "https://doi.org/10.1175/BAMS-D-15-00200.1"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); cited as twin-bias source by Yu et al. 2019"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Follow the stated OSSE calibration protocol: simulate observations with realistic (correlated, biased) errors, not white noise."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "yes"
+one_line_difference: "Modern OSSE review and design guidance. NEEDS_FULL_TEXT: AMS site returned 403; metadata verified via Crossref only."

@@ -1,0 +1,42 @@
+paper_id: chang2026multiscale
+title: "Multiscale Wildfire-Evacuation Modeling: Assessing Differential Access to Safe Egress in Marin County, CA"
+authors: ["Saemi Chang", "Louise Comfort", "Kenichi Soga", "Pengshun Li", "Yanglan Wang"]
+year: 2026
+venue: Risk Analysis
+venue_type: journal
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: 10.1111/risa.70338
+url: https://doi.org/10.1111/risa.70338
+publication_status: PEER_REVIEWED
+open_access_status: OA   # BRONZE
+date_verified: 2026-09-19
+verified_via: Semantic Scholar API (DOI, title, year, venue, authors, full abstract, PubMed ID 42642826, OA status)
+category: [9]
+threat_level: MODERATE
+threatens_claims: [WG-C-005, WG-C-007]
+matrix:
+  future_fire: true    # tri-coupled framework: fire spread model + multichannel communications model + spatial-queue traffic model
+  traffic: true
+  household_trigger: partial   # cognition/communication delay distributions govern departure timing
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: false   # differential ACCESS is analysed, but no vehicle is sent to anyone
+  inbound_responder: false
+  pickup: partial              # "child pickup" as an everyday responsibility affecting congestion -- not assisted-evacuation pickup
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: partial    # communication/alert timing is treated as a first-class variable, and late alerting is shown to translate into unequal access to evacuation capacity
+  forecast_skill_boundary: false
+  decision_value: partial
+  scarce_resources: false
+  voi: false
+  active_sensing: false
+  korean_setting: partial      # first author affiliated with Korea University; the study region is California
+  real_validation: partial     # three real Marin County communities
+  osse: false
+one_line_difference: >
+  Chang et al. show that ALERT LATENCY and mobility constraints jointly determine who gets out -- the nearest published
+  treatment of latency as a decision-relevant variable in wildfire evacuation -- but for self-evacuating households, with no
+  responder, no pickup, and no deadline. This is the closest existing work to WG-C-012's spirit inside Category 9.

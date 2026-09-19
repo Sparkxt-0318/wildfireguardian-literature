@@ -1,0 +1,43 @@
+paper_id: choi2025gee
+title: "Forest Fire Risk Prediction in South Korea Using Google Earth Engine: Comparison of Machine Learning Models"
+title_original: n/a
+language: en
+authors: "Choi, Jukyeong; Yun, Young-Jo; Chae, Heemun"
+year: 2025
+venue: "Land"
+venue_type: journal
+volume: 14
+issue: 6
+pages: 1155
+doi: 10.3390/land14061155
+url: "https://doi.org/10.3390/land14061155"
+publication_status: PEER_REVIEWED
+open_access_status: gold_OA_CC-BY
+date_verified: 2026-09-19
+verified_via: "OpenAlex API record (title search); abstract via Consensus"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial   # 2289 fire / 4578 non-fire events 2020-2023; XGBoost F1 0.511, AUC 0.76
+  osse: no
+one_line_difference: >
+  Nationwide Korean ignition-risk mapping from twelve Earth-Engine covariates; occurrence
+  risk only, no spread, no evacuation, no timing.

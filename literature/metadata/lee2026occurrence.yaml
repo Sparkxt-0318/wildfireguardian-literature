@@ -1,0 +1,44 @@
+paper_id: lee2026occurrence
+title: "Spatial Prediction of Forest Fire Occurrence Integrating Human Proximity: A Machine Learning Approach for Korea's Eastern Coast"
+title_original: n/a
+language: en
+authors: "Lee, Jeman; Ahn, Sujung; Im, Sangjun"
+year: 2026
+venue: "Forests"
+venue_type: journal
+volume: 17
+issue: 2
+pages: 281
+doi: 10.3390/f17020281
+url: "https://doi.org/10.3390/f17020281"
+publication_status: PEER_REVIEWED
+open_access_status: gold_OA_CC-BY
+date_verified: 2026-09-19
+verified_via: "OpenAlex API record (title search); abstract via Consensus. NOTE: Consensus returned no volume/issue/DOI for this record — supplied here from OpenAlex."
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: partial   # prevention/patrol prioritisation
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial    # 1112 fire records, 2015-2024, 10-fold CV
+  osse: no
+one_line_difference: >
+  Random-forest ignition-probability layer (30 m) intended to sit alongside the operational
+  KFDRI for patrol prioritisation on Korea's east coast; it predicts WHERE a fire starts,
+  never when anyone should move.

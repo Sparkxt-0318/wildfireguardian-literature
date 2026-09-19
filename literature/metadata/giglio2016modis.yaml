@@ -1,0 +1,39 @@
+paper_id: giglio2016modis
+title: "The collection 6 MODIS active fire detection algorithm and fire products"
+authors: ["Louis Giglio", "Wilfrid Schroeder", "Christopher O. Justice"]
+year: 2016
+venue: "Remote Sensing of Environment"
+venue_type: journal
+volume: "178"
+issue: null
+pages: "31-41"
+doi: 10.1016/j.rse.2016.02.054
+url: https://doi.org/10.1016/j.rse.2016.02.054
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query"
+category: [7]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: partial
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "The 1 km MODIS heritage product against which VIIRS and geostationary detectors are benchmarked; at 1 km it cannot resolve the fire-front geometry a trigger boundary needs."

@@ -1,0 +1,46 @@
+paper_id: yu2019twin
+title: "Evaluation of nonidentical versus identical twin approaches for observation impact assessments: an ensemble-Kalman-filter-based ocean assimilation application for the Gulf of Mexico"
+authors:
+  - "Liuqian Yu"
+  - "Katja Fennel"
+  - "Bin Wang"
+  - "Arnaud Laurent"
+  - "Keith R. Thompson"
+  - "Lynn K. Shay"
+year: 2019
+venue: "Ocean Science"
+venue_type: journal
+volume: "15"
+issue: "6"
+pages: "1801-1814"
+doi: "10.5194/os-15-1801-2019"
+url: "https://doi.org/10.5194/os-15-1801-2019"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); WebFetch os.copernicus.org full text"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010, WG-C-008]
+imposes_requirement: "Do not report impact numbers from an identical-twin design; if one is run, report it only as an upper bound alongside a non-identical-twin result."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "related (observation impact)"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "yes"
+one_line_difference: "The citable quantitative demonstration that identical twins overestimate observation impact (45% vs 29% temperature-error reduction); ocean DA, not wildfire decisions."

@@ -1,0 +1,47 @@
+paper_id: kfs2026statistics
+title: "Forest Fire Statistics Yearbook (2025) [translation]"
+title_original: "(2025년) 산불통계 연보"
+language: ko
+authors: "Korea Forest Service (산림청)"
+year: 2026
+venue: "Korea Forest Service, Daejeon (대전); annual statistical series"
+venue_type: government_statistical_yearbook
+volume: "2025 volume"
+issue: UNVERIFIED
+pages: "255 p."
+doi: UNVERIFIED
+url: "https://book.nifos.go.kr/library/10130/contents/7732481"
+publication_status: GOVERNMENT_REPORT
+open_access_status: library_holding_fulltext_unverified
+date_verified: 2026-09-19
+verified_via: >
+  WebFetch of the NIFoS library catalogue record (call number 634.9618 산298산 v.2025,
+  registration EM044413). 발간등록번호 for the 2025 volume NOT shown in the catalogue and is
+  recorded as UNVERIFIED. Statutory basis (산림재난방지법 시행규칙 제19조제2항) and February
+  publication cycle corroborated by e-나라지표.
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: n/a
+  osse: no
+one_line_difference: >
+  Official annual wildfire statistics; the data source behind e-나라지표 indicator 1309.
+  Not peer-reviewed and not a modelling work.

@@ -1,0 +1,39 @@
+paper_id: nasafirms2026latency
+title: "FIRMS ultra real-time, real-time and near real-time active fire data latency (NASA LANCE/FIRMS documentation)"
+authors: ["NASA LANCE FIRMS team"]
+year: 2022
+venue: "NASA Earthdata FIRMS wiki / NASA Earthdata feature article"
+venue_type: software_doc
+volume: null
+issue: null
+pages: null
+doi: UNVERIFIED
+url: https://wiki.earthdata.nasa.gov/spaces/FIRMS/blog/2022/07/14/258343755/Wildfire+detection+in+the+US+and+Canada+within+a+minute+of+satellite+observation
+publication_status: SOFTWARE_DOC
+open_access_status: open
+date_verified: 2026-09-19
+verified_via: "WebFetch of the NASA Earthdata FIRMS wiki blog post (URT <60 s; MODIS ~25 s, VIIRS ~50 s; RT 20-30 min; 6 h roll-off). The 3 h NRT figure comes from indexed LANCE/FIRMS text via WebSearch only - the canonical page returned HTTP 403 - and is therefore E2."
+category: [7]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: yes
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: "-"
+  osse: no
+one_line_difference: "The operator's own latency figures - under 60 s (direct readout, US/Canada only), 20-30 min real-time, about 3 h near-real-time - which set the floor on how stale WildfireGuardian's fire-position input can be, and show that the fast tier does not exist over Korea."

@@ -1,0 +1,40 @@
+paper_id: ma2025damaged
+title: "Analyzing wildfire evacuation dynamics with agent-based modeling in damaged road networks"
+authors: ["Fangjiao Ma", "Ji Yun Lee"]
+year: 2025
+venue: "Safety Science"
+venue_type: journal
+volume: "187"
+issue: ""
+pages: "106835"
+doi: 10.1016/j.ssci.2025.106835
+url: https://doi.org/10.1016/j.ssci.2025.106835
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Crossref record of the earlier SSRN preprint 10.2139/ssrn.4871791 by the same authors"]
+category: [3]
+threat_level: HIGH
+threatens_claims: ["WG-C-001", "WG-C-009"]
+matrix:
+  future_fire: yes
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Couples wildfire simulation to road-network vulnerability so that fire-induced closures degrade the network during the evacuation and can trap agents — the 'network fails under the fire you predicted' mechanism WG-C-003 needs on its inbound leg, but applied only to outbound evacuees.

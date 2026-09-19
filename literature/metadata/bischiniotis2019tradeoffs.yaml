@@ -1,0 +1,44 @@
+paper_id: bischiniotis2019tradeoffs
+title: "Assessing time, cost and quality trade-offs in forecast-based action for floods"
+authors: "Bischiniotis, Konstantinos; van den Hurk, Bart; Coughlan de Perez, Erin; Veldkamp, Ted; Nobre, Gabriela Guimaraes; Aerts, Jeroen"
+year: 2019
+venue: "International Journal of Disaster Risk Reduction"
+venue_type: journal
+volume: 40
+issue: None
+pages: "101252"
+doi: 10.1016/j.ijdrr.2019.101252
+url: https://doi.org/10.1016/j.ijdrr.2019.101252
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + ScienceDirect listing + ZCR Alliance summary (E2, full text 403)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-012, WG-C-002]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: yes
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Makes the timeliness-vs-accuracy trade-off explicit and solves for the
+  OPTIMAL LEAD TIME TO TRIGGER ACTION as a function of forecast quality and of
+  the operational characteristics (duration/effectiveness) of the action; the
+  action is a generic flood preparedness measure, not a responder round trip,
+  and 'latency' means forecast lead time, not observation-to-product delay.

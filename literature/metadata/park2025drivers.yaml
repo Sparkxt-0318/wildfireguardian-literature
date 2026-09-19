@@ -1,0 +1,45 @@
+paper_id: park2025drivers
+title: "Climatic and Forest Drivers of Wildfires in South Korea (1980-2024): Trends, Predictions, and the Role of the Wildland-Urban Interface"
+title_original: n/a
+language: en
+authors: "Park, Jin-chan; Suh, Ji-Hoon; Baek, Minho"
+year: 2025
+venue: "Forests"
+venue_type: journal
+volume: 16
+issue: 9
+pages: 1476
+doi: 10.3390/f16091476
+url: "https://doi.org/10.3390/f16091476"
+publication_status: PEER_REVIEWED
+open_access_status: gold_OA_CC-BY
+date_verified: 2026-09-19
+verified_via: "OpenAlex API record"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: partial
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial   # 905 Korean fires, R^2 0.62-0.66
+  osse: no
+one_line_difference: >
+  Regression/ML attribution over 905 Korean fires: each +1 m/s peak wind expands burned
+  area by ~8.5 ha and each +1% RH reduces it by ~3 ha, with conifer dominance amplifying
+  spread. Korean-specific evidence for why peak gusts, not mean wind, govern Korean lead
+  times — an input to a §4(a) argument, not an evacuation study.

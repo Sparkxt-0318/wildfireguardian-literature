@@ -1,0 +1,42 @@
+paper_id: simon2022wildfirevoi
+title: "The Costs and Costs Avoided From Wildfire Fire Management - A Conceptual Framework for a Value of Information Analysis"
+authors: "Simon, Benjamin; Crowley, Christopher; Franco, Fabiano"
+year: 2022
+venue: "Frontiers in Environmental Science"
+venue_type: journal
+volume: 10
+issue: None
+pages: "804958"
+doi: 10.3389/fenvs.2022.804958
+url: https://doi.org/10.3389/fenvs.2022.804958
+publication_status: peer_reviewed_journal
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: WebFetch of Frontiers full text (E3)
+category: [5]
+threat_level: MODERATE
+threatens_claims: [WG-C-008]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: partial
+  voi: yes
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Wildfire VOI exists, but as a CONCEPTUAL cost-minimisation framework over
+  fuel treatment / suppression / rehabilitation effort; explicitly does not
+  address sensor selection, observation timing, or decision-directed sensing.

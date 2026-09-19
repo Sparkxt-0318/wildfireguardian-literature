@@ -1,0 +1,41 @@
+paper_id: hurlbert1984pseudoreplication
+title: "Pseudoreplication and the Design of Ecological Field Experiments"
+authors:
+  - "Stuart H. Hurlbert"
+year: 1984
+venue: "Ecological Monographs"
+venue_type: journal
+volume: "54"
+issue: "2"
+pages: "187-211"
+doi: "10.2307/1942661"
+url: "https://doi.org/10.2307/1942661"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); Consensus (abstract)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006]
+imposes_requirement: "Treat the fire event, not the derived scenario, as the experimental unit; never run inferential tests that count non-independent scenarios as replicates."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Defines the unit-of-analysis error that our per-scenario statistics would commit; not about wildfire."

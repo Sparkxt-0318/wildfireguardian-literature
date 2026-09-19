@@ -1,0 +1,44 @@
+paper_id: bouttier2024optimal
+title: "Probabilistic short-range forecasts of high-precipitation events: optimal decision thresholds and predictability limits"
+authors: "Bouttier, Francois; Marchal, Hugo"
+year: 2024
+venue: "Natural Hazards and Earth System Sciences"
+venue_type: journal
+volume: 24
+issue: 8
+pages: "2793-2816"
+doi: 10.5194/nhess-24-2793-2024
+url: https://doi.org/10.5194/nhess-24-2793-2024
+publication_status: peer_reviewed_journal
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: WebFetch of Copernicus article page (E2/E3)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-002, WG-C-006]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Optimises the probability decision threshold per user type AND reports the
+  usable-intensity/scale limit beyond which the warning has no skill - i.e. an
+  explicit skill boundary with a tuned threshold; the comparator is a
+  deterministic control forecast, and the decision is a categorical warning,
+  not a protective-action mission.

@@ -1,0 +1,42 @@
+paper_id: gneiting2007scoring
+title: "Strictly Proper Scoring Rules, Prediction, and Estimation"
+authors:
+  - "Tilmann Gneiting"
+  - "Adrian E. Raftery"
+year: 2007
+venue: "Journal of the American Statistical Association"
+venue_type: journal
+volume: "102"
+issue: "477"
+pages: "359-378"
+doi: "10.1198/016214506000001437"
+url: "https://doi.org/10.1198/016214506000001437"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-002, WG-C-014]
+imposes_requirement: "Score probabilistic fire-arrival forecasts with a strictly proper rule (CRPS/Brier/log), never with a rule a hedged forecast can game."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "related (scoring)"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Defines proper scoring and the calibration/sharpness decomposition our forecast-quality axis must use."

@@ -1,0 +1,44 @@
+paper_id: malings2016voisensor
+title: "Value of information for spatially distributed systems: Application to sensor placement"
+authors: "Malings, Carl; Pozzi, Matteo"
+year: 2016
+venue: "Reliability Engineering & System Safety"
+venue_type: journal
+volume: 154
+issue: None
+pages: "219-233"
+doi: 10.1016/j.ress.2016.05.010
+url: https://doi.org/10.1016/j.ress.2016.05.010
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Consensus abstract (E2)
+category: [5]
+threat_level: CRITICAL
+threatens_claims: [WG-C-008]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: yes
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Shows explicitly that optimal sensor placement DEPENDS ON THE DECISION
+  PROBLEM, encoded in a problem-specific loss function - the exact
+  methodological move WG-C-008 wants to claim; domain is spatially distributed
+  infrastructure with Gaussian random fields, not a fire front under an
+  evacuation deadline.

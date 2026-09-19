@@ -1,0 +1,42 @@
+paper_id: macleod2021anticipatory
+title: "Playing the long game: Anticipatory action based on seasonal forecasts"
+authors: "MacLeod, David; Kniveton, Dominic R.; Todd, Martin C."
+year: 2021
+venue: "Climate Risk Management"
+venue_type: journal
+volume: 34
+issue: None
+pages: "100375"
+doi: 10.1016/j.crm.2021.100375
+url: https://doi.org/10.1016/j.crm.2021.100375
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Consensus abstract
+category: [4]
+threat_level: LOW
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Asks how long a forecast-based-action system must run before value is
+  realised with confidence; a temporal-sampling question, not a skill-boundary
+  question.

@@ -1,0 +1,47 @@
+paper_id: williams2024reporting
+title: "Transparent reporting items for simulation studies evaluating statistical methods: Foundations for reproducibility and reliability"
+authors:
+  - "Coralie Williams"
+  - "Yefeng Yang"
+  - "Malgorzata Lagisz"
+  - "Kyle Morrison"
+  - "Lorenzo Ricolfi"
+  - "David I. Warton"
+  - "Shinichi Nakagawa"
+year: 2024
+venue: "Methods in Ecology and Evolution"
+venue_type: journal
+volume: "15"
+issue: "11"
+pages: "1926-1939"
+doi: "10.1111/2041-210X.14415"
+url: "https://doi.org/10.1111/2041-210X.14415"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup); WebSearch"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Report number of repetitions with justification, Monte Carlo uncertainty, and release code and the scenario seed set."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Checklist of reporting items; ecology/evolution framing but domain-neutral content."

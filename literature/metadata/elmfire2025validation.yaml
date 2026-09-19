@@ -1,0 +1,39 @@
+paper_id: elmfire2025validation
+title: "ELMFIRE documentation: Validation"
+authors: ["ELMFIRE Developers (C. Lautenberger et al.)"]
+year: 2025
+venue: "ELMFIRE 2025.0212 documentation (elmfire.io)"
+venue_type: software_doc
+volume: "2025.0212"
+issue: null
+pages: null
+doi: UNVERIFIED
+url: https://elmfire.io/validation.html
+publication_status: SOFTWARE_DOC
+open_access_status: open
+date_verified: 2026-09-19
+verified_via: "WebFetch of elmfire.io/validation.html"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: yes
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "The model's own documentation reports mean Jaccard 0.178 / Sorensen 0.278 for ELMFIRE and 0.176 / 0.274 for FARSITE against historic CONUS fires - the single cheapest citation for how wrong operational spread models are, and it is software documentation, not a peer-reviewed evaluation."

@@ -1,0 +1,44 @@
+paper_id: kwak2021evacroute
+title: "Development of Evacuation Route Planning Algorithm for Responding to Urban Forest Fires"
+title_original: "도시산불 대응을 위한 GIS 기반 주민최적대피경로설정 알고리즘 개발"
+language: ko+en
+authors: "Kwak, Jae-Hwan (곽재환); Kim, Namgyun (김남균); Kim, Man-Il (김만일)"
+year: 2021
+venue: "Journal of the Korean Society of Hazard Mitigation / 한국방재학회논문집"
+venue_type: journal
+volume: 21
+issue: 6
+pages: 63-70
+doi: 10.9798/KOSHAM.2021.21.6.63
+url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002789577"
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "WebFetch of the KCI (Korea Citation Index) bibliographic record"
+category: [8]
+threat_level: MODERATE
+threatens_claims: [WG-C-007]
+matrix:
+  future_fire: partial       # routes are computed within wildfire spread zones
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: no        # hypothetical scenario (가상 시나리오)
+  osse: no
+one_line_difference: >
+  Kwak et al. enumerate up to fifteen GIS shortest-path evacuation routes per origin to a
+  shelter under an urban-wildfire spread zone; the output is a route set with no departure
+  time, no time-varying fire front, and no responder leg.

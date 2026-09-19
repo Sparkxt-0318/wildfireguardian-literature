@@ -1,0 +1,39 @@
+paper_id: rothermel1972spread
+title: "A mathematical model for predicting fire spread in wildland fuels"
+authors: ["Richard C. Rothermel"]
+year: 1972
+venue: "USDA Forest Service, Intermountain Forest and Range Experiment Station, Research Paper INT-RP-115"
+venue_type: report
+volume: "INT-RP-115"
+issue: UNVERIFIED
+pages: "40 p."
+doi: 10.2737/INT-RP-115
+url: https://research.fs.usda.gov/treesearch/32533
+publication_status: GOVERNMENT_REPORT
+open_access_status: public_domain_us_government
+date_verified: 2026-09-19
+verified_via: "USDA FS TreeSearch record 32533 (WebFetch)"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "Rothermel supplies the steady-state surface rate-of-spread kernel that WildfireGuardian's forecasts inherit; it is a government research paper, not a peer-reviewed article, and it computes spread rate, not any decision quantity."

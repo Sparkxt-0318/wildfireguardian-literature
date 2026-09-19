@@ -1,0 +1,44 @@
+paper_id: masiwal2026decisionoriented
+title: "Decision-oriented benchmarking to transform AI weather forecast access: Application to the Indian monsoon"
+authors: "Masiwal et al. (full author list UNVERIFIED; corresponding: Hassanzadeh, P.; Boos, W. R.; Jina, A.)"
+year: 2026
+venue: "arXiv (2602.03767)"
+venue_type: preprint
+volume: None
+issue: None
+pages: "None"
+doi: 10.48550/arXiv.2602.03767
+url: https://arxiv.org/abs/2602.03767
+publication_status: PREPRINT
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: alphaXiv structured report (E2/E3)
+category: [4]
+threat_level: MODERATE
+threatens_claims: [WG-C-006, WG-C-002, WG-C-012]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: partial
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: >
+  Builds a decision-oriented benchmark (miss rate, false alarm rate, skill vs
+  climatology, operational runnability) to choose which forecast system to
+  deploy; the comparator is climatology, the decision is agricultural
+  planting, and operational latency is a selection criterion but is not a
+  quantified decision variable.

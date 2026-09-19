@@ -1,0 +1,39 @@
+paper_id: paugam2026mtgfci
+title: "Leveraging MTG-FCI fire observations for event-based fire behavior monitoring from near-real-time operation to seasonal analysis"
+authors: ["Ronan Paugam", "Jean-Baptiste Filippi", "Akli Benali", "Jorge Gomes", "Weidong Xu", "Emanuel Dutra", "Francois Andre", "Damien Boulanger", "Vianney Retornard", "Andrea Meraner", "Julia Harvie", "Victor Penot", "Cyrielle Denjean"]
+year: 2026
+venue: "arXiv:2606.06016"
+venue_type: preprint
+volume: null
+issue: null
+pages: null
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2606.06016
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "arXiv abstract page (WebFetch)"
+category: [7]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: yes
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "Shows geostationary observation cadence being converted into an operationally updated rate-of-spread estimate every 10 minutes - the observed-quantity-to-inferred-quantity step WildfireGuardian depends on; spatial resolution and product latency are not stated in the retrievable abstract."

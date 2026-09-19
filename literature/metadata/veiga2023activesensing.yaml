@@ -1,0 +1,42 @@
+paper_id: veiga2023activesensing
+title: "From Reactive to Active Sensing: A Survey on Information Gathering in Decision-theoretic Planning"
+authors: "Veiga, Tiago; Renoux, Jennifer"
+year: 2023
+venue: "ACM Computing Surveys"
+venue_type: journal
+volume: 55
+issue: 13s
+pages: "1-22"
+doi: 10.1145/3583068
+url: https://doi.org/10.1145/3583068
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API (bibliographic); ACM full text 403 (E1/E2)
+category: [5]
+threat_level: HIGH (field ownership)
+threatens_claims: [WG-C-008]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: yes
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Survey establishing active information gathering in decision-theoretic
+  planning as a mature field with its own taxonomy; nothing wildfire-specific
+  and no deadline-constrained protective-action instantiation.

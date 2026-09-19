@@ -1,0 +1,50 @@
+paper_id: mois2026aievacroute
+title: "AI-based wildfire and smoke spread monitoring and prediction [translation]"
+title_original: "AI 기반 산불·연무 확산 감시·예측 (행정안전부 공공부문 AI 서비스 지원사업 4대 과제 중 안전 분야 과제)"
+language: ko
+authors: "Korea Forest Service (산림청), under a programme coordinated by the Ministry of the Interior and Safety (행정안전부)"
+year: 2026
+venue: "Government programme announcement, 2026-09-15 (reported)"
+venue_type: government_programme_announcement
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: "https://www.aitimes.kr/news/articleView.html?idxno=41932"
+publication_status: GOVERNMENT_REPORT
+open_access_status: press_coverage_only
+date_verified: 2026-09-19
+verified_via: >
+  Six independent Korean outlets reporting the same announcement (aitimes.kr, newspim.com,
+  koit.co.kr, dailian.co.kr, public25.com, anjunj.com), two of them fetched in full.
+  The originating MOIS press-release page itself was NOT retrieved — see
+  docs/search-logs/agent-korea.md Open question 1.
+category: [8]
+threat_level: HIGH
+threatens_claims: [WG-C-007, WG-C-003, WG-C-001]
+matrix:
+  future_fire: yes
+  traffic: UNKNOWN
+  household_trigger: no
+  probabilistic_trigger: UNKNOWN
+  multiple_fire_models: UNKNOWN
+  assisted_evacuation: no
+  inbound_responder: yes       # 진화 인력·장비의 투입 경로 = suppression crew/equipment ingress routes
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no     # routes are the stated output; no deadline reported
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: UNKNOWN
+  voi: no
+  active_sensing: partial      # 감시 (monitoring) component
+  korean_setting: yes
+  real_validation: UNKNOWN
+  osse: no
+one_line_difference: >
+  This programme outputs inbound suppression-ingress ROUTES alongside resident evacuation
+  routes from an AI spread/smoke forecast; WildfireGuardian outputs a latest-safe DISPATCH
+  TIME for an assisted-evacuation round trip. Same inbound leg, different decision variable
+  — and this is a live Korean government programme, so WG-C-003 must be phrased as a
+  quantity claim, never as a "no one does inbound routing in Korea" claim.

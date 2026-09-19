@@ -1,0 +1,42 @@
+paper_id: cameron2015clusterrobust
+title: "A Practitioner's Guide to Cluster-Robust Inference"
+authors:
+  - "A. Colin Cameron"
+  - "Douglas L. Miller"
+year: 2015
+venue: "Journal of Human Resources"
+venue_type: journal
+volume: "50"
+issue: "2"
+pages: "317-372"
+doi: "10.3368/jhr.50.2.317"
+url: "https://doi.org/10.3368/jhr.50.2.317"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006]
+imposes_requirement: "Cluster at the level at which the treatment/scenario generation is correlated - the fire event - and report the number of clusters alongside every p-value."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Survey giving the decision rules for choosing the clustering level; not hazard-specific."

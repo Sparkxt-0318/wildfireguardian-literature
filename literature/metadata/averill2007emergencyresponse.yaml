@@ -1,0 +1,40 @@
+paper_id: averill2007emergencyresponse
+title: "Accounting for emergency response in building evacuation"
+authors: ["Jason D. Averill", "Weiguo Song"]
+year: 2007
+venue: "NIST Interagency/Internal Report (NISTIR) 7425"
+venue_type: report
+volume: ""
+issue: ""
+pages: "UNVERIFIED"
+doi: 10.6028/nist.ir.7425
+url: https://doi.org/10.6028/NIST.IR.7425
+publication_status: GOVERNMENT_REPORT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["Crossref API record (type: report)"]
+category: [3]
+threat_level: BACKGROUND
+threatens_claims: ["WG-C-003"]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: yes
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Building-fire, not wildfire: models first responders moving UP a stairwell against occupants moving down, i.e. the counterflow ingress penalty - the mechanism WG-C-003 needs, established decades ago in a different hazard and at a different scale; it is a government report, NOT peer-reviewed.

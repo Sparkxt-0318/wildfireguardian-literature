@@ -1,0 +1,40 @@
+paper_id: kim2024directional
+title: "Directional analysis of community wildfire evacuation capabilities"
+authors: ["Amy M. Kim", "Jennifer L. Beverly", "Abdullah Al Zahid"]
+year: 2024
+venue: "Safety Science"
+venue_type: journal
+volume: "171"
+issue: ""
+pages: "106378"
+doi: 10.1016/j.ssci.2023.106378
+url: https://doi.org/10.1016/j.ssci.2023.106378
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Semantic Scholar forward-citation list of k-PERIL"]
+category: [3]
+threat_level: MODERATE
+threatens_claims: ["WG-C-009", "WG-C-007"]
+matrix:
+  future_fire: yes
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Asks which DIRECTIONS of fire approach a community can and cannot evacuate against, which is close to WG-C-009 robust protectability, but the capability is an egress property of the community, not a mission-feasibility property of a responder.

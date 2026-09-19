@@ -1,0 +1,39 @@
+paper_id: braydwood2026quantum
+title: "Partitioned Iterative Quantum Scheduling of Satellites for Urgent Disaster Response: Case study of Wildfire"
+authors: ["Lucas T. Braydwood", "Taejin Park", "Hirofumi Hashimoto", "Zoe Gonzalez Izquierdo", "Andrew Michaelis", "Eleanor Rieffel", "Shon Grabbe"]
+year: 2026
+venue: "arXiv:2606.12310"
+venue_type: preprint
+volume: null
+issue: null
+pages: null
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2606.12310
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "arXiv abstract page (WebFetch); listing via alphaXiv discover_papers"
+category: [7]
+threat_level: MODERATE
+threatens_claims: ["WG-C-008"]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: yes
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: yes
+  voi: no
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: "Satellite tasking for urgent wildfire response solved with iterative quantum algorithms; the objective is scheduling efficiency and near-real-time coverage, with no link from a scheduling choice to an evacuation or dispatch consequence."

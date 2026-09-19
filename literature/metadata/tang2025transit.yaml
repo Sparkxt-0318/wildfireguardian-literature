@@ -1,0 +1,40 @@
+paper_id: tang2025transit
+title: "Strategizing equitable transit evacuations: A data-driven reinforcement learning approach"
+authors: ["Fang Tang", "Han Wang", "Maria Laura Delle Monache"]
+year: 2025
+venue: "Transportation Research Part C: Emerging Technologies"
+venue_type: journal
+volume: "180"
+issue: ""
+pages: "105342"
+doi: 10.1016/j.trc.2025.105342
+url: https://doi.org/10.1016/j.trc.2025.105342
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Semantic Scholar forward-citation list of PERIL (Mitchell et al. 2023)"]
+category: [3]
+threat_level: HIGH
+threatens_claims: ["WG-C-003", "WG-C-005", "WG-C-011"]
+matrix:
+  future_fire: no
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: yes
+  inbound_responder: yes
+  pickup: yes
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: yes
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Transit vehicles must drive INTO the hazard area to collect carless/transit-dependent evacuees and drive them out, with RL allocating scarce vehicles — structurally the same base-pickup-destination trip as WG-C-003, but the control output is a dispatch POLICY, not a fire-relative latest-dispatch TIME, and fire arrival is not the binding constraint.

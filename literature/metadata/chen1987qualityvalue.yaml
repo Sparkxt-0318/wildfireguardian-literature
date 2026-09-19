@@ -1,0 +1,42 @@
+paper_id: chen1987qualityvalue
+title: "On the Relationship between the Quality and Value of Forecasts in the Generalized Cost-Loss Ratio Situation"
+authors: "Chen, Yin-Sheng; Ehrendorfer, Martin; Murphy, Allan H."
+year: 1987
+venue: "Monthly Weather Review"
+venue_type: journal
+volume: 115
+issue: 8
+pages: "1534-1541"
+doi: 10.1175/1520-0493(1987)115<1534:OTRBTQ>2.0.CO;2
+url: https://doi.org/10.1175/1520-0493(1987)115<1534:OTRBTQ>2.0.CO;2
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API; abstract NOT retrieved
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-014]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Extends the quality-value (non-)monotonicity result to the generalized
+  N-action cost-loss situation; still no spatial hazard field, no mission-
+  feasibility decision, no wildfire instantiation.

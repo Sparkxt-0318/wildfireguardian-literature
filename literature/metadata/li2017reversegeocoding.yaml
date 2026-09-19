@@ -1,0 +1,40 @@
+paper_id: li2017reversegeocoding
+title: "Using reverse geocoding to identify prominent wildfire evacuation trigger points"
+authors: ["Dapeng Li", "Thomas J. Cova", "Philip E. Dennison"]
+year: 2017
+venue: "Applied Geography"
+venue_type: journal
+volume: "87"
+issue: ""
+pages: "14-27"
+doi: 10.1016/j.apgeog.2017.05.008
+url: https://doi.org/10.1016/j.apgeog.2017.05.008
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record (two independent Crossref queries)"]
+category: [1]
+threat_level: LOW
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Operationalises trigger buffers into named landmarks a dispatcher can say out loud; purely a communicability step, no decision-quantity novelty.

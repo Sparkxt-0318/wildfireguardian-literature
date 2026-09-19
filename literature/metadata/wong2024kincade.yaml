@@ -1,0 +1,41 @@
+paper_id: wong2024kincade
+title: "Social Vulnerabilities and Wildfire Evacuations: A Case Study of the 2019 Kincade Fire"
+authors: [UNVERIFIED]   # alphaXiv listed institutions (University of Florida, RMIT, Massey University, University of Utah) but not author names. paper_id first-author element is PROVISIONAL.
+year: 2024
+venue: arXiv
+venue_type: preprint
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2402.06639
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: alphaXiv discover_papers record (arXiv ID, title, date 2024-01-23, institutions, abstract snippet). Full text NOT retrieved.
+category: [9]
+threat_level: LOW
+threatens_claims: []
+matrix:
+  future_fire: false
+  traffic: UNKNOWN
+  household_trigger: UNKNOWN
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: partial
+  inbound_responder: false
+  pickup: false
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: false
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: true
+  osse: false
+one_line_difference: >
+  PROVISIONAL RECORD. Empirical evidence on differential wildfire evacuation outcomes for vulnerable groups; no model of
+  assistance provision.

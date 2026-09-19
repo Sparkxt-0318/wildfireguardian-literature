@@ -1,0 +1,43 @@
+paper_id: kang2020hfri
+title: "Developing a New Hourly Forest Fire Risk Index Based on Catboost in South Korea"
+title_original: n/a
+language: en
+authors: "Kang, Yoojin; Jang, Eunna; Im, Jungho; Kwon, Chungeun; Kim, Sungyong"
+year: 2020
+venue: "Applied Sciences"
+venue_type: journal
+volume: 10
+issue: 22
+pages: 8213
+doi: 10.3390/app10228213
+url: "https://doi.org/10.3390/app10228213"
+publication_status: PEER_REVIEWED
+open_access_status: gold_OA_CC-BY
+date_verified: 2026-09-19
+verified_via: "OpenAlex API record (title search); abstract via Consensus"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial   # one-year-out CV, 2014-2019, AUC 0.8434
+  osse: no
+one_line_difference: >
+  Hourly 1 km ignition-risk index for Korea benchmarked against the operational DWI and a
+  modified FFMC; an occurrence-risk product, with no spread, no evacuation and no timing.

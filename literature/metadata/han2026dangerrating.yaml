@@ -1,0 +1,45 @@
+paper_id: han2026dangerrating
+title: "A Comparative Review of Wildfire Danger Rating Systems: Focus on Fuel Moisture Modeling Frameworks"
+title_original: n/a
+language: en
+authors: "Han, Songhee; Heo, Sujung; Lee, Yeeun; Jang, Mina; Jung, Sungcheol; Ahn, Sujung"
+year: 2026
+venue: "Forests"
+venue_type: journal
+volume: 17
+issue: 4
+pages: 486
+doi: 10.3390/f17040486
+url: "https://doi.org/10.3390/f17040486"
+publication_status: PEER_REVIEWED
+open_access_status: gold_OA_CC-BY
+date_verified: 2026-09-19
+verified_via: "OpenAlex API record (title search); abstract via Consensus"
+category: [8]
+threat_level: LOW
+threatens_claims: [WG-C-007]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: no         # review
+  osse: no
+one_line_difference: >
+  Peer-reviewed characterisation of the Korean KFDRS against NFDRS/CFFDRS/EFFIS/AFDRS,
+  documenting that KFDRS is daily, district-resolution, empirical and weather-driven with
+  no live-fuel-moisture model. This is a citable, independent statement of a Korean
+  operational limitation — useful raw material for a §4(b) argument.

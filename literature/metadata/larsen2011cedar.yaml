@@ -1,0 +1,40 @@
+paper_id: larsen2011cedar
+title: "Evaluating dynamic wildfire evacuation trigger buffers using the 2003 Cedar Fire"
+authors: ["Jeremy C. Larsen", "Philip E. Dennison", "Thomas J. Cova", "Charles Jones"]
+year: 2011
+venue: "Applied Geography"
+venue_type: journal
+volume: "31"
+issue: "1"
+pages: "12-19"
+doi: 10.1016/j.apgeog.2010.05.003
+url: https://doi.org/10.1016/j.apgeog.2010.05.003
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Consensus search record with abstract"]
+category: [1]
+threat_level: HIGH
+threatens_claims: ["WG-C-001", "WG-C-012"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: >
+  First use of FORECAST winds (not climatology) to make trigger buffers dynamic, and the first retrospective validation of a trigger buffer against a real fire front; it does not quantify forecast skill or latency as decision variables.

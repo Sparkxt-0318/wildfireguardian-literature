@@ -1,0 +1,41 @@
+paper_id: pandey2025savrural
+title: "A Simulation-Based Framework for Leveraging Shared Autonomous Vehicles to Enhance Disaster Evacuations in Rural Regions with a Focus on Vulnerable Populations"
+authors: [UNVERIFIED]   # author list NOT retrieved; alphaXiv listed the institution (FAMU-FSU College of Engineering) but not names. paper_id first-author element is therefore PROVISIONAL.
+year: 2025
+venue: arXiv (FAMU-FSU College of Engineering)
+venue_type: preprint
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2502.07787
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: alphaXiv discover_papers record (arXiv ID, title, date 2025-01-20, institution, abstract snippet) and WebSearch. Full text NOT retrieved.
+category: [2, 9]
+threat_level: MODERATE
+threatens_claims: [WG-C-005, WG-C-011]
+matrix:
+  future_fire: UNKNOWN   # "disaster evacuations" generically
+  traffic: true
+  household_trigger: UNKNOWN
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true   # shared autonomous vehicles dispatched to vulnerable rural residents
+  inbound_responder: true
+  pickup: true
+  egress: true
+  dispatch_by_deadline: UNKNOWN   # NEEDS_FULL_TEXT -- abstract mentions optimisation of routes AND timing
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: UNKNOWN
+  scarce_resources: true
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: UNKNOWN
+  osse: false
+one_line_difference: >
+  PROVISIONAL RECORD. The rural + vulnerable + dispatched-vehicle combination is the closest demographic match to the Korean
+  setting; its treatment of "timing" must be read in full before WG-C-003 or WG-C-011 is defended.

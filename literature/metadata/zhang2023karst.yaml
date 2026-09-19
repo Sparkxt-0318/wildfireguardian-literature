@@ -1,0 +1,39 @@
+paper_id: zhang2023karst
+title: "Examining and Reforming the Rothermel Surface Fire Spread Model under No-Wind and Zero-Slope Conditions for the Karst Ecosystems"
+authors: ["Yunlin Zhang", "Lingling Tian"]
+year: 2023
+venue: "Forests"
+venue_type: journal
+volume: "14"
+issue: "6"
+pages: "1088"
+doi: 10.3390/f14061088
+url: https://doi.org/10.3390/f14061088
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; abstract via Consensus record"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: "One of a family of East-Asian laboratory recalibration studies showing Rothermel relative error up to 50% on non-US fuels; it is the transfer-failure evidence WildfireGuardian needs to justify not assuming US-calibrated spread rates in Korea."

@@ -1,0 +1,41 @@
+paper_id: sargent2013verification
+title: "Verification and validation of simulation models"
+authors:
+  - "Robert G. Sargent"
+year: 2013
+venue: "Journal of Simulation"
+venue_type: journal
+volume: "7"
+issue: "1"
+pages: "12-24"
+doi: "10.1057/jos.2012.20"
+url: "https://doi.org/10.1057/jos.2012.20"
+publication_status: "published"
+open_access_status: "hybrid"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "State explicitly which validation techniques are used (face validity, historical data validation, docking) and separate conceptual-model validation from computerised-model verification."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "The standard V&V taxonomy for discrete-event/simulation models; domain-neutral."

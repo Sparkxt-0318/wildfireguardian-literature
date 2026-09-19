@@ -1,0 +1,45 @@
+paper_id: xu2026wildfirescoring
+title: "Does Your Wildfire Prediction Model Actually Work, or Just Score Well?"
+authors:
+  - "Yangshuang Xu"
+  - "Yuyang Dai"
+  - "Liling Chang"
+  - "Qi Wang"
+  - "Yushun Dong"
+year: 2026
+venue: "arXiv (2605.18911)"
+venue_type: preprint
+volume: "-"
+issue: "-"
+pages: "-"
+doi: "UNVERIFIED"
+url: "https://arxiv.org/abs/2605.18911"
+publication_status: "PREPRINT"
+open_access_status: "green"
+date_verified: 2026-09-19
+verified_via: "alphaXiv get_paper_content (full text)"
+category: [10]
+threat_level: LOW
+threatens_claims: [WG-C-014]
+imposes_requirement: "Acknowledge that ranking-metric vs decision-metric divergence has been demonstrated for wildfire prediction; WG-C-014 must be narrowed to evacuation-decision quality specifically."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "partial (classification decision metrics, not evacuation)"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Shows 'selection regret' between PR-AUC and decision-F1 for wildfire occupancy/spread tasks; it is a classification-metric result, not an evacuation-deadline result. PREPRINT."

@@ -1,0 +1,40 @@
+paper_id: siam2022interdisciplinary
+title: "An interdisciplinary agent-based multimodal wildfire evacuation model: Critical decisions and life safety"
+authors: ["M.R.K. Siam", "Haizhong Wang", "Michael K. Lindell", "Chen Chen", "Eleni I. Vlahogianni", "Kay Axhausen"]
+year: 2022
+venue: "Transportation Research Part D: Transport and Environment"
+venue_type: journal
+volume: "103"
+issue: ""
+pages: "103147"
+doi: 10.1016/j.trd.2021.103147
+url: https://doi.org/10.1016/j.trd.2021.103147
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "web search result listing on ScienceDirect and ouci.dntb.gov.ua"]
+category: [3]
+threat_level: MODERATE
+threatens_claims: ["WG-C-005"]
+matrix:
+  future_fire: partial
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: partial
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Multimodal agent-based wildfire evacuation tying household decision timing to life-safety outcomes; establishes that 'critical decisions' are the right output unit, but the decision is the household's departure, not a responder's dispatch.

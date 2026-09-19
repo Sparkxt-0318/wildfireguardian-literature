@@ -1,0 +1,45 @@
+paper_id: lakens2017equivalence
+title: "Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses"
+authors:
+  - "Daniel Lakens"
+year: 2017
+venue: "Social Psychological and Personality Science"
+venue_type: journal
+volume: "8"
+issue: "4"
+pages: "355-362"
+doi: "10.1177/1948550617697177"
+url: "https://doi.org/10.1177/1948550617697177"
+publication_status: "published"
+open_access_status: "hybrid"
+title_registry_form: >
+  Crossref stores the short title "Equivalence Tests" for this DOI; the full
+  title including the subtitle is as recorded above and appears on the article.
+  Audit TITLE_MISMATCH on this record is a registry artefact, not an error.
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup); Consensus (abstract)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006, WG-C-002]
+imposes_requirement: "Pre-specify a smallest effect size of interest in decision units (minutes of dispatch margin) before running the tuned-baseline comparison."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Supplies the TOST procedure and the SESOI requirement; not about forecasts or hazards."

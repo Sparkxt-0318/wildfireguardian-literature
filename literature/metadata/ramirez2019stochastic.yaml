@@ -1,0 +1,39 @@
+paper_id: ramirez2019stochastic
+title: "Stochastic decision trigger modelling to assess the probability of wildland fire impact"
+authors: ["J. Ramirez", "S. Monedero", "C. A. Silva", "A. Cardil"]
+year: 2019
+venue: "Science of The Total Environment"
+venue_type: journal
+volume: "694"
+issue: null
+pages: "133505"
+doi: 10.1016/j.scitotenv.2019.07.311
+url: https://doi.org/10.1016/j.scitotenv.2019.07.311
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; abstract via Consensus record"
+category: [6]
+threat_level: HIGH
+threatens_claims: ["WG-C-004"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: yes
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: partial
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "Produces a probability-of-arrival map for evacuation trigger buffers by perturbing fire-model inputs n times and states it can be solved in real time with any empirical propagation engine; the probabilistic trigger buffer as a deliverable is therefore already occupied, though the output remains a buffer and not a dispatch time."

@@ -1,0 +1,39 @@
+paper_id: dayan2026conformal
+title: "Conformal Risk Control for Safety-Critical Wildfire Evacuation Mapping: A Comparative Study of Tabular, Spatial, and Graph-Based Models"
+authors: ["Baljinnyam Dayan"]
+year: 2026
+venue: "arXiv:2603.22331"
+venue_type: preprint
+volume: null
+issue: null
+pages: null
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2603.22331
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "arXiv abstract page (WebFetch)"
+category: [6, 7]
+threat_level: HIGH
+threatens_claims: ["WG-C-014", "WG-C-004", "WG-C-009"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: yes
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: partial
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: partial
+  scarce_resources: partial
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "Shows directly that a high-AUROC fire-spread model is not thereby operationally adequate - standard thresholds captured only 7-72% of actual spread - and repairs it with conformal SAFE/MONITOR/EVACUATE zones at a bounded false-negative rate; it maps accuracy to a coverage guarantee, not to the timing of a protective action."

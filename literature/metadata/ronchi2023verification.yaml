@@ -1,0 +1,52 @@
+paper_id: ronchi2023verification
+title: "The verification of wildland-urban interface fire evacuation models"
+authors:
+  - "E. Ronchi"
+  - "J. Wahlqvist"
+  - "A. Ardinge"
+  - "A. Rohaert"
+  - "S. M. V. Gwynne"
+  - "G. Rein"
+  - "H. Mitchell"
+  - "N. Kalogeropoulos"
+  - "M. Kinateder"
+  - "N. Benichou"
+  - "E. Kuligowski"
+  - "A. Kimball"
+year: 2023
+venue: "Natural Hazards"
+venue_type: journal
+volume: "117"
+issue: "2"
+pages: "1493-1519"
+doi: "10.1007/s11069-023-05913-2"
+url: "https://doi.org/10.1007/s11069-023-05913-2"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); WebFetch PMC10220130"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010, WG-C-004]
+imposes_requirement: "Run the published WUI evacuation verification tests (including the trigger-buffer component tests) on our model, and state that we verify but do not validate."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "no (explicitly out of scope)"
+  osse: "-"
+one_line_difference: "Domain-specific verification protocol for WUI evacuation models including trigger buffers; verification only, no real-event validation."

@@ -1,0 +1,40 @@
+paper_id: cova2005trigger
+title: "Setting Wildfire Evacuation Trigger Points Using Fire Spread Modeling and GIS"
+authors: ["Thomas J. Cova", "Philip E. Dennison", "Tae H. Kim", "Max A. Moritz"]
+year: 2005
+venue: "Transactions in GIS"
+venue_type: journal
+volume: "9"
+issue: "4"
+pages: "603-617"
+doi: 10.1111/j.1467-9671.2005.00237.x
+url: https://doi.org/10.1111/j.1467-9671.2005.00237.x
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record (api.crossref.org/works/10.1111/j.1467-9671.2005.00237.x)", "Consensus search record with abstract"]
+category: [1]
+threat_level: CRITICAL
+threatens_claims: ["WG-C-001"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Founds the whole field by computing a deterministic fire-arrival level set (trigger buffer) around a community for a decision-maker-supplied evacuation time; it does not model traffic, responders, ensembles, or any dispatch deadline.

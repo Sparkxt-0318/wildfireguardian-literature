@@ -1,0 +1,44 @@
+paper_id: shao2026beliefaware
+title: "Belief-Aware Scheduling for Predictive Wildfire Hazard Mapping under Sparse-Window Telemetry"
+authors: "Shao, Xun; Yamakawa, Kohsuke; Cheah, Wai Shiang"
+year: 2026
+venue: "arXiv (2606.06917)"
+venue_type: preprint
+volume: None
+issue: None
+pages: "None"
+doi: 10.48550/arXiv.2606.06917
+url: https://arxiv.org/abs/2606.06917
+publication_status: PREPRINT
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: alphaXiv full-text retrieval (E3)
+category: [5]
+threat_level: HIGH
+threatens_claims: [WG-C-008]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: partial
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: yes
+one_line_difference: >
+  Wildfire active sensing: schedules sensing/representation/transmission under
+  a sparse downlink so the receiver can predict an H-step-ahead hazard map;
+  the objective is PREDICTIVE loss on the hazard map, not a protective-action
+  decision loss, and the evaluation is a physics-calibrated synthetic
+  environment with no evacuation decision.

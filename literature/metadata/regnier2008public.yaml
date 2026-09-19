@@ -1,0 +1,44 @@
+paper_id: regnier2008public
+title: "Public Evacuation Decisions and Hurricane Track Uncertainty"
+authors: "Regnier, Eva"
+year: 2008
+venue: "Management Science"
+venue_type: journal
+volume: 54
+issue: 1
+pages: "16-28"
+doi: 10.1287/mnsc.1070.0764
+url: https://doi.org/10.1287/mnsc.1070.0764
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + INFORMS page + search summary (E2)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-002, WG-C-012, WG-C-006]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: partial
+  dispatch_by_deadline: no
+  forecast_latency: partial
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Computes, per location, the false-alarm rate forced by a required miss-
+  probability given track-uncertainty-vs-lead-time, i.e. a forecast-quality
+  boundary for evacuation ordering; the hazard is a hurricane track, the
+  evacuation is an aggregate clearance time, and there is no responder-
+  inclusive mission or tuned positional-trigger comparator.

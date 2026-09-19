@@ -1,0 +1,43 @@
+paper_id: murphy1977costloss
+title: "The Value of Climatological, Categorical and Probabilistic Forecasts in the Cost-Loss Ratio Situation"
+authors: "Murphy, Allan H."
+year: 1977
+venue: "Monthly Weather Review"
+venue_type: journal
+volume: 105
+issue: 7
+pages: "803-816"
+doi: 10.1175/1520-0493(1977)105<0803:TVOCCA>2.0.CO;2
+url: https://journals.ametsoc.org/view/journals/mwre/105/7/1520-0493_1977_105_0803_tvocca_2_0_co_2.xml
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + AMS journal page + Consensus abstract
+category: [4]
+threat_level: HIGH (framework ownership)
+threatens_claims: [WG-C-002, WG-C-006]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Murphy owns the cost-loss decision-analytic framework and the relative-value
+  measure for a generic two-action/two-event protective decision; he does not
+  model a spatial hazard, an evacuation mission, or a positional trigger
+  comparator.

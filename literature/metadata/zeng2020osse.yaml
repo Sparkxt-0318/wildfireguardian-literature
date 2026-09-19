@@ -1,0 +1,48 @@
+paper_id: zeng2020osse
+title: "Use of Observing System Simulation Experiments in the United States"
+authors:
+  - "Xubin Zeng"
+  - "Robert Atlas"
+  - "Ronald J. Birk"
+  - "Frederick H. Carr"
+  - "Matthew J. Carrier"
+  - "Lidia Cucurull"
+  - "William H. Hooke"
+  - "Eugenia Kalnay"
+year: 2020
+venue: "Bulletin of the American Meteorological Society"
+venue_type: journal
+volume: "101"
+issue: "8"
+pages: "E1427-E1438"
+doi: "10.1175/BAMS-D-19-0155.1"
+url: "https://doi.org/10.1175/BAMS-D-19-0155.1"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); Consensus (abstract); WebSearch (recommendations list)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010, WG-C-008]
+imposes_requirement: "Frame the decision-level OSSE as answering this community's own open recommendation to extend OSSEs to societal impacts, and acknowledge that OSSE results inherit the deficiencies of the underlying prediction system."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "recommended, not done"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "yes"
+one_line_difference: "A NOAA SAB-derived review that lists 'extension of OSSEs to societal impacts' as an outstanding recommendation - i.e. the decision-level OSSE was an open item as of 2020."

@@ -1,0 +1,40 @@
+paper_id: fryer2013entrapment
+title: "Wildland firefighter entrapment avoidance: modelling evacuation triggers"
+authors: ["Gregory K. Fryer", "Philip E. Dennison", "Thomas J. Cova"]
+year: 2013
+venue: "International Journal of Wildland Fire"
+venue_type: journal
+volume: "22"
+issue: "7"
+pages: "883-893"
+doi: 10.1071/wf12160
+url: https://doi.org/10.1071/WF12160
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Consensus search record with abstract"]
+category: [1]
+threat_level: MODERATE
+threatens_claims: ["WG-C-003"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Moves the trigger subject from residents to FIREFIGHTERS and varies the evacuation MODE (foot, engine, dozer), which is the closest the classical lineage gets to a responder — but the responder's modelled leg is still one-way egress to a safety zone, never an inbound round trip.

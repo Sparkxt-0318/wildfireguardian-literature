@@ -1,0 +1,44 @@
+paper_id: ardid2026forecastvalue
+title: "From forecast skill to economic value: sub-hourly wildfire potential forecasting across Australian regions"
+authors: "Ardid, Alberto; Power, Anthony; Valencia, Andres; Pearce, H. Grant; Gross, Shana; Dempsey, David; Boer, Matthias M."
+year: 2026
+venue: "International Journal of Wildland Fire"
+venue_type: journal
+volume: 35
+issue: 4
+pages: "WF25221"
+doi: 10.1071/WF25221
+url: https://doi.org/10.1071/WF25221
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: WebFetch of FRAMES catalog record + ConnectSci listing (E2; full text not read)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-002, WG-C-006]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: >
+  This is the wildfire instantiation of the cost-loss/PEV pipeline: ML fire-
+  potential forecasts evaluated by Potential Economic Value against the Fire
+  Behaviour Index; the decision is pre-positioning/fire-potential warning, NOT
+  evacuation protective action, and the FBI comparator is an operational
+  index, not a buffer/trigger policy tuned on the same scenario distribution.

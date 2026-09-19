@@ -1,0 +1,45 @@
+paper_id: mois2025evacuationstages
+title: "Government to improve the resident evacuation system in preparation for ultra-fast wildfires [translation]"
+title_original: "정부, 초고속 산불 대비 주민대피 체계 개선키로"
+language: ko
+authors: "Ministry of the Interior and Safety (행정안전부), Social Disaster Response Coordination Division; jointly with Korea Forest Service (산림청)"
+year: 2025
+venue: "MOIS press release / 보도자료 (nttId=117125)"
+venue_type: government_press_release
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=117125"
+publication_status: GOVERNMENT_REPORT
+open_access_status: publicly_accessible_web_page
+date_verified: 2026-09-19
+verified_via: "WebFetch of the MOIS release itself (2025-04-16); corroborated by edaily 2025-04-15, korea.kr policy news, kyongbuk.co.kr, 정책주간지 공감"
+category: [8]
+threat_level: HIGH
+threatens_claims: [WG-C-007, WG-C-005, WG-C-006]
+matrix:
+  future_fire: yes            # 산불확산예측시스템 output drives the zoning
+  traffic: no
+  household_trigger: partial  # zone-level, not household-level
+  probabilistic_trigger: no   # deterministic fire-arrival-time zones
+  multiple_fire_models: no
+  assisted_evacuation: partial # vulnerable groups evacuate in the earlier stage; no logistics modelled
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: no
+  osse: no
+one_line_difference: >
+  MOIS/KFS set two administratively fixed fire-arrival lead times (5 h general, 8 h
+  vulnerable) as evacuation triggers from a deterministic spread forecast; WildfireGuardian
+  computes a mission-feasibility dispatch deadline from an ensemble arrival-time
+  distribution, and treats a fixed lead time like this one as the tuned comparator to beat.

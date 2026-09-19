@@ -1,0 +1,39 @@
+paper_id: papaioannou2026adaptive
+title: "Adaptive Monitoring of Stochastic Fire Front Processes via Information-seeking Predictive Control"
+authors: ["Savvas Papaioannou", "Panayiotis Kolios", "Christos G. Panayiotou", "Marios M. Polycarpou"]
+year: 2026
+venue: "arXiv:2601.11231"
+venue_type: preprint
+volume: null
+issue: null
+pages: null
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2601.11231
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "arXiv abstract page (WebFetch)"
+category: [6, 7]
+threat_level: HIGH
+threatens_claims: ["WG-C-008"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: partial
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: partial
+  voi: yes
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: "The closest wildfire-specific prior art to WG-C-008: a drone trajectory chosen by information-seeking predictive control over a stochastic elliptical fire-front model, where the quantity optimised is estimation uncertainty and no protective-action deadline enters the objective."

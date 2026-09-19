@@ -1,0 +1,40 @@
+paper_id: lu2026lahaina
+title: "Macroscopic Traffic Flow Network Modeling For Wildfire Evacuation: A Game-Theoretic Junction Optimization Approach with Application to Lahaina Fire"
+authors: ["Annie Lu", "Hong Kiat Tan", "Alexander Xue", "Alice Koniges", "Andrea L. Bertozzi"]
+year: 2026
+venue: "arXiv"
+venue_type: preprint
+volume: ""
+issue: ""
+pages: "arXiv:2603.29055"
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2603.29055
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["arXiv abstract page (fetched, submission date 2026-03-30)", "alphaXiv discover_papers record [ID=2603.29055]"]
+category: [3]
+threat_level: HIGH
+threatens_claims: ["WG-C-003"]
+matrix:
+  future_fire: no
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: partial
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: partial
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: >
+  Shows a lane can be RESERVED for emergency vehicles entering the network with negligible cost to civilian clearance time — it prices responder ingress against outbound flow at the network level, but never computes when a responder must leave.

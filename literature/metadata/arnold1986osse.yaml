@@ -1,0 +1,42 @@
+paper_id: arnold1986osse
+title: "Observing-Systems Simulation Experiments: Past, Present, and Future"
+authors:
+  - "Charles P. Arnold"
+  - "Clifford H. Dey"
+year: 1986
+venue: "Bulletin of the American Meteorological Society"
+venue_type: journal
+volume: "67"
+issue: "6"
+pages: "687-695"
+doi: "10.1175/1520-0477(1986)067<0687:OSSEPP>2.0.CO;2"
+url: "https://doi.org/10.1175/1520-0477(1986)067%3C0687:OSSEPP%3E2.0.CO;2"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); cited as twin-bias source by Yu et al. 2019"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Use a truth model that is not the forecast model; document that the identical-twin shortcut is a known, named design defect."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "yes"
+one_line_difference: "Foundational OSSE methodology statement, including the identical-twin problem. NEEDS_FULL_TEXT to quote directly."

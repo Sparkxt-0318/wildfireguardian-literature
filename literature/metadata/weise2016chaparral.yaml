@@ -1,0 +1,39 @@
+paper_id: weise2016chaparral
+title: "Fire spread in chaparral - a comparison of laboratory data and model predictions in burning live fuels"
+authors: ["David R. Weise", "Eunmo Koo", "Xiangyang Zhou", "Shankar Mahalingam", "Frederic Morandini", "Jacques-Henri Balbi"]
+year: 2016
+venue: "International Journal of Wildland Fire"
+venue_type: journal
+volume: "25"
+issue: "9"
+pages: "980-994"
+doi: 10.1071/wf15177
+url: https://doi.org/10.1071/wf15177
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; abstract via Consensus record"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: yes
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "Documents outright model failure rather than model error: with default values Rothermel failed to predict spread in nearly all 240 live-fuel chaparral fires, and the tested models were correct only 49-69% of the time."

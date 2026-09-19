@@ -1,0 +1,39 @@
+paper_id: allaire2021emulation
+title: "Emulation of wildland fire spread simulation using deep learning"
+authors: ["Frederic Allaire", "Vivien Mallet", "Jean-Baptiste Filippi"]
+year: 2021
+venue: "Neural Networks"
+venue_type: journal
+volume: "141"
+issue: null
+pages: "184-198"
+doi: 10.1016/j.neunet.2021.04.006
+url: https://doi.org/10.1016/j.neunet.2021.04.006
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; abstract via Consensus record"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: yes
+  forecast_skill_boundary: partial
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: "Quantifies the emulation trade WildfireGuardian depends on: a several-thousand-fold speed-up bought at a burned-area MAPE of 32.8%; it reports that error as an approximation cost, not as a decision cost."

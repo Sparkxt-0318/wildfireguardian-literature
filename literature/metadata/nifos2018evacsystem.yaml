@@ -1,0 +1,44 @@
+paper_id: nifos2018evacsystem
+title: "Development of an Evacuation System for Reducing Damages by Forest Disaster"
+title_original: "산림재해 피해저감을 위한 대피 및 경계피난시스템 개발"
+language: ko
+authors: "Yoon, Ho-joong (윤호중) [principal investigator]; National Institute of Forest Science (국립산림과학원)"
+year: 2018
+venue: "Research report to the Korea Forest Service (산림청); NTIS/ScienceON report TRKO201800042755"
+venue_type: government_research_report
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201800042755"
+publication_status: GOVERNMENT_REPORT
+open_access_status: record_open_fulltext_unverified
+date_verified: 2026-09-19
+verified_via: "WebFetch of the ScienceON/KISTI report record"
+category: [8]
+threat_level: MODERATE
+threatens_claims: [WG-C-007, WG-C-005]
+matrix:
+  future_fire: partial        # smoke dispersion prediction, not fire-front arrival time
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: partial # alert service + support measures for vulnerable residents
+  inbound_responder: no
+  pickup: no
+  egress: partial
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: partial     # unmanned remote monitoring, SNS monitoring
+  korean_setting: yes
+  real_validation: NEEDS_FULL_TEXT
+  osse: no
+one_line_difference: >
+  NIFoS computes an evacuation RANGE (which area must clear) from modelled smoke dispersion
+  and ranks warning-evacuation priority; WildfireGuardian computes an evacuation TIME (when a
+  responder must depart) from modelled fire-front arrival on both legs of a round trip.

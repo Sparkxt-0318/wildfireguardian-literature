@@ -1,0 +1,44 @@
+paper_id: berlinghieri2024pm25
+title: "Are Hourly PM2.5 Forecasts Sufficiently Accurate to Plan Your Day? Individual Decision Making in the Face of Increasing Wildfire Smoke"
+authors: "Berlinghieri, Renato; Burt, David R.; Giani, Paolo; Fiore, Arlene; Broderick, Tamara"
+year: 2024
+venue: "arXiv (2409.05866)"
+venue_type: preprint
+volume: None
+issue: None
+pages: "None"
+doi: 10.48550/arXiv.2409.05866
+url: https://arxiv.org/abs/2409.05866
+publication_status: PREPRINT
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: alphaXiv full-text retrieval (E3)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-006, WG-C-014, WG-C-002]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: >
+  Wildfire-smoke domain: evaluates six operational forecasts on two explicit
+  DECISION tasks against a strong persistence baseline and finds no forecast
+  beats persistence on one task while most beat it on the other; the decision
+  is individual exposure avoidance, not evacuation timing, and the baseline is
+  persistence rather than a tuned spatial trigger.

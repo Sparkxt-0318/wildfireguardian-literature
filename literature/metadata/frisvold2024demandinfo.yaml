@@ -1,0 +1,41 @@
+paper_id: frisvold2024demandinfo
+title: "Demand for Information for Wildland Fire Management"
+authors: "Frisvold, George B.; Zhang, Ning; Crimmins, Michael A.; Ferguson, Daniel; Maxwell, Charles"
+year: 2024
+venue: "Atmosphere"
+venue_type: journal
+volume: 15
+issue: 11
+pages: "1364"
+doi: 10.3390/atmos15111364
+url: https://doi.org/10.3390/atmos15111364
+publication_status: peer_reviewed_journal
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: Crossref API + search summary (E1/E2)
+category: [5]
+threat_level: LOW
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: partial
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Empirical study of WHO uses fire information and when; descriptive demand-
+  side evidence, no normative VOI computation and no sensing design.

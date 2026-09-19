@@ -1,0 +1,43 @@
+paper_id: olivetti2026compounding
+title: "Assessing the real-world economic value of weather forecasts for compounding extremes"
+authors: "Olivetti, Leonardo; Messori, Gabriele; Avner, Paolo; Hallegatte, Stephane"
+year: 2026
+venue: "Environmental Research Letters"
+venue_type: journal
+volume: 21
+issue: 15
+pages: "154048"
+doi: 10.1088/1748-9326/ae9327
+url: https://doi.org/10.1088/1748-9326/ae9327
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Consensus abstract
+category: [4]
+threat_level: MODERATE
+threatens_claims: [WG-C-002, WG-C-014]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Shows model rankings flip with cost-loss ratio and penalty structure (IFS
+  HRES vs AIFS), i.e. meteorological skill does not determine which system is
+  better for a given decision-maker; urban multi-hazard, no evacuation
+  mission.

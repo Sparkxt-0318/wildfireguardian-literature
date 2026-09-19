@@ -1,0 +1,39 @@
+paper_id: lautenberger2013elmfire
+title: "Wildland fire modeling with an Eulerian level set method and automated calibration"
+authors: ["Chris Lautenberger"]
+year: 2013
+venue: "Fire Safety Journal"
+venue_type: journal
+volume: "62"
+issue: null
+pages: "289-298"
+doi: 10.1016/j.firesaf.2013.08.014
+url: https://doi.org/10.1016/j.firesaf.2013.08.014
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: partial
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "Defines ELMFIRE, the level-set spread engine with an MPI Monte Carlo mode that makes 1000-member operational ensembles affordable; it is a modelling paper, and its ensemble is over input uncertainty, not over decisions."

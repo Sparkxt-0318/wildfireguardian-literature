@@ -1,0 +1,44 @@
+paper_id: lopez2020bridging
+title: "Bridging forecast verification and humanitarian decisions: A valuation approach for setting up action-oriented early warnings"
+authors: "Lopez, Ana; Coughlan de Perez, Erin; Bazo, Juan; Suarez, Pablo; van den Hurk, Bart; van Aalst, Maarten"
+year: 2020
+venue: "Weather and Climate Extremes"
+venue_type: journal
+volume: 27
+issue: None
+pages: "100167"
+doi: 10.1016/j.wace.2018.03.006
+url: https://doi.org/10.1016/j.wace.2018.03.006
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Univ. Twente record + search summary (E2)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-002, WG-C-012, WG-C-006]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: yes
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Selects the joint (magnitude, probability threshold, lead time) that should
+  trigger humanitarian action by valuation - i.e. a three-axis trigger
+  boundary in forecast-quality space; the comparator is acting on
+  climatology/no-action, and the triggered action has no mission-feasibility
+  constraint.

@@ -1,0 +1,42 @@
+paper_id: henderson2016inversecrime
+title: "'Inverse Crime' and Model Integrity in Lightcurve Inversion applied to unresolved Space Object Identification"
+authors:
+  - "Laura S. Henderson"
+  - "Kamesh Subbarao"
+year: 2016
+venue: "The Journal of the Astronautical Sciences"
+venue_type: journal
+volume: "64"
+issue: "4"
+pages: "399-413"
+doi: "10.1007/s40295-016-0105-1"
+url: "https://doi.org/10.1007/s40295-016-0105-1"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); Consensus (abstract)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Report results under both the crime (same model) and the non-crime (different model) configuration so the size of the optimism is measured, not just asserted."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "related (inverse-problem analogue)"
+one_line_difference: "Empirical demonstration that committing the inverse crime yields misleadingly optimistic parameter estimates; different domain (space object ID)."

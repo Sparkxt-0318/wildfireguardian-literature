@@ -1,0 +1,43 @@
+paper_id: xu2026wildfirefm
+title: "Does Your Wildfire Prediction Model Actually Work, or Just Score Well?"
+authors: "Xu, Yangshuang; Dai, Yuyang; Chang, Liling; Wang, Qi; Dong, Yushun"
+year: 2026
+venue: "arXiv (2605.18911v2)"
+venue_type: preprint
+volume: None
+issue: None
+pages: "None"
+doi: 10.48550/arXiv.2605.18911
+url: https://arxiv.org/abs/2605.18911
+publication_status: PREPRINT
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: alphaXiv full-text retrieval (E3)
+category: [5]
+threat_level: MODERATE
+threatens_claims: [WG-C-014]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: >
+  Shows wildfire model rankings flip with evaluation design (matching rules,
+  head selection) under a fixed-contract framework; the sensitivity is metric-
+  to-metric within prediction, NOT prediction-metric-to-decision-quality, so
+  it does not itself occupy WG-C-014.

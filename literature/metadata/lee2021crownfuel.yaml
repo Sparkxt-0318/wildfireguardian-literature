@@ -1,0 +1,44 @@
+paper_id: lee2021crownfuel
+title: "The Analysis of Forest Fire Fuel Structure Through the Development of Crown Fuel Vertical Distribution Model: A Case Study on Managed and Unmanaged Stands of Pinus densiflora in the Gyeongbuk Province"
+title_original: "수관연료 수직분포모델 개발을 통한 산불연료구조 분석: 경북지역의 소나무림 산림시업지와 비시업지를 대상으로"
+language: ko+en
+authors: "Lee, Sun Joo (이선주); Kwon, Chun Geun (권춘근); Kim, Sungyong (김성용)"
+year: 2021
+venue: "Korean Journal of Agricultural and Forest Meteorology / 한국농림기상학회지"
+venue_type: journal
+volume: 23
+issue: 1
+pages: 46-54
+doi: UNVERIFIED
+url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002703652"
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "WebFetch of the KCI bibliographic record (DOI not shown in the record)"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial   # destructive sampling, Youngju / Bonghwa stands
+  osse: no
+one_line_difference: >
+  Measured Pinus densiflora crown fuel vertical distribution and canopy bulk density
+  (~1.6x higher in unmanaged stands) in Gyeongbuk — Korean fuel-structure evidence usable
+  as a crown-fire input, with no evacuation content of its own.

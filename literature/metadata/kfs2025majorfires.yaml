@@ -1,0 +1,43 @@
+paper_id: kfs2025majorfires
+title: "Major wildfires in Korea [translation]"
+title_original: "우리나라의 대형산불"
+language: ko
+authors: "Korea Forest Service (산림청)"
+year: 2025
+venue: "Korea Forest Service official website, 산림재난 > 산불 > 산불정보 (cmsId=FC_001157)"
+venue_type: government_web_statistics
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: "https://center.forest.go.kr/kfsweb/kfi/kfs/cms/cmsView.do?cmsId=FC_001157&mn=AR04_01_04_04"
+publication_status: GOVERNMENT_REPORT
+open_access_status: publicly_accessible_web_page
+date_verified: 2026-09-19
+verified_via: "WebFetch of the KFS page; cross-checked against e-나라지표 indicator 1309"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: n/a
+  osse: no
+one_line_difference: >
+  Source of record for Korean major-fire burned area and duration. Not a research work; cite
+  only for event statistics, never as evidence about evacuation methods.

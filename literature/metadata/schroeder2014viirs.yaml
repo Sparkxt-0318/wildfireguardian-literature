@@ -1,0 +1,39 @@
+paper_id: schroeder2014viirs
+title: "The New VIIRS 375 m active fire detection data product: Algorithm description and initial assessment"
+authors: ["Wilfrid Schroeder", "Patricia Oliva", "Louis Giglio", "Ivan A. Csiszar"]
+year: 2014
+venue: "Remote Sensing of Environment"
+venue_type: journal
+volume: "143"
+issue: null
+pages: "85-96"
+doi: 10.1016/j.rse.2013.12.008
+url: https://doi.org/10.1016/j.rse.2013.12.008
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query"
+category: [7]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: partial
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "Defines the 375 m polar-orbiting active-fire product that is the default fire-position observation for most of the world; it produces detection points, not fire perimeters or rates of spread, and its revisit is the binding constraint WG-C-012 inherits."

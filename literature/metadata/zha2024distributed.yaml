@@ -1,0 +1,39 @@
+paper_id: zha2024distributed
+title: "The distributed strategy for asynchronous observations in data-driven wildland fire spread prediction"
+authors: ["Mengxia Zha", "Zheng Wang", "Jie Ji", "Jiping Zhu"]
+year: 2024
+venue: "International Journal of Wildland Fire"
+venue_type: journal
+volume: "33"
+issue: "7"
+pages: UNVERIFIED
+doi: 10.1071/wf23165
+url: https://doi.org/10.1071/wf23165
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query (article pages not returned); abstract via Consensus record"
+category: [6, 7]
+threat_level: HIGH
+threatens_claims: ["WG-C-010", "WG-C-008"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: yes
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: partial
+  voi: partial
+  active_sensing: partial
+  korean_setting: no
+  real_validation: no
+  osse: yes
+one_line_difference: "Runs OSSEs to generate asynchronous fire-front observations, treats observation staleness (latency) as the central problem, and concludes that observation resources should be concentrated where spread rates are highest; the allocation rule is driven by prediction error, not by any protective-action consequence."

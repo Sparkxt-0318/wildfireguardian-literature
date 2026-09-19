@@ -1,0 +1,40 @@
+paper_id: kalogeropoulos2022kperil
+title: "k-PERIL: probabilistic creation of trigger boundaries for rural communities evacuating from a wildfire"
+authors: ["Nikolaos Kalogeropoulos", "Harry Mitchell", "Guillermo Rein"]
+year: 2022
+venue: "Advances in Forest Fire Research 2022"
+venue_type: book_chapter
+volume: ""
+issue: ""
+pages: "273-282"
+doi: 10.14195/978-989-26-2298-9_43
+url: https://doi.org/10.14195/978-989-26-2298-9_43
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record (two independent queries)"]
+category: [1]
+threat_level: HIGH
+threatens_claims: ["WG-C-004"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Conference-proceedings first announcement of k-PERIL's probabilistic trigger boundaries; it is a conference book chapter, NOT a journal article, and must never be cited as one.

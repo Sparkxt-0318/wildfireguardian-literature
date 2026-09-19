@@ -1,0 +1,42 @@
+paper_id: rainforth2024modernbed
+title: "Modern Bayesian Experimental Design"
+authors: "Rainforth, Tom; Foster, Adam; Ivanova, Desi R.; Bickford Smith, Freddie"
+year: 2024
+venue: "Statistical Science"
+venue_type: journal
+volume: 39
+issue: 1
+pages: "100-114 (page range from secondary source; Crossref page field empty)"
+doi: 10.1214/23-STS915
+url: https://doi.org/10.1214/23-STS915
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + search summary (E2)
+category: [5]
+threat_level: HIGH (field ownership)
+threatens_claims: [WG-C-008]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: yes
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Canonical modern review of Bayesian experimental design / expected
+  information gain; confirms the machinery WG-C-008 would use is mature and
+  not ours to claim as a method.

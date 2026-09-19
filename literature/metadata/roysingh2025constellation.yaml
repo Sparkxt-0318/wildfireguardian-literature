@@ -1,0 +1,39 @@
+paper_id: roysingh2025constellation
+title: "Optimal Planning and Machine Learning for Responsive Tracking and Enhanced Forecasting of Wildfires using a Spacecraft Constellation"
+authors: ["Sreeja Roy-Singh", "Vinay Ravindra", "Richard Levinson", "Mahta Moghaddam", "Jan Mandel", "Adam Kochanski", "Angel Farguell Caus", "Kurtis Nelson", "Samira Alkaee Taleghan", "Archana Kannan", "Amer Melebari"]
+year: 2025
+venue: "arXiv:2508.06687"
+venue_type: preprint
+volume: null
+issue: null
+pages: null
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2508.06687
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "alphaXiv full-text retrieval of arXiv:2508.06687"
+category: [7]
+threat_level: HIGH
+threatens_claims: ["WG-C-008", "WG-C-012"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: yes
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: yes
+  voi: partial
+  active_sensing: yes
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "Schedules a satellite constellation for wildfire observation with a mixed-integer program and states an explicit end-to-end latency budget of 6-30 h; the objective maximises aggregate science reward with active-fire targets weighted ten-fold, which is a priority heuristic, not a downstream protective-action consequence."

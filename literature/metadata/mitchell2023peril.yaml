@@ -1,0 +1,40 @@
+paper_id: mitchell2023peril
+title: "Integrating wildfire spread and evacuation times to design safe triggers: Application to two rural communities using PERIL model"
+authors: ["Harry Mitchell", "Steve Gwynne", "Enrico Ronchi", "Nikolaos Kalogeropoulos", "Guillermo Rein"]
+year: 2023
+venue: "Safety Science"
+venue_type: journal
+volume: "157"
+issue: ""
+pages: "105914"
+doi: 10.1016/j.ssci.2022.105914
+url: https://doi.org/10.1016/j.ssci.2022.105914
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Unpaywall (is_oa=true, publisher-hosted PDF)", "FRAMES catalog record 66666 with abstract"]
+category: [1]
+threat_level: HIGH
+threatens_claims: ["WG-C-001", "WG-C-004"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: >
+  Re-founds the trigger boundary in the fire-safety-engineering tradition (FARSITE + explicit safety factors for uncertainty) and validates on Swinley Forest UK and Roxborough Park USA; the safety factor is a margin, not a probability distribution, and there is no responder leg.

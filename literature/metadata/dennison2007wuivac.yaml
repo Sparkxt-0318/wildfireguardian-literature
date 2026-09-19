@@ -1,0 +1,42 @@
+paper_id: dennison2007wuivac
+title: "WUIVAC: a wildland-urban interface evacuation trigger model applied in strategic wildfire scenarios"
+authors: ["Philip E. Dennison", "Thomas J. Cova", "Max A. Moritz"]
+year: 2006
+year_note: >
+  Crossref issued 2006 (online first, Natural Hazards); the print issue is 2007. Priority date 2006.
+venue: "Natural Hazards"
+venue_type: journal
+volume: "41"
+issue: "1"
+pages: "181-199"
+doi: 10.1007/s11069-006-9032-y
+url: https://doi.org/10.1007/s11069-006-9032-y
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record (surname printed as 'Mortiz' in the Crossref record; 'Moritz' elsewhere)", "Consensus search record with abstract"]
+category: [1]
+threat_level: HIGH
+threatens_claims: ["WG-C-001"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Turns the trigger buffer into a strategic planning product using 8 years of worst-case winds in 16 directions, including buffers for closure of evacuation routes; still deterministic, still egress-only, no responders.

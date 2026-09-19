@@ -1,0 +1,43 @@
+paper_id: lim2025fwi
+title: "Application of the Canadian Fire Weather Index for Forest Fire Danger Assessment in South Korea"
+title_original: n/a
+language: en
+authors: "Lim, Chan Jin; Chae, Hee Mun"
+year: 2025
+venue: "Forests"
+venue_type: journal
+volume: 16
+issue: 7
+pages: 1058
+doi: 10.3390/f16071058
+url: "https://doi.org/10.3390/f16071058"
+publication_status: PEER_REVIEWED
+open_access_status: gold_OA_CC-BY
+date_verified: 2026-09-19
+verified_via: "OpenAlex API record (title search); abstract via Consensus"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial   # 2004-2023 Korean climate + fire records
+  osse: no
+one_line_difference: >
+  Transfers the Canadian FWI to Korea over 2004-2023 and reports it tracks Korean large-fire
+  frequency when regionally calibrated; a danger-climatology result with no decision output.

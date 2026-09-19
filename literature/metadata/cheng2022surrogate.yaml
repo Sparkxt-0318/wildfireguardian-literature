@@ -1,0 +1,39 @@
+paper_id: cheng2022surrogate
+title: "Data-driven surrogate model with latent data assimilation: Application to wildfire forecasting"
+authors: ["Sibo Cheng", "I. Colin Prentice", "Yuhan Huang", "Yufang Jin", "Yi-Ke Guo", "Rossella Arcucci"]
+year: 2022
+venue: "Journal of Computational Physics"
+venue_type: journal
+volume: "464"
+issue: null
+pages: "111302"
+doi: 10.1016/j.jcp.2022.111302
+url: https://doi.org/10.1016/j.jcp.2022.111302
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; abstract via Consensus record"
+category: [6, 7]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: yes
+  forecast_skill_boundary: partial
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "Couples an LSTM reduced-order surrogate (about 1000x faster than the cellular-automata simulator it emulates) to latent data assimilation of daily satellite perimeters on three Californian fires; the assimilation cadence is daily, which is the latency constraint WG-C-012 is about, but the paper never treats latency as a decision variable."

@@ -1,0 +1,39 @@
+paper_id: linn2002firetec
+title: "Studying wildfire behavior using FIRETEC"
+authors: ["Rodman Linn", "Jon Reisner", "Jonah J. Colman", "Judith Winterkamp"]
+year: 2002
+venue: "International Journal of Wildland Fire"
+venue_type: journal
+volume: "11"
+issue: "4"
+pages: "233-246"
+doi: 10.1071/wf02007
+url: https://doi.org/10.1071/wf02007
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: "The reference CFD-scale physical fire model; recorded so the review can state explicitly that WildfireGuardian does not and cannot use this class of model in decision time."

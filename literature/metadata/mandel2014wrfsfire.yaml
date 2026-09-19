@@ -1,0 +1,39 @@
+paper_id: mandel2014wrfsfire
+title: "Recent advances and applications of WRF-SFIRE"
+authors: ["J. Mandel", "S. Amram", "J. D. Beezley", "G. Kelman", "A. K. Kochanski", "V. Y. Kondratenko", "B. H. Lynn", "B. Regev", "M. Vejmelka"]
+year: 2014
+venue: "Natural Hazards and Earth System Sciences"
+venue_type: journal
+volume: "14"
+issue: "10"
+pages: "2829-2845"
+doi: 10.5194/nhess-14-2829-2014
+url: https://doi.org/10.5194/nhess-14-2829-2014
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query (8 of 9 authors returned; 9th from cited reference list in arXiv 2508.06687)"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: partial
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "The coupled atmosphere-fire model that makes fire-induced wind feedback available, and the one that assimilates satellite fire detections via fire-arrival-time; it is a physics/NWP contribution whose cost puts it outside decision-time ensemble use."

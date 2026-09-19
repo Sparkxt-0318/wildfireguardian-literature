@@ -1,0 +1,44 @@
+paper_id: palmer1998singular
+title: "Singular Vectors, Metrics, and Adaptive Observations"
+authors: "Palmer, T. N.; Gelaro, R.; Barkmeijer, J.; Buizza, R."
+year: 1998
+venue: "Journal of the Atmospheric Sciences"
+venue_type: journal
+volume: 55
+issue: 4
+pages: "633-653"
+doi: 10.1175/1520-0469(1998)055<0633:SVMAAO>2.0.CO;2
+url: https://doi.org/10.1175/1520-0469(1998)055<0633:SVMAAO>2.0.CO;2
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + AMS page + search summary (E2)
+category: [5]
+threat_level: HIGH (framework ownership)
+threatens_claims: [WG-C-008]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: partial
+  active_sensing: yes
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Founds targeted/adaptive observation: where to observe is chosen by
+  sensitivity of a forecast metric, and the correct metric depends on the
+  PURPOSE of the observations; the purpose is forecast-error reduction, not a
+  downstream protective-action decision, and the domain is synoptic
+  meteorology.

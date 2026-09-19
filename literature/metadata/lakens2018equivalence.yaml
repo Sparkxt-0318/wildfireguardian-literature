@@ -1,0 +1,43 @@
+paper_id: lakens2018equivalence
+title: "Equivalence Testing for Psychological Research: A Tutorial"
+authors:
+  - "Daniel Lakens"
+  - "Anne M. Scheel"
+  - "Peder M. Isager"
+year: 2018
+venue: "Advances in Methods and Practices in Psychological Science"
+venue_type: journal
+volume: "1"
+issue: "2"
+pages: "259-269"
+doi: "10.1177/2515245918770963"
+url: "https://doi.org/10.1177/2515245918770963"
+publication_status: "published"
+open_access_status: "hybrid"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup); Consensus (abstract)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006, WG-C-002]
+imposes_requirement: "Where the forecast-aware policy does not beat the tuned baseline, run TOST and report equivalence or inconclusiveness - never 'no significant difference'."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "The operational tutorial for TOST including how to set and justify the equivalence bound."

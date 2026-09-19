@@ -1,41 +1,40 @@
 paper_id: flores2020supported
 title: "Supported Evacuation for Disaster Relief through Lexicographic Goal Programming"
-authors: ["Inmaculada Flores", "M. Teresa Ortuño", "Gregorio Tirado", "Begoña Vitoriano"]
+authors: ["Inmaculada Flores", "M. Teresa Ortuno", "Gregorio Tirado", "Begona Vitoriano"]
 year: 2020
-venue: Mathematics
+venue: "Mathematics"
 venue_type: journal
-volume: 8
-issue: 4
-pages: 648
+volume: "8"
+issue: "4"
+pages: "648"
 doi: 10.3390/math8040648
 url: https://doi.org/10.3390/math8040648
 publication_status: PEER_REVIEWED
-open_access_status: OA   # GOLD, CC-BY
+open_access_status: OA
 date_verified: 2026-09-19
-verified_via: Crossref API; Semantic Scholar API (full abstract retrieved)
-category: [2, 9]
+verified_via: ["Crossref API record with full abstract", "cited as foundational supported-evacuation work in Moradi et al. arXiv:2608.05413"]
+category: [3]
 threat_level: MODERATE
-threatens_claims: [WG-C-005]
+threatens_claims: ["WG-C-005", "WG-C-011"]
 matrix:
-  future_fire: false   # hazard is the 2018 Palu earthquake and tsunami, not wildfire
-  traffic: false
-  household_trigger: false
-  probabilistic_trigger: false
-  multiple_fire_models: false
-  assisted_evacuation: true
-  inbound_responder: true
-  pickup: true         # dynamic arrival of evacuees at pickup points
-  egress: true
-  dispatch_by_deadline: false
-  forecast_latency: false
-  forecast_skill_boundary: false
-  decision_value: false
-  scarce_resources: true   # evacuees classified by health condition and treated accordingly
-  voi: false
-  active_sensing: false
-  korean_setting: false
-  real_validation: partial
-  osse: false
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: yes
+  inbound_responder: yes
+  pickup: yes
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: yes
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
 one_line_difference: >
-  The foundational "supported evacuation" optimisation formulation, established in a non-wildfire hazard; it owns the term and
-  the pickup-point framing but contains no hazard-progression feasibility constraint at all.
+  Establishes the term and the model class 'supported evacuation' (health-condition classes, dynamic arrival at pick-up points, no trade-off between objectives) on an earthquake/tsunami case — the framing WG-C-005 must cite rather than claim.

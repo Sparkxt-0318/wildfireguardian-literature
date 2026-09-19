@@ -1,0 +1,40 @@
+paper_id: janfeshanaraghi2025silverado
+title: "Traffic Performance Indicators for Evacuation: The Case Study of the 2020 Silverado Wildfire"
+authors: ["Nima Janfeshanaraghi", "Arthur Rohaert", "Enrico Ronchi", "Noureddine Benichou", "Erica D. Kuligowski"]
+year: 2025
+venue: "Fire Technology"
+venue_type: journal
+volume: "61"
+issue: "7"
+pages: "5815-5839"
+doi: 10.1007/s10694-025-01813-y
+url: https://doi.org/10.1007/s10694-025-01813-y
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Semantic Scholar forward-citation list of k-PERIL"]
+category: [3]
+threat_level: LOW
+threatens_claims: ["WG-C-006"]
+matrix:
+  future_fire: no
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: >
+  Defines empirical traffic performance indicators from a real wildfire evacuation, giving the field measured comparators; useful as a source of realistic congestion numbers for WG-C-003's ingress leg, not a competing claim.

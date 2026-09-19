@@ -1,0 +1,43 @@
+paper_id: oreskes1994verification
+title: "Verification, Validation, and Confirmation of Numerical Models in the Earth Sciences"
+authors:
+  - "Naomi Oreskes"
+  - "Kristin Shrader-Frechette"
+  - "Kenneth Belitz"
+year: 1994
+venue: "Science"
+venue_type: journal
+volume: "263"
+issue: "5147"
+pages: "641-646"
+doi: "10.1126/science.263.5147.641"
+url: "https://doi.org/10.1126/science.263.5147.641"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Never claim an open-system fire/evacuation model is 'validated'; claim only confirmation against stated data under stated assumptions."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Philosophical constraint on what simulation evidence can establish; prohibits the word 'validated' for our OSSE."

@@ -1,0 +1,41 @@
+paper_id: kunsch1989blockbootstrap
+title: "The Jackknife and the Bootstrap for General Stationary Observations"
+authors:
+  - "Hans R. Kunsch"
+year: 1989
+venue: "The Annals of Statistics"
+venue_type: journal
+volume: "17"
+issue: "3"
+pages: "UNVERIFIED"
+doi: "10.1214/aos/1176347265"
+url: "https://doi.org/10.1214/aos/1176347265"
+publication_status: "published"
+open_access_status: "green"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006]
+imposes_requirement: "If scenarios are serially dependent along a fire's timeline, resample contiguous blocks rather than individual time points."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Provides the block-resampling machinery for dependent sequences; says nothing about wildfire or decisions."

@@ -1,0 +1,44 @@
+paper_id: sun2025decisionfocusedsensing
+title: "Decision-focused Sensing and Forecasting for Adaptive and Rapid Flood Response: An Implicit Learning Approach"
+authors: "Sun, Qian; Hults, Graham; Xu, Susu"
+year: 2025
+venue: "BuildSys '25: Proc. 12th ACM Int. Conf. on Systems for Energy-Efficient Buildings, Cities, and Transportation"
+venue_type: conference
+volume: None
+issue: None
+pages: "117-127"
+doi: 10.1145/3736425.3770102
+url: https://doi.org/10.1145/3736425.3770102
+publication_status: peer_reviewed_conference
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: alphaXiv full-text retrieval + Crossref API (E3)
+category: [5]
+threat_level: CRITICAL
+threatens_claims: [WG-C-008, WG-C-014]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: partial
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: yes
+  voi: yes
+  active_sensing: yes
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: >
+  Selects in-situ sensor locations AND trains the forecast model end-to-end to
+  minimise downstream evacuation/relocation decision regret, explicitly
+  rejecting information-gain placement and average-error training; hazard is
+  flood depth, the decision is evacuation/relocation cost, and there is no
+  responder dispatch deadline or fire-arrival feasibility constraint.

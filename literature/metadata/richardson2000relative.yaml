@@ -1,0 +1,44 @@
+paper_id: richardson2000relative
+title: "Skill and relative economic value of the ECMWF ensemble prediction system"
+authors: "Richardson, D. S."
+year: 2000
+venue: "Quarterly Journal of the Royal Meteorological Society"
+venue_type: journal
+volume: 126
+issue: 563
+pages: "649-667"
+doi: 10.1002/qj.49712656313
+url: https://doi.org/10.1002/qj.49712656313
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Wiley listing + search summary
+category: [4]
+threat_level: HIGH (framework ownership)
+threatens_claims: [WG-C-002, WG-C-004]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: partial
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Owns the relative-economic-value (REV) curve as a function of cost-loss
+  ratio and lead time for ensemble forecasts; the 'region of the C/L axis
+  where the forecast has value' IS a forecast-value boundary, but in weather-
+  variable space, with climatology as the reference, not a tuned spatial
+  trigger buffer.

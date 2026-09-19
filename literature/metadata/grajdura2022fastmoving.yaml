@@ -1,0 +1,41 @@
+paper_id: grajdura2022fastmoving
+title: "Fast-moving dire wildfire evacuation simulation"
+authors: ["Sarah Grajdura", "Sachraa Borjigin", "Deb Niemeier"]
+year: 2022
+venue: "Transportation Research Part D: Transport and Environment"
+venue_type: journal
+volume: 104
+issue: UNVERIFIED
+pages: 103190
+doi: 10.1016/j.trd.2022.103190
+url: https://doi.org/10.1016/j.trd.2022.103190
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, article number, authors, date); abstract via Consensus record
+category: [9]
+threat_level: MODERATE
+threatens_claims: [WG-C-005]
+matrix:
+  future_fire: partial   # 2018 Camp Fire progression drives the scenario
+  traffic: true
+  household_trigger: true   # empirically grounded awareness and departure delays from a post-disaster survey and decision trees
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: false  # models the CONSEQUENCE of lacking a vehicle (agents become trapped), not the provision of one
+  inbound_responder: false
+  pickup: false
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: partial   # notification / awareness delay is an explicit scenario variable
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: partial   # "reduced vehicle access" is one of the three critical scenario levers
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: true       # post-Camp-Fire survey grounds agent behaviour
+  osse: false
+one_line_difference: >
+  Establishes empirically that reduced vehicle access plus notification delay is what traps people in a fast-moving fire --
+  the motivating evidence for WG-C-003 -- while explicitly not modelling any assistance being sent.

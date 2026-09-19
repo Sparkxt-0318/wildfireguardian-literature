@@ -1,0 +1,40 @@
+paper_id: cova2011shelter
+title: "Modeling Evacuate versus Shelter-in-Place Decisions in Wildfires"
+authors: ["Thomas J. Cova", "Philip E. Dennison", "Frank A. Drews"]
+year: 2011
+venue: "Sustainability"
+venue_type: journal
+volume: "3"
+issue: "10"
+pages: "1662-1687"
+doi: 10.3390/su3101662
+url: https://doi.org/10.3390/su3101662
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "cited and described in Moradi et al. 2026 arXiv:2608.05413 literature review"]
+category: [1]
+threat_level: MODERATE
+threatens_claims: ["WG-C-002", "WG-C-013"]
+matrix:
+  future_fire: partial
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Poses wildfire protective action as an explicit decision-analytic choice (evacuate vs shelter-in-place) with a loss structure, which is the decision-theoretic framing WG-C-002 builds on; it does not parameterise the decision by forecast skill, lead time or latency.

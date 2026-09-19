@@ -1,0 +1,40 @@
+paper_id: kalogeropoulos2023kperil
+title: "Design of stochastic trigger boundaries for rural communities evacuating from a wildfire"
+authors: ["Nikolaos Kalogeropoulos", "Harry Mitchell", "Enrico Ronchi", "Steve Gwynne", "Guillermo Rein"]
+year: 2023
+venue: "Fire Safety Journal"
+venue_type: journal
+volume: "140"
+issue: ""
+pages: "103854"
+doi: 10.1016/j.firesaf.2023.103854
+url: https://doi.org/10.1016/j.firesaf.2023.103854
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["Crossref API record (CC-BY license listed)", "Unpaywall is_oa=true, oa_status=hybrid", "OpenAlex record with full abstract", "Zenodo software record 10.5281/zenodo.10277917"]
+category: [1]
+threat_level: CRITICAL
+threatens_claims: ["WG-C-004"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Produces STOCHASTIC trigger boundaries by sampling historic wind/weather/vegetation variability and introduces 'uncertainty rosettes' mapping where the boundary is most sensitive — this is probabilistic trigger design done properly, and it is the paper that makes WG-C-004 unclaimable.

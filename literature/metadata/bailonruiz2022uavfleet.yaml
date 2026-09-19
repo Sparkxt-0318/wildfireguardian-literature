@@ -1,0 +1,39 @@
+paper_id: bailonruiz2022uavfleet
+title: "Real-time wildfire monitoring with a fleet of UAVs"
+authors: ["Rafael Bailon-Ruiz", "Arthur Bit-Monnot", "Simon Lacroix"]
+year: 2022
+venue: "Robotics and Autonomous Systems"
+venue_type: journal
+volume: "152"
+issue: null
+pages: "104071"
+doi: 10.1016/j.robot.2022.104071
+url: https://doi.org/10.1016/j.robot.2022.104071
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; system description (SAOP) via WebSearch summary of the publisher abstract (E2)"
+category: [7]
+threat_level: MODERATE
+threatens_claims: ["WG-C-008"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: partial
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: partial
+  voi: partial
+  active_sensing: yes
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "Closes the loop the other way round from most sensing work - a fire-spread forecast defines where the UAV fleet should look next - but the observation plan is scored by coverage of the predicted fire perimeter, never by what a commander would do differently."

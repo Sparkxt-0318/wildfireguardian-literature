@@ -1,0 +1,47 @@
+paper_id: halliwell2014fraternal
+title: "Rigorous Evaluation of a Fraternal Twin Ocean OSSE System for the Open Gulf of Mexico"
+authors:
+  - "G. R. Halliwell"
+  - "A. Srinivasan"
+  - "V. Kourafalou"
+  - "H. Yang"
+  - "D. Willey"
+  - "M. Le Henaff"
+  - "R. Atlas"
+year: 2014
+venue: "Journal of Atmospheric and Oceanic Technology"
+venue_type: journal
+volume: "31"
+issue: "1"
+pages: "105-130"
+doi: "10.1175/JTECH-D-13-00011.1"
+url: "https://doi.org/10.1175/JTECH-D-13-00011.1"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); Consensus (abstract)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Configure the forecast fire model so its error growth against the truth run matches the error growth of real fire models against real fires; then verify impact estimates against a real observing-system experiment."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "yes"
+one_line_difference: "The clearest published statement of fraternal-twin design criteria and of the requirement that an OSSE neither over- nor under-estimates impact; ocean domain."

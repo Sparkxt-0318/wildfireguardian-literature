@@ -1,0 +1,43 @@
+paper_id: regnier2006dynamic
+title: "A Dynamic Decision Model Applied to Hurricane Landfall"
+authors: "Regnier, Eva; Harr, Patrick A."
+year: 2006
+venue: "Weather and Forecasting"
+venue_type: journal
+volume: 21
+issue: 5
+pages: "764-780"
+doi: 10.1175/WAF958.1
+url: https://journals.ametsoc.org/view/journals/wefo/21/5/waf958_1.xml
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + AMS page + search summary (abstract paraphrase, E2)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-002, WG-C-012]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: partial
+  forecast_skill_boundary: partial
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Owns 'act now vs wait for a better forecast' as a sequential decision
+  problem where forecast accuracy is an explicit function of lead time; the
+  protective action is an irreversible preparation cost, not a responder round
+  trip with a mission-completion deadline.

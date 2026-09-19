@@ -1,0 +1,43 @@
+paper_id: morris2019simulation
+title: "Using simulation studies to evaluate statistical methods"
+authors:
+  - "Tim P. Morris"
+  - "Ian R. White"
+  - "Michael J. Crowther"
+year: 2019
+venue: "Statistics in Medicine"
+venue_type: journal
+volume: "38"
+issue: "11"
+pages: "2074-2102"
+doi: "10.1002/sim.8086"
+url: "https://doi.org/10.1002/sim.8086"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006, WG-C-010]
+imposes_requirement: "Structure the experiment as ADEMP, justify the number of scenario repetitions from a target Monte Carlo standard error, and report MCSE on every headline number."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Gives the reporting skeleton and the Monte Carlo standard error requirement our scenario counts must satisfy."

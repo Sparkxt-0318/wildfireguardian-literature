@@ -65,8 +65,22 @@ def fetch(url):
         return json.load(r)
 
 
+def resolve_datacite(doi):
+    """arXiv and Zenodo register DOIs with DataCite, not Crossref, so a
+    Crossref 404 alone does not mean the DOI is fake."""
+    d = fetch("https://api.datacite.org/dois/" + urllib.parse.quote(doi, safe=""))["data"]["attributes"]
+    titles = d.get("titles") or [{}]
+    return ("RESOLVED_DATACITE", titles[0].get("title", ""), d.get("publicationYear"),
+            d.get("publisher") if isinstance(d.get("publisher"), str)
+            else (d.get("publisher") or {}).get("name", ""))
+
+
 def resolve(doi):
-    """Return (status, title, year, container) for a DOI."""
+    """Return (status, title, year, container) for a DOI.
+
+    Crossref first, DataCite second. Only a failure at BOTH registries counts
+    as a DOI that does not resolve.
+    """
     doi = doi.strip().replace("https://doi.org/", "").rstrip(".")
     try:
         m = fetch("https://api.crossref.org/works/" + urllib.parse.quote(doi))["message"]
@@ -75,7 +89,10 @@ def resolve(doi):
         return "RESOLVED", title, parts[0][0], (m.get("container-title") or [""])[0]
     except urllib.error.HTTPError as e:
         if e.code == 404:
-            return "NOT_FOUND", "", None, ""
+            try:
+                return resolve_datacite(doi)
+            except Exception:
+                return "NOT_FOUND", "", None, ""
         return f"HTTP_{e.code}", "", None, ""
     except Exception as e:                                  # network, parse, etc.
         return f"ERROR:{type(e).__name__}", "", None, ""
@@ -111,7 +128,7 @@ def main():
         time.sleep(0.2)                                     # be polite to Crossref
 
         agree = ""
-        if status == "RESOLVED":
+        if status.startswith("RESOLVED"):
             t_ok = norm(title)[:60] == norm(claimed_title)[:60] or norm(claimed_title)[:40] in norm(title)
             y_ok = str(year) == str(claimed_year).strip()
             agree = "MATCH" if (t_ok and y_ok) else ("TITLE_MISMATCH" if not t_ok else "YEAR_MISMATCH")
@@ -133,7 +150,7 @@ def main():
 
     print(f"\naudited {len(rows)} records")
     print(f"  no DOI recorded : {sum(1 for r in rows if r[2] == 'NO_DOI')}")
-    print(f"  resolved        : {sum(1 for r in rows if r[2] == 'RESOLVED')}")
+    print(f"  resolved        : {sum(1 for r in rows if r[2].startswith('RESOLVED'))}")
     print(f"  failures        : {len(failures)}")
     for pid, doi, why, detail in failures:
         print(f"    FAIL {pid} [{doi}] {why} -- {detail}")

@@ -1,0 +1,39 @@
+paper_id: allaire2020ensemble
+title: "Generation and evaluation of an ensemble of wildland fire simulations"
+authors: ["Frederic Allaire", "Jean-Baptiste Filippi", "Vivien Mallet"]
+year: 2020
+venue: "International Journal of Wildland Fire"
+venue_type: journal
+volume: "29"
+issue: "2"
+pages: "160-173"
+doi: 10.1071/wf19073
+url: https://doi.org/10.1071/wf19073
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; abstract via Consensus record"
+category: [6]
+threat_level: MODERATE
+threatens_claims: ["WG-C-004"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: partial
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: partial
+  forecast_skill_boundary: partial
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "Imports meteorological probabilistic verification (burn-probability maps scored with proper scores) into wildfire, on seven real Corsican fires; it scores the forecast, never the decision, and its ensemble is single-model Monte Carlo over inputs."

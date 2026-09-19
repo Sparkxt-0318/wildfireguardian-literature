@@ -1,0 +1,41 @@
+paper_id: murphy1994assessing
+title: "Assessing the economic value of weather forecasts: an overview of methods, results and issues"
+authors: "Murphy, Allan H."
+year: 1994
+venue: "Meteorological Applications"
+venue_type: journal
+volume: 1
+issue: 1
+pages: "69-73"
+doi: 10.1002/j.1469-8080.1994.tb00007.x
+url: https://doi.org/10.1002/j.1469-8080.1994.tb00007.x
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API + Wiley listing
+category: [4]
+threat_level: MODERATE (review/ownership)
+threatens_claims: [WG-C-002, WG-C-006]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  A survey of forecast-value methodology; establishes that the whole apparatus
+  WildfireGuardian would use for RQ1 was already mature in 1994.

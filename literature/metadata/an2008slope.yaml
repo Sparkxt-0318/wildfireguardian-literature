@@ -1,0 +1,44 @@
+paper_id: an2008slope
+title: "Spread Speed of Forest Fire based on Slope"
+title_original: "경사에 따른 산불의 확산속도"
+language: ko+en
+authors: "An, Sang-Hyun (안상현); Shin, Young-Chul (신영철)"
+year: 2008
+venue: "Journal of the Korean Society of Hazard Mitigation / 한국방재학회논문집"
+venue_type: journal
+volume: 8
+issue: 4
+pages: 75-79
+doi: UNVERIFIED
+url: "https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO200833338361788"
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "WebFetch of the ScienceON/KISTI bibliographic record (DOI not shown in the record)"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: partial
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial   # experimental burns
+  osse: no
+one_line_difference: >
+  Korean experimental slope/rate-of-spread data (upslope ~4.68x downslope at 30 degrees).
+  Not an evacuation work; it is a candidate input for a NOVELTY_STANDARD §4(a) argument
+  that Korean slope distributions compress evacuation lead times.

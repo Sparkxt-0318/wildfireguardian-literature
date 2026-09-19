@@ -1,0 +1,39 @@
+paper_id: finney1998farsite
+title: "FARSITE: Fire Area Simulator - model development and evaluation"
+authors: ["Mark A. Finney"]
+year: 1998
+venue: "USDA Forest Service, Rocky Mountain Research Station, Research Paper RMRS-RP-4 (revised 2004)"
+venue_type: report
+volume: "RMRS-RP-4"
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: https://research.fs.usda.gov/treesearch/4617
+publication_status: GOVERNMENT_REPORT
+open_access_status: public_domain_us_government
+date_verified: 2026-09-19
+verified_via: "USDA FS TreeSearch record 4617 located via WebSearch; series, year, revision year and title confirmed. DOI and page count NOT retrieved."
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial
+  osse: no
+one_line_difference: "FARSITE is the deterministic Huygens-wavelet growth engine the trigger literature (Cova 2005, PERIL) runs; it is a government research paper documenting a simulator, not a study of decision quality."

@@ -1,0 +1,39 @@
+paper_id: andrews2018rothermel
+title: "The Rothermel surface fire spread model and associated developments: A comprehensive explanation"
+authors: ["Patricia L. Andrews"]
+year: 2018
+venue: "USDA Forest Service, Rocky Mountain Research Station, General Technical Report RMRS-GTR-371"
+venue_type: report
+volume: "RMRS-GTR-371"
+issue: UNVERIFIED
+pages: "121 p."
+doi: 10.2737/RMRS-GTR-371
+url: https://research.fs.usda.gov/treesearch/55928
+publication_status: GOVERNMENT_REPORT
+open_access_status: public_domain_us_government
+date_verified: 2026-09-19
+verified_via: "USDA FS TreeSearch record 55928 (WebFetch)"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: "Reference consolidation of the Rothermel equations and their NFDRS/BEHAVE variants; it is the document that tells us which Rothermel variant a downstream simulator actually implements, and nothing about decisions."

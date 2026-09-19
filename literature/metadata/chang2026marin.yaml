@@ -1,0 +1,40 @@
+paper_id: chang2026marin
+title: "Multiscale Wildfire-Evacuation Modeling: Assessing Differential Access to Safe Egress in Marin County, CA"
+authors: ["Saemi Chang", "Louise Comfort", "Kenichi Soga", "Pengshun Li", "Yanglan Wang"]
+year: 2026
+venue: "Risk Analysis"
+venue_type: journal
+volume: "46"
+issue: "9"
+pages: "e70338"
+doi: 10.1111/risa.70338
+url: https://doi.org/10.1111/risa.70338
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "PubMed record 42642826", "PMC article PMC13507379"]
+category: [3]
+threat_level: MODERATE
+threatens_claims: ["WG-C-005", "WG-C-009"]
+matrix:
+  future_fire: partial
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: partial
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Quantifies DIFFERENTIAL access to safe egress across a population, i.e. who is structurally worse off in an evacuation — the equity framing behind WG-C-005 — without modelling anyone being fetched.

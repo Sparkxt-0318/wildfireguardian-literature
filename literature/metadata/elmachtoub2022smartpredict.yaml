@@ -1,0 +1,42 @@
+paper_id: elmachtoub2022smartpredict
+title: "Smart 'Predict, then Optimize'"
+authors:
+  - "Adam N. Elmachtoub"
+  - "Paul Grigas"
+year: 2022
+venue: "Management Science"
+venue_type: journal
+volume: "68"
+issue: "1"
+pages: "9-26"
+doi: "10.1287/mnsc.2020.3922"
+url: "https://doi.org/10.1287/mnsc.2020.3922"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-014, WG-C-002]
+imposes_requirement: "Report decision regret (SPO loss) as the primary metric, with prediction error as a secondary diagnostic."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "yes (general framework)"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Establishes that prediction error and decision regret are different objectives; generic optimisation setting, no hazard or deadline content."

@@ -1,0 +1,43 @@
+paper_id: cameron2008clusterbootstrap
+title: "Bootstrap-Based Improvements for Inference with Clustered Errors"
+authors:
+  - "A. Colin Cameron"
+  - "Jonah B. Gelbach"
+  - "Douglas L. Miller"
+year: 2008
+venue: "Review of Economics and Statistics"
+venue_type: journal
+volume: "90"
+issue: "3"
+pages: "414-427"
+doi: "10.1162/rest.90.3.414"
+url: "https://doi.org/10.1162/rest.90.3.414"
+publication_status: "published"
+open_access_status: "closed"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup); Consensus (abstract)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-002, WG-C-006]
+imposes_requirement: "With few fire events (5-30 clusters), use the wild cluster bootstrap-t, not asymptotic cluster-robust standard errors, which over-reject."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Gives the exact small-cluster correction our few-event design needs; an econometrics paper, no hazard content."

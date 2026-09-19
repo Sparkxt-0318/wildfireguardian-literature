@@ -1,0 +1,39 @@
+paper_id: wu2025denkf
+title: "Forest Fire Spread Prediction and Assimilation Using the Deterministic Ensemble Kalman Filter"
+authors: ["Tianyu Wu", "Qixing Zhang", "Jiping Zhu", "Liuheng Xu", "Yongming Zhang"]
+year: 2025
+venue: "Fire Technology"
+venue_type: journal
+volume: "61"
+issue: "4"
+pages: "2467-2492"
+doi: 10.1007/s10694-024-01690-x
+url: https://doi.org/10.1007/s10694-024-01690-x
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Crossref REST API bibliographic query; abstract via Consensus record"
+category: [6]
+threat_level: HIGH
+threatens_claims: ["WG-C-010"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: yes
+one_line_difference: "Uses Observing System Simulation Experiments by name to validate a deterministic EnKF for fire-front correction, so OSSE is already a normal, named method inside wildfire spread prediction; its OSSE evaluates forecast accuracy, never an evacuation decision."

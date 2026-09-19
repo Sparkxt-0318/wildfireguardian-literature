@@ -1,0 +1,49 @@
+paper_id: ovadia2019shift
+title: "Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift"
+authors:
+  - "Yaniv Ovadia"
+  - "Emily Fertig"
+  - "Jie Ren"
+  - "Zachary Nado"
+  - "D. Sculley"
+  - "Sebastian Nowozin"
+  - "Joshua V. Dillon"
+  - "Balaji Lakshminarayanan"
+  - "Jasper Snoek"
+year: 2019
+venue: "arXiv (1906.02530); presented at NeurIPS 2019"
+venue_type: preprint/conference
+volume: "-"
+issue: "-"
+pages: "-"
+doi: "UNVERIFIED"
+url: "https://arxiv.org/abs/1906.02530"
+publication_status: "PREPRINT (arXiv record verified; NeurIPS proceedings record NOT verified)"
+open_access_status: "green"
+date_verified: 2026-09-19
+verified_via: "arXiv API"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-002, WG-C-010]
+imposes_requirement: "Report calibration (reliability, ECE/proper score) separately for in-distribution and shifted scenario sets; in-distribution calibration does not transfer."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Empirical demonstration that calibration degrades under shift and that post-hoc temperature scaling does not survive it; image/text benchmarks, not fire."

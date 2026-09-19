@@ -1,0 +1,39 @@
+paper_id: hall2023geostationary
+title: "Geostationary active fire products validation: GOES-17 ABI, GOES-16 ABI, and Himawari AHI"
+authors: ["J. V. Hall", "W. Schroeder", "K. Rishmawi", "M. Wooster", "C. C. Schmidt", "C. Huang", "I. Csiszar", "L. Giglio"]
+year: 2023
+venue: "International Journal of Remote Sensing"
+venue_type: journal
+volume: "44"
+issue: "10"
+pages: "3174-3193"
+doi: 10.1080/01431161.2023.2217983
+url: https://doi.org/10.1080/01431161.2023.2217983
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "Crossref REST API; full text extracted locally from NOAA Institutional Repository PDF (repository.library.noaa.gov item 53332)"
+category: [7]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: no
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: yes
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "The reference validation of geostationary fire detection against simultaneous Landsat, giving both the cadence (10 min full disk, 5 min CONUS, 30-60 s mesoscale) and the geolocation penalty for steep terrain that WildfireGuardian must budget for in Korea."

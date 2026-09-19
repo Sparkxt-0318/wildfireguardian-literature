@@ -1,0 +1,43 @@
+paper_id: lazic2018pseudoreplication
+title: "What exactly is 'N' in cell culture and animal experiments?"
+authors:
+  - "Stanley E. Lazic"
+  - "Charlie J. Clarke-Williams"
+  - "Marcus R. Munafo"
+year: 2018
+venue: "PLOS Biology"
+venue_type: journal
+volume: "16"
+issue: "4"
+pages: "e2005282"
+doi: "10.1371/journal.pbio.2005282"
+url: "https://doi.org/10.1371/journal.pbio.2005282"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup); Consensus (abstract)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-006]
+imposes_requirement: "Distinguish biological/generative unit (fire event), experimental unit (policy applied to an event), and observational unit (scenario) explicitly in the methods section."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "-"
+one_line_difference: "Modern restatement of the unit-of-analysis error with a three-level unit taxonomy we can adopt verbatim."

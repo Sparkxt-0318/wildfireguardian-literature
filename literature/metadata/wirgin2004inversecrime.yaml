@@ -1,0 +1,41 @@
+paper_id: wirgin2004inversecrime
+title: "The inverse crime"
+authors:
+  - "Armand Wirgin"
+year: 2004
+venue: "arXiv (math-ph/0401050)"
+venue_type: preprint
+volume: "-"
+issue: "-"
+pages: "-"
+doi: "UNVERIFIED"
+url: "https://arxiv.org/abs/math-ph/0401050"
+publication_status: "PREPRINT"
+open_access_status: "green"
+date_verified: 2026-09-19
+verified_via: "arXiv abs page (WebSearch + curl)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Name the inverse crime explicitly in the paper and show the specific respect in which the truth generator and the forecast model differ."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "related (inverse-problem analogue)"
+one_line_difference: "Short polemic giving the crisp definition we will quote; a preprint, never cite as a journal article."

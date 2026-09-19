@@ -1,0 +1,40 @@
+paper_id: wahlqvist2021wuinity
+title: "The simulation of wildland-urban interface fire evacuation: The WUI-NITY platform"
+authors: ["Jonathan Wahlqvist", "Enrico Ronchi", "Steven M.V. Gwynne", "Max Kinateder", "Guillermo Rein", "Harry Mitchell", "Noureddine Benichou", "Chunyun Ma", "Amanda Kimball", "Erica Kuligowski"]
+year: 2021
+venue: "Safety Science"
+venue_type: journal
+volume: "136"
+issue: ""
+pages: "105145"
+doi: 10.1016/j.ssci.2020.105145
+url: https://doi.org/10.1016/j.ssci.2020.105145
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Consensus search record with abstract"]
+category: [3]
+threat_level: HIGH
+threatens_claims: ["WG-C-001"]
+matrix:
+  future_fire: yes
+  traffic: yes
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  The reference three-layer coupling (FARSITE fire + pedestrian + LWR traffic) with PERIL trigger buffers embedded, i.e. exactly the 'model future fire to inform evacuation' architecture WG-C-001 wrongly claimed as first; all traffic is outbound.

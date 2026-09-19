@@ -1,0 +1,42 @@
+paper_id: verkade2011estimating
+title: "Estimating the benefits of single value and probability forecasting for flood warning"
+authors: "Verkade, J. S.; Werner, M. G. F."
+year: 2011
+venue: "Hydrology and Earth System Sciences"
+venue_type: journal
+volume: 15
+issue: 12
+pages: "3751-3765"
+doi: 10.5194/hess-15-3751-2011
+url: https://doi.org/10.5194/hess-15-3751-2011
+publication_status: peer_reviewed_journal
+open_access_status: open_access
+date_verified: 2026-09-19
+verified_via: Crossref API + Copernicus listing
+category: [4]
+threat_level: MODERATE
+threatens_claims: [WG-C-002]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: yes
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Computes REV of deterministic vs probabilistic flood forecasts as a function
+  of lead time with a no-warning/perfect-warning reference; no tuned
+  positional trigger, no mission deadline.

@@ -1,0 +1,40 @@
+paper_id: li2015household
+title: "A household-level approach to staging wildfire evacuation warnings using trigger modeling"
+authors: ["Dapeng Li", "Thomas J. Cova", "Philip E. Dennison"]
+year: 2015
+venue: "Computers, Environment and Urban Systems"
+venue_type: journal
+volume: "54"
+issue: ""
+pages: "56-67"
+doi: 10.1016/j.compenvurbsys.2015.05.008
+url: https://doi.org/10.1016/j.compenvurbsys.2015.05.008
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: ["Crossref API record", "Consensus search record with abstract"]
+category: [1]
+threat_level: HIGH
+threatens_claims: ["WG-C-001"]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: yes
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: partial
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Computes a trigger buffer PER HOUSEHOLD and ranks households by available lead time to stage warnings — the household-resolution and prioritisation-by-lead-time moves WildfireGuardian would otherwise claim; it does not model who physically moves the household.

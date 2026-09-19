@@ -1,0 +1,45 @@
+paper_id: prive2023robustness
+title: "Robustness of Observing System Simulation Experiments"
+authors:
+  - "Nikki C. Prive"
+  - "Erica L. McGrath-Spangler"
+  - "David Carvalho"
+  - "Bryan M. Karpowicz"
+  - "Isaac Moradi"
+year: 2023
+venue: "Tellus A: Dynamic Meteorology and Oceanography"
+venue_type: journal
+volume: "75"
+issue: "1"
+pages: "309-333"
+doi: "10.16993/tellusa.3254"
+url: "https://doi.org/10.16993/tellusa.3254"
+publication_status: "published"
+open_access_status: "gold"
+date_verified: 2026-09-19
+verified_via: "Crossref API (DOI lookup); WebFetch tellusjournal.org"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Measure and report the degree of twinning (how much model error separates truth and forecast model); insufficient model error is the characteristic OSSE failure."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "yes"
+one_line_difference: "Shows OSSE impact magnitudes shift with the amount of injected model error while spatial patterns stay stable; supplies the 'degree of twinning must be well understood' standard."

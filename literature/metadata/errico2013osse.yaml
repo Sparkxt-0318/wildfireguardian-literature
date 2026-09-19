@@ -1,0 +1,49 @@
+paper_id: errico2013osse
+title: "Development and validation of observing-system simulation experiments at NASA's Global Modeling and Assimilation Office"
+authors:
+  - "Ronald M. Errico"
+  - "Runhua Yang"
+  - "Nikki C. Prive"
+  - "King-Sheng Tai"
+  - "Ricardo Todling"
+  - "Meta E. Sienkiewicz"
+  - "Jing Guo"
+year: 2012
+year_note: >
+  Crossref issued 2012 (online first, QJRMS); the print issue is 2013. Priority date 2012.
+venue: "Quarterly Journal of the Royal Meteorological Society"
+venue_type: journal
+volume: "139"
+issue: "674"
+pages: "1162-1178"
+doi: "10.1002/qj.2027"
+url: "https://doi.org/10.1002/qj.2027"
+publication_status: "published"
+open_access_status: "hybrid"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Validate the OSSE itself (error statistics, error growth rates) before using it to make any impact claim."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "yes"
+one_line_difference: "Operational template for building and validating an OSSE system; NWP domain. NEEDS_FULL_TEXT."

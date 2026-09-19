@@ -1,0 +1,39 @@
+paper_id: bennett2026wise
+title: "Assessment of fire spread predictions from the Wildfire Intelligence and Simulation Engine (W.I.S.E.) using a large set of satellite-derived wildfire perimeters"
+authors: ["L. Bennett", "P. Jain", "B. Moore", "J. Boisvert"]
+year: 2026
+venue: "International Journal of Wildland Fire"
+venue_type: journal
+volume: "35"
+issue: "8"
+pages: "WF26072"
+doi: 10.1071/WF26072
+url: https://doi.org/10.1071/WF26072
+publication_status: PEER_REVIEWED
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: "Publisher page (connectsci.au) abstract and results table, WebFetch"
+category: [6]
+threat_level: BACKGROUND
+threatens_claims: []
+matrix:
+  future_fire: yes
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: no
+  scarce_resources: "-"
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: yes
+  osse: no
+one_line_difference: "The largest published spatial-agreement evaluation of an operational national fire growth model (19,848 fire-days, default-parameter IoU 0.194); it measures perimeter accuracy and explicitly does not connect that accuracy to any decision outcome, which is the gap WG-C-014 targets."

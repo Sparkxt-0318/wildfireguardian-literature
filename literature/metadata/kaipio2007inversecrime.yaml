@@ -1,0 +1,42 @@
+paper_id: kaipio2007inversecrime
+title: "Statistical inverse problems: Discretization, model reduction and inverse crimes"
+authors:
+  - "Jari Kaipio"
+  - "Erkki Somersalo"
+year: 2007
+venue: "Journal of Computational and Applied Mathematics"
+venue_type: journal
+volume: "198"
+issue: "2"
+pages: "493-504"
+doi: "10.1016/j.cam.2005.09.027"
+url: "https://doi.org/10.1016/j.cam.2005.09.027"
+publication_status: "published"
+open_access_status: "bronze"
+date_verified: 2026-09-19
+verified_via: "Crossref API (query.bibliographic); Semantic Scholar Graph API (abstract elided by publisher)"
+category: [10]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-010]
+imposes_requirement: "Model the discrepancy between truth model and forecast model as an explicit approximation-error term rather than assuming it away."
+matrix:
+  future_fire: "-"
+  traffic: "-"
+  household_trigger: "-"
+  probabilistic_trigger: "-"
+  multiple_fire_models: "-"
+  assisted_evacuation: "-"
+  inbound_responder: "-"
+  pickup: "-"
+  egress: "-"
+  dispatch_by_deadline: "-"
+  forecast_latency: "-"
+  forecast_skill_boundary: "-"
+  decision_value: "-"
+  scarce_resources: "-"
+  voi: "-"
+  active_sensing: "-"
+  korean_setting: "-"
+  real_validation: "-"
+  osse: "related (inverse-problem analogue)"
+one_line_difference: "Canonical peer-reviewed treatment of inverse crimes and the Bayesian approximation-error approach that repairs them. NEEDS_FULL_TEXT: abstract elided by publisher."

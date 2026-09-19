@@ -1,0 +1,44 @@
+paper_id: lim2022fueldanger
+title: "Predicting Forest Fire Danger Using Fuel Characteristics of Forest"
+title_original: "산림 내 연료 특성 분석을 통한 산불 위험도 예측"
+language: ko+en
+authors: "Lim, Chan Jin; Chae, Heemun"
+year: 2022
+venue: "Journal of the Korean Society of Hazard Mitigation / 한국방재학회논문집"
+venue_type: journal
+volume: 22
+issue: 6
+pages: 125-132
+doi: 10.9798/KOSHAM.2022.22.6.125
+url: "https://www.j-kosham.or.kr/journal/view.php?number=10401"
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: "WebFetch of the j-kosham.or.kr article page"
+category: [8]
+threat_level: NONE
+threatens_claims: []
+matrix:
+  future_fire: partial
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: partial   # 12 field sites, Gangwon
+  osse: no
+one_line_difference: >
+  Field-measured surface and crown fuel loads at 12 Gangwon sites converted to fire
+  intensity (kW/m) and a four-class danger rating via Van Wagner's crown-fire criterion —
+  Korean fuel evidence, no evacuation decision.

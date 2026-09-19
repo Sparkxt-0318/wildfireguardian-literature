@@ -1,0 +1,43 @@
+paper_id: murphy1987accuracyvalue
+title: "On the Relationship between the Accuracy and Value of Forecasts in the Cost-Loss Ratio Situation"
+authors: "Murphy, Allan H.; Ehrendorfer, Martin"
+year: 1987
+venue: "Weather and Forecasting"
+venue_type: journal
+volume: 2
+issue: 3
+pages: "243-251"
+doi: 10.1175/1520-0434(1987)002<0243:OTRBTA>2.0.CO;2
+url: https://doi.org/10.1175/1520-0434(1987)002<0243:OTRBTA>2.0.CO;2
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API (title/authors/venue/vol/issue/pages/DOI); abstract NOT retrieved
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-014, WG-C-002]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: partial
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Establishes in general terms that forecast accuracy and forecast value are
+  not monotonically related in the cost-loss situation; it does so for scalar
+  accuracy measures of binary forecasts, not for spatial overlap metrics (IoU)
+  of a predicted fire perimeter against an evacuation-mission decision.

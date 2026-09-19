@@ -1,0 +1,45 @@
+paper_id: georgakakos2025evacuationtiming
+title: "Determinants of evacuation timing in response to probabilistic forecasts"
+authors: "Georgakakos, Konstantine P."
+year: 2025
+venue: "Natural Hazards"
+venue_type: journal
+volume: 121
+issue: 16
+pages: "18849-18878"
+doi: 10.1007/s11069-025-07540-5
+url: https://doi.org/10.1007/s11069-025-07540-5
+publication_status: peer_reviewed_journal
+open_access_status: UNVERIFIED
+date_verified: 2026-09-19
+verified_via: Crossref API (bibliographic) + RePEc/search abstract (E2; publisher full text paywalled)
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-002, WG-C-012, WG-C-006]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: yes
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: yes
+  forecast_skill_boundary: partial
+  decision_value: yes
+  scarce_resources: no
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: yes
+one_line_difference: >
+  Solves 'issue the evacuation statement now vs delay' by Monte Carlo under a
+  forecast probability sequence indexed by lead time, forecast uncertainty,
+  public-response probability and the evacuation-completion time interval;
+  hazard is generic and the completion interval is an exogenous scalar, not a
+  modelled responder ingress+pickup+egress round trip against a spatial fire
+  field.
