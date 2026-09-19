@@ -63,6 +63,44 @@ Threat levels are ranked by **conceptual overlap**, never by venue prestige:
 CRITICAL  HIGH  MODERATE  LOW  BACKGROUND
 ```
 
+---
+
+## Current state — 2026-09-19
+
+**Corpus:** 165 verified records · 132 peer-reviewed · 21 preprints ·
+10 government reports · 2 software docs · 67 paper notes · 10 thematic reviews
+
+**Verdict:** of 14 registered claims — **1 REJECTED · 4 OCCUPIED · 8 WEAKENED ·
+1 SUPPORTED_CANDIDATE · 1 UNKNOWN.** Of 19 novelty-matrix columns, 18 are
+occupied. The single empty column, *dispatch-by deadline*, is the program's
+entire surviving contribution.
+
+Read `novelty/CURRENT_NOVELTY_VERDICT.md` before anything else.
+
+**Search tier:** S1–S2. No category reached S3; categories 5 (VOI/sensing) and
+8 (Korea) did not reach S2. Under `docs/NOVELTY_STANDARD.md` §5 this caps every
+positive finding at `SUPPORTED_CANDIDATE`, and **no Korean claim may be
+described as searched** until the KCI/RISS/DBpia sweep is completed.
+
+**Verdict expires 2026-12-18.**
+
+## Tooling
+
+Three scripts keep the citations honest. All three should exit clean before any
+commit that touches literature:
+
+```bash
+python3 bibliography/build_bibliography.py    # metadata -> CSV, BibTeX, matrix
+python3 bibliography/verify_dois.py           # Crossref + DataCite resolution
+python3 bibliography/check_references.py      # no cited paper_id without a record
+```
+
+`literature/metadata/*.yaml` is the single source of truth; the CSV, BibTeX and
+novelty matrix are generated, so a citation cannot drift between them. The DOI
+auditor compares the registry's title and year against what the registrar
+returns — it has already caught four dating errors and two paper_ids written
+from memory that named the wrong first author.
+
 ## Verification discipline
 
 Every bibliography entry records `publication_status` and `date_verified`.
