@@ -133,3 +133,28 @@ than the simulation result.
 | **Search theater** | Long query logs that all hit the same neighbourhood | Required adjacent-field, preprint, and non-English dimensions in `SEARCH_PROTOCOL.md` §2 |
 | **Stale confidence** | A 2024-searched claim still marked SUPPORTED in 2026 | 90-day auto-expiry to `UNKNOWN` (`NOVELTY_STANDARD.md` §7) |
 | **Conjunction creep** | "No one combines all of..." reappearing in drafts | Explicitly forbidden, `NOVELTY_STANDARD.md` §3.1 |
+
+---
+
+## §10. Tool-induced fabrication (observed 2026-09-19)
+
+**The failure:** a fetch of a binary PDF returned plausible-looking statistics
+that **contradicted the paper's actual abstract**. The numbers were fluent,
+specific, and wrong. Had they been recorded, they would have entered the
+bibliography as verified quantities attributed to a real, correctly-cited
+paper — the hardest kind of error to detect downstream, because every
+surrounding field is correct.
+
+**How it was caught:** the agent cross-checked against an HTML rendering of the
+same source and found the figures disagreed, then discarded them.
+
+**Guard:**
+1. **Never extract numbers from a binary PDF through a summarising fetch.** Use
+   an HTML rendering, the publisher's landing page, or a real text extractor.
+2. Any quantitative value requires evidence level **E4** — located at a
+   specific page or section — and corroboration from a second rendering.
+3. When a retrieved number and an abstract disagree, **discard the number**.
+   Do not average, reconcile, or pick the more convenient one.
+
+This is not a hypothetical. It happened during the first sweep, and the only
+reason it did not enter the repository is that the agent checked.

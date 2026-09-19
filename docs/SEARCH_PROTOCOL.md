@@ -97,13 +97,18 @@ how this constrains the verdict.
 
 | Category | Tier attained | Notes |
 |---|---|---|
-| 1 Trigger modeling | see log | — |
-| 2 Assisted evacuation | see log | — |
-| 3 Wildfire + traffic | see log | — |
-| 4 Forecast value | see log | — |
-| 5 VOI / active sensing | see log | — |
-| 6 Fire spread models | see log | — |
-| 7 Observations | see log | — |
-| 8 Korea-specific | see log | — |
-| 9 Vulnerable populations | see log | — |
-| 10 Evaluation methodology | see log | — |
+| 1 Trigger modeling | **S1→S2 (incomplete)** | Backward refs of `cova2005trigger` never traversed (publisher 403); forward chain of `li2018coupling` returned empty and was not retried |
+| 2 Assisted evacuation | **S2** | 37 queries, 5 sources, Korean pass, preprint sweep. Closest to a full protocol search of any category |
+| 3 Wildfire + traffic | **S1→S2 (incomplete)** | No Greek/Portuguese/Spanish pass despite three relevant national literatures |
+| 4 Forecast value | **S2** | 37 queries; Korean pass run; Consensus quota exhausted at 6 |
+| 5 VOI / active sensing | **S1 (incomplete)** | Peer-reviewed sweep incomplete; hard-deadline POMDP/sensor-scheduling variants searched only shallowly |
+| 6 Fire spread models | **S1→S2** | Consensus quota exhausted after 4 queries; no Korean-language pass |
+| 7 Observations | **S1→S2** | GK2A *product* latency and MTG-FCI specs unresolved |
+| 8 Korea-specific | **S1 (blocked)** | 49 queries, Korean recorded in Korean, **but KCI/RISS/DBpia keyword sweep could not be completed** (server-side search undrivable, DBpia 503). Largest blind spot in the corpus |
+| 9 Vulnerable populations | **S2** | Covered jointly with category 2 |
+| 10 Evaluation methodology | **S2** | 53 queries over 8 rounds; no non-English pass |
+
+**Consequence.** No category reached S3, and categories 5 and 8 did not reach
+S2. Under §1, that caps every positive novelty finding at
+`SUPPORTED_CANDIDATE`, and means **no Korean claim may be described as
+searched** until the KCI/RISS/DBpia sweep is completed.
