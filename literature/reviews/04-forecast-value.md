@@ -41,7 +41,7 @@ as a function of the cost-loss ratio C/L, with climatology as the reference and
 the optimal probability threshold chosen per C/L. The *region of C/L where the
 forecast has positive value* is already a forecast-value boundary. Recent work
 (`stephenson2025extremeloss`, `olivetti2026compounding`,
-`shanker2024` — see search log) extends REV to loss variance, compounding
+an NCMRWF ensemble REV study, unverified — see search log §D) extends REV to loss variance, compounding
 extremes and declining user trust.
 
 ### 1.3 Sequential / dynamic decision under improving forecasts — **Regnier owns it**

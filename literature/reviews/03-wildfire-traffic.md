@@ -36,7 +36,7 @@ evacuation routes).
 **(d) Network control and capacity.**
 `lu2026lahaina` (conservation laws on a graph, game-theoretic junctions, contraflow, and a
 lane reserved for emergency vehicles), `janfeshanaraghi2025silverado` (empirical traffic
-performance indicators from the 2020 Silverado fire), `chang2026marin` (differential access
+performance indicators from the 2020 Silverado fire), `chang2026multiscale` (differential access
 to safe egress across a population), `gwynne2023roxborough` (the community drill dataset
 everyone benchmarks against).
 
@@ -58,7 +58,7 @@ everyone benchmarks against).
    (`gwynne2023roxborough`), Silverado 2020 (`janfeshanaraghi2025silverado`), and the
    Portuguese drill used by `beyki2026modular`. "We had no data" is no longer an excuse,
    and a simulation-only result will be judged against these.
-6. **Equity of egress access is an established analysis** (`chang2026marin`).
+6. **Equity of egress access is an established analysis** (`chang2026multiscale`).
 
 ---
 

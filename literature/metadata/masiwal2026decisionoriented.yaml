@@ -1,6 +1,9 @@
 paper_id: masiwal2026decisionoriented
 title: "Decision-oriented benchmarking to transform AI weather forecast access: Application to the Indian monsoon"
-authors: "Masiwal et al. (full author list UNVERIFIED; corresponding: Hassanzadeh, P.; Boos, W. R.; Jina, A.)"
+authors: "Masiwal, Rajat; Aitken, Colin; Marchakitus, Adam; Gupta, Mayank; Kowal, Katherine; Pahlavan, Hamid A.; Yang, Tyler; Sun, Y. Qiang; Kremer, Michael; Jina, Amir; Boos, William R.; Hassanzadeh, Pedram"
+authors_verified_via: >
+  arXiv Atom API id_list query, 2026-09-19; corroborates the alphaXiv retrieval
+  that originally found the paper but could not list names.
 year: 2026
 venue: "arXiv (2602.03767)"
 venue_type: preprint

@@ -11,11 +11,16 @@ doi: 10.1111/risa.70338
 url: https://doi.org/10.1111/risa.70338
 publication_status: PEER_REVIEWED
 open_access_status: OA   # BRONZE
+merged_duplicate: >
+  Also recorded independently as 'chang2026multiscale' by a second agent; the two records
+  agreed on venue and threat level and differed only in which claims they
+  listed. Merged here as the union of both assessments so neither agent's
+  reading is silently dropped.
 date_verified: 2026-09-19
 verified_via: Semantic Scholar API (DOI, title, year, venue, authors, full abstract, PubMed ID 42642826, OA status)
 category: [9]
 threat_level: MODERATE
-threatens_claims: [WG-C-005, WG-C-007]
+threatens_claims: [WG-C-005, WG-C-007, WG-C-009]
 matrix:
   future_fire: true    # tri-coupled framework: fire spread model + multichannel communications model + spatial-queue traffic model
   traffic: true

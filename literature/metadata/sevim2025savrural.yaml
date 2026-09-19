@@ -1,6 +1,9 @@
-paper_id: pandey2025savrural
+paper_id: sevim2025savrural
 title: "A Simulation-Based Framework for Leveraging Shared Autonomous Vehicles to Enhance Disaster Evacuations in Rural Regions with a Focus on Vulnerable Populations"
-authors: [UNVERIFIED]   # author list NOT retrieved; alphaXiv listed the institution (FAMU-FSU College of Engineering) but not names. paper_id first-author element is therefore PROVISIONAL.
+authors: "Sevim, Alican; Guo, Qian-wen; Ozguven, Eren Erman"
+authors_verified_via: >
+  arXiv Atom API id_list query, 2026-09-19; corroborates the alphaXiv retrieval
+  that originally found the paper but could not list names.
 year: 2025
 venue: arXiv (FAMU-FSU College of Engineering)
 venue_type: preprint

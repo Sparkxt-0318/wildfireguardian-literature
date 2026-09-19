@@ -13,11 +13,16 @@ doi: 10.7780/kjrs.2025.41.3.6
 url: "https://www.kjrs.org/journal/view.html?doi=10.7780%2Fkjrs.2025.41.3.6"
 publication_status: PEER_REVIEWED
 open_access_status: diamond_OA_CC-BY-NC
+merged_duplicate: >
+  Also recorded independently as 'sung2025geostationary' by a second agent; the two records
+  agreed on venue and threat level and differed only in which claims they
+  listed. Merged here as the union of both assessments so neither agent's
+  reading is silently dropped.
 date_verified: 2026-09-19
 verified_via: "WebFetch of the kjrs.org article page; author order and OA status cross-checked in OpenAlex (note: OpenAlex renders author 5 as 'Shiren Yang', the journal page as 'Seyoung Yang')"
 category: [8]
 threat_level: MODERATE
-threatens_claims: [WG-C-012, WG-C-007]
+threatens_claims: [WG-C-007, WG-C-012]
 matrix:
   future_fire: no            # detection/monitoring, not prediction
   traffic: no

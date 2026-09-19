@@ -38,6 +38,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `bischiniotis2019tradeoffs` | HIGH | . | . | . | . | . | . | . | . | . | . | Y | Y | Y | . | . | . | . | . | . |
 | `bouttier2024optimal` | HIGH | . | . | . | Y | . | . | . | . | . | . | . | Y | Y | . | . | . | . | . | . |
 | `chen1987qualityvalue` | HIGH | . | . | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . |
+| `dayan2026conformal` | HIGH | Y | . | . | Y | Y | . | . | . | ~ | . | . | ~ | ~ | ~ | . | . | . | ~ | . |
 | `dennison2007wuivac` | HIGH | Y | . | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | . | . |
 | `flores2023goal` | HIGH | . | . | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | ~ | . |
 | `georgakakos2025evacuationtiming` | HIGH | . | . | . | Y | . | . | . | . | Y | . | Y | ~ | Y | . | . | . | . | . | Y |
@@ -55,10 +56,12 @@ useful reading is column-wise and pairwise, not row-wise.
 | `mois2026aievacroute` | HIGH | Y | ? | . | ? | ? | . | Y | . | Y | . | . | . | . | ? | . | ~ | Y | ? | . |
 | `murphy1987accuracyvalue` | HIGH | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . | . |
 | `orphanoudakis2025mora` | HIGH | ~ | . | . | . | . | . | ~ | . | . | . | . | . | ~ | Y | . | . | . | . | . |
+| `papaioannou2026adaptive` | HIGH | Y | . | . | . | . | . | . | . | . | . | ~ | . | . | ~ | Y | Y | . | . | . |
 | `rambha2021staged` | HIGH | . | Y | . | Y | . | Y | ~ | ~ | Y | ~ | . | . | Y | ~ | ~ | . | . | ~ | . |
 | `ramirez2019stochastic` | HIGH | Y | . | Y | Y | . | . | . | . | Y | . | ~ | . | ~ | . | . | . | . | ~ | . |
 | `regnier2006dynamic` | HIGH | . | . | . | . | . | . | . | . | . | . | ~ | ~ | Y | . | . | . | . | . | . |
 | `regnier2008public` | HIGH | . | . | . | . | . | . | . | . | ~ | . | ~ | Y | Y | . | . | . | . | . | . |
+| `roysingh2025constellation` | HIGH | Y | . | . | . | . | . | . | . | . | . | Y | . | . | Y | ~ | Y | . | ~ | . |
 | `shahparvari2017robust` | HIGH | . | . | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | ~ | . |
 | `shao2026beliefaware` | HIGH | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | Y |
 | `tang2025transit` | HIGH | . | Y | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | . | . |
@@ -69,8 +72,9 @@ useful reading is column-wise and pairwise, not row-wise.
 | `abbasi2015vehicle` | MODERATE | ~ | . | . | . | . | Y | Y | ~ | Y | . | . | . | . | Y | . | . | . | ~ | . |
 | `allaire2020ensemble` | MODERATE | Y | . | . | ~ | . | . | . | . | . | . | ~ | ~ | . | . | . | . | . | Y | . |
 | `an2026donghae` | MODERATE | . | . | . | . | . | ~ | . | . | Y | . | . | . | . | . | . | . | Y | Y | . |
+| `bailonruiz2022uavfleet` | MODERATE | Y | . | . | . | . | . | . | . | . | . | ~ | . | . | ~ | ~ | Y | . | ~ | . |
+| `braydwood2026quantum` | MODERATE | . | . | . | . | . | . | . | . | . | . | Y | . | . | Y | . | Y | . | . | . |
 | `chang2024stochastic` | MODERATE | . | Y | . | . | . | Y | Y | Y | Y | . | . | . | ~ | Y | . | . | . | ~ | . |
-| `chang2026marin` | MODERATE | ~ | Y | . | . | . | ~ | . | . | Y | . | . | . | . | . | . | . | . | . | . |
 | `chang2026multiscale` | MODERATE | Y | Y | ~ | . | . | . | . | ~ | Y | . | ~ | . | ~ | . | . | . | ~ | ~ | . |
 | `cova2011shelter` | MODERATE | ~ | . | . | . | . | . | . | . | Y | . | . | . | Y | . | . | . | . | . | . |
 | `dubois2022capacitated` | MODERATE | . | . | . | . | . | Y | Y | ~ | ~ | . | . | . | ~ | Y | . | . | . | ~ | . |
@@ -86,8 +90,8 @@ useful reading is column-wise and pairwise, not row-wise.
 | `mendes2024robustsuppression` | MODERATE | Y | . | . | ~ | . | . | ~ | . | . | . | . | . | . | Y | . | . | . | . | . |
 | `nifos2018evacsystem` | MODERATE | ~ | . | . | . | . | ~ | . | . | ~ | . | . | . | . | . | . | ~ | Y | ? | . |
 | `olivetti2026compounding` | MODERATE | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . | . | . | . |
-| `pandey2025savrural` | MODERATE | ? | Y | ? | . | . | Y | Y | Y | Y | ? | . | . | ? | Y | . | . | . | ? | . |
 | `rodriguezfernandez2025mcda` | MODERATE | ~ | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . |
+| `sevim2025savrural` | MODERATE | ? | Y | ? | . | . | Y | Y | Y | Y | ? | . | . | ? | Y | . | . | . | ? | . |
 | `shahparvari2016enhancing` | MODERATE | ~ | . | . | . | . | Y | Y | ~ | Y | . | . | . | ~ | Y | . | . | . | ~ | . |
 | `shahparvari2017possibilistic` | MODERATE | ? | ? | . | ~ | . | Y | ? | ? | Y | ? | . | . | ? | Y | . | . | . | ~ | . |
 | `shahparvari2019fleet` | MODERATE | . | . | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | . | . |
@@ -110,7 +114,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `li2017reversegeocoding` | LOW | Y | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | . | . | . | . |
 | `macleod2021anticipatory` | LOW | . | . | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . |
 | `nifos2026kfdrs` | LOW | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | ~ | . |
-| `wong2024kincade` | LOW | . | ? | ? | . | . | ~ | . | . | Y | . | . | . | . | . | . | . | . | Y | . |
+| `sun2024kincade` | LOW | . | ? | ? | . | . | ~ | . | . | Y | . | . | . | . | . | . | . | . | Y | . |
 | `xu2026wildfirescoring` | LOW | . | . | . | . | . | . | . | . | . | . | . | . | ? | . | . | . | . | . | . |
 | `allaire2021emulation` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | Y | ~ | . | . | . | . | . | . | . |
 | `andrews2018rothermel` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
@@ -129,7 +133,9 @@ useful reading is column-wise and pairwise, not row-wise.
 | `elmfire2025validation` | BACKGROUND | Y | . | . | . | Y | . | . | . | . | . | . | . | . | . | . | . | . | Y | . |
 | `errico2013osse` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
 | `finney1998farsite` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | . |
+| `giglio2016modis` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | ~ | . | . | . | . | . | . | Y | . |
 | `gneiting2007scoring` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | ? | . | . | . | . | . | . |
+| `hall2023geostationary` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | Y | . |
 | `halliwell2014fraternal` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
 | `henderson2016inversecrime` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ? |
 | `hoffman2016osse` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
@@ -146,12 +152,15 @@ useful reading is column-wise and pairwise, not row-wise.
 | `matsuo2025evacuation` | BACKGROUND | . | . | . | . | . | ~ | . | . | . | . | . | . | . | . | . | . | . | Y | . |
 | `miller2015spark` | BACKGROUND | Y | . | . | ~ | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `morris2019simulation` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+| `nasafirms2026latency` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | . | . |
 | `oreskes1994verification` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `ovadia2019shift` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+| `paugam2026mtgfci` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | Y | . |
 | `prive2023robustness` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y |
 | `ronchi2023verification` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ? | . |
 | `rothermel1972spread` | BACKGROUND | Y | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | . |
 | `sargent2013verification` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
+| `schroeder2014viirs` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | ~ | . | . | . | . | . | . | Y | . |
 | `siepe2024preregistration` | BACKGROUND | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `tibshirani2019conformalshift` | BACKGROUND | . | . | . | ? | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . |
 | `weise2016chaparral` | BACKGROUND | Y | . | . | . | Y | . | . | . | . | . | . | ~ | . | . | . | . | . | Y | . |
@@ -184,24 +193,24 @@ useful reading is column-wise and pairwise, not row-wise.
 
 | Column | Y | ~ | . | Reading |
 |---|---|---|---|---|
-| future fire | 42 | 15 | 96 | heavily occupied |
-| traffic | 16 | 6 | 130 | heavily occupied |
-| household trigger | 3 | 2 | 149 | occupied |
-| prob. trigger | 11 | 7 | 135 | heavily occupied |
-| multi fire models | 4 | 0 | 151 | occupied |
-| assisted evac | 19 | 9 | 128 | heavily occupied |
-| inbound responder | 19 | 4 | 130 | heavily occupied |
-| pickup | 12 | 6 | 136 | heavily occupied |
-| egress | 51 | 5 | 99 | heavily occupied |
-| dispatch-by deadline | 0 | 2 | 151 | sparse -- investigate whether this is genuinely open or merely unsearched |
-| forecast latency | 7 | 9 | 140 | heavily occupied |
-| skill boundary | 10 | 13 | 133 | heavily occupied |
-| decision value | 31 | 20 | 97 | heavily occupied |
-| scarce resources | 21 | 10 | 123 | heavily occupied |
-| VOI | 8 | 6 | 141 | heavily occupied |
-| active sensing | 9 | 4 | 143 | heavily occupied |
-| Korean setting | 22 | 1 | 133 | heavily occupied |
-| real validation | 21 | 32 | 95 | heavily occupied |
-| OSSE | 12 | 0 | 141 | heavily occupied |
+| future fire | 46 | 14 | 102 | heavily occupied |
+| traffic | 15 | 6 | 140 | heavily occupied |
+| household trigger | 3 | 2 | 158 | occupied |
+| prob. trigger | 12 | 7 | 143 | heavily occupied |
+| multi fire models | 5 | 0 | 159 | heavily occupied |
+| assisted evac | 19 | 8 | 138 | heavily occupied |
+| inbound responder | 19 | 4 | 139 | heavily occupied |
+| pickup | 12 | 6 | 145 | heavily occupied |
+| egress | 50 | 6 | 108 | heavily occupied |
+| dispatch-by deadline | 0 | 2 | 160 | sparse -- investigate whether this is genuinely open or merely unsearched |
+| forecast latency | 12 | 13 | 140 | heavily occupied |
+| skill boundary | 10 | 14 | 141 | heavily occupied |
+| decision value | 31 | 21 | 105 | heavily occupied |
+| scarce resources | 23 | 13 | 127 | heavily occupied |
+| VOI | 9 | 8 | 147 | heavily occupied |
+| active sensing | 13 | 4 | 148 | heavily occupied |
+| Korean setting | 22 | 1 | 142 | heavily occupied |
+| real validation | 25 | 35 | 97 | heavily occupied |
+| OSSE | 12 | 0 | 150 | heavily occupied |
 
-*156 papers recorded.*
+*165 papers recorded.*

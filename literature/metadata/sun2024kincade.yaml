@@ -1,6 +1,9 @@
-paper_id: wong2024kincade
+paper_id: sun2024kincade
 title: "Social Vulnerabilities and Wildfire Evacuations: A Case Study of the 2019 Kincade Fire"
-authors: [UNVERIFIED]   # alphaXiv listed institutions (University of Florida, RMIT, Massey University, University of Utah) but not author names. paper_id first-author element is PROVISIONAL.
+authors: "Sun, Yuran; Forrister, Ana; Kuligowski, Erica D.; Lovreglio, Ruggiero; Cova, Thomas J.; Zhao, Xilei"
+authors_verified_via: >
+  arXiv Atom API id_list query, 2026-09-19; corroborates the alphaXiv retrieval
+  that originally found the paper but could not list names.
 year: 2024
 venue: arXiv
 venue_type: preprint

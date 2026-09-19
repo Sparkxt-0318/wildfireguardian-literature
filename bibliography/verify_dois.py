@@ -59,10 +59,22 @@ def read_meta(path):
     return data
 
 
-def fetch(url):
+def fetch(url, attempts=4):
+    """Fetch with backoff. Crossref rate-limits bursts, and a transient
+    URLError must never be reported as a DOI that does not resolve -- that
+    would be the audit crying wolf about fabrication."""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+    last = None
+    for i in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except urllib.error.HTTPError:
+            raise                                    # 404 etc. are real answers
+        except Exception as e:                       # network/transient only
+            last = e
+            time.sleep(2 ** i)
+    raise last
 
 
 def resolve_datacite(doi):
@@ -125,7 +137,7 @@ def main():
             continue
 
         status, title, year, container = resolve(doi)
-        time.sleep(0.2)                                     # be polite to Crossref
+        time.sleep(0.5)                                     # be polite to Crossref
 
         agree = ""
         if status.startswith("RESOLVED"):
