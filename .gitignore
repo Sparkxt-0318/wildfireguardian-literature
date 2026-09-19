@@ -1,0 +1,9 @@
+# Local PDFs of papers — never commit copyrighted full texts
+literature/papers/*
+!literature/papers/.gitkeep
+!literature/papers/README.md
+
+# Scratch
+*.tmp
+.DS_Store
+__pycache__/
