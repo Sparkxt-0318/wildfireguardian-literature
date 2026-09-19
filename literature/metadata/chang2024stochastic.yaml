@@ -1,0 +1,40 @@
+paper_id: chang2024stochastic
+title: "Stochastic ambulance dispatching and routing in mass casualty incident under road vulnerability"
+authors: ["Kuo-Hao Chang"]
+year: 2024
+venue: Journal of the Operational Research Society
+venue_type: journal
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: UNVERIFIED
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: Consensus search record only (title, first author, year, venue, abstract). Co-authors, DOI, volume and pages NOT retrieved -- INCOMPLETE, do not cite without verification.
+category: [2]
+threat_level: MODERATE
+threatens_claims: [WG-C-011]
+matrix:
+  future_fire: false   # hazard is an earthquake; road vulnerability and congestion are the stochastic elements
+  traffic: true
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true   # casualties collected from casualty collection points
+  inbound_responder: true
+  pickup: true
+  egress: true
+  dispatch_by_deadline: false # objective is expected number of survivors
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial     # compared against a deterministic model and two current-practice heuristics
+  scarce_resources: true
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial
+  osse: false
+one_line_difference: >
+  The scarce-ambulance allocation formulation WG-C-011 would occupy, solved for survivor count rather than for a dispatch time.

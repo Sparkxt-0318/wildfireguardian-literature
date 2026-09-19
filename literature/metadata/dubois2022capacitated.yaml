@@ -1,0 +1,41 @@
+paper_id: dubois2022capacitated
+title: "Capacitated Vehicle Routing Problem Under Deadlines: An Application to Flooding Crisis"
+authors: ["Florent Dubois", "Paul Renaud-Goud", "Patricia Stolf"]
+year: 2022
+venue: IEEE Access
+venue_type: journal
+volume: 10
+issue: UNVERIFIED
+pages: 45629-45642
+doi: 10.1109/access.2022.3170446
+url: https://doi.org/10.1109/access.2022.3170446
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, pages, authors); abstract via Consensus record
+category: [2]
+threat_level: MODERATE
+threatens_claims: [WG-C-003, WG-C-011]
+matrix:
+  future_fire: false   # flash flood; deadlines are per-victim, treated as given
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true   # victim relief by rescue vehicles
+  inbound_responder: true
+  pickup: partial
+  egress: partial
+  dispatch_by_deadline: false # "under deadlines" means the deadlines are CONSTRAINTS on the routing, not the computed output
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial
+  scarce_resources: true      # dispatching rescue-team vehicles between intervention sectors
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial    # data from a past flood crisis
+  osse: false
+one_line_difference: >
+  A useful precedent for the phrase "deadline" in rescue routing, but the deadlines are exogenous per-victim constraints;
+  nothing is computed backwards from a hazard-progression model.

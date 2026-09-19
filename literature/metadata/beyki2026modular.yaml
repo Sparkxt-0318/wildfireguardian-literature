@@ -1,0 +1,41 @@
+paper_id: beyki2026modular
+title: "A modular agent-based framework for wildfire evacuation: Integrating fire spread, multimodal transport, and dynamic routing"
+authors: ["Shahab Mohammad Beyki", "Anne S. Patricio", "António Gameiro Lopes", "Aldina Santiago", "Luís Laím"]
+year: 2026
+venue: Safety Science
+venue_type: journal
+volume: 199
+issue: UNVERIFIED
+pages: 107200
+doi: 10.1016/j.ssci.2026.107200
+url: https://doi.org/10.1016/j.ssci.2026.107200
+publication_status: PEER_REVIEWED
+open_access_status: OA   # Semantic Scholar/Unpaywall report HYBRID, CC-BY
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, venue, volume, article number, authors); Semantic Scholar API (OA status); structured abstract via Consensus. Full text NOT retrieved -- ScienceDirect returned HTTP 403.
+category: [2]
+threat_level: CRITICAL
+threatens_claims: [WG-C-003, WG-C-005]
+matrix:
+  future_fire: true      # high-resolution wildfire spread model coupled in; fire-driven road-segment closures update the network during the run
+  traffic: true
+  household_trigger: UNKNOWN
+  probabilistic_trigger: false
+  multiple_fire_models: UNKNOWN
+  assisted_evacuation: true   # "emergency extraction" is an explicitly represented agent behaviour
+  inbound_responder: true     # abstract states inbound rescue operations and adaptive rerouting for inbound legs are supported
+  pickup: UNKNOWN             # NEEDS_FULL_TEXT -- whether a pickup dwell time is modelled is not stated in the abstract
+  egress: true
+  dispatch_by_deadline: false # no deadline is reported in the abstract; output is evacuation times and scenario "what-if" analysis
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial
+  scarce_resources: UNKNOWN
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: true       # validated against a WUI evacuation drill in Portugal
+  osse: false
+one_line_difference: >
+  Beyki et al. simulate inbound rescue vehicles against a modelled advancing fire and report evacuation times and route
+  availability; they do not solve backwards for the latest departure time at which such an inbound mission still closes.

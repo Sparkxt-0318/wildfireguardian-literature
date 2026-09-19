@@ -1,0 +1,42 @@
+paper_id: bish2011planning
+title: "Planning for a bus-based evacuation"
+authors: ["Douglas R. Bish"]
+year: 2011
+venue: OR Spectrum
+venue_type: journal
+volume: 33
+issue: 3
+pages: 629-654
+doi: 10.1007/s00291-011-0256-1
+url: https://doi.org/10.1007/s00291-011-0256-1
+publication_status: PEER_REVIEWED
+open_access_status: CLOSED
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, issue, pages, author, date)
+category: [2, 9]
+threat_level: BACKGROUND
+threatens_claims: [WG-C-005]
+matrix:
+  future_fire: false
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true   # transit-dependent / carless populations
+  inbound_responder: true     # capacitated buses routed multiple times between depot, pickup points and shelter
+  pickup: true
+  egress: true
+  dispatch_by_deadline: false # objective is total exposure / waiting time at pickup locations
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: true
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: false
+  osse: false
+one_line_difference: >
+  The canonical bus-based-evacuation formulation for carless populations. Note the design feature closest to WG-C-003:
+  the last pickup at each location is required to occur by a location-specific, risk-determined time -- an exogenous
+  location deadline, not one derived from a modelled hazard, and applied to the pickup instant rather than to dispatch.

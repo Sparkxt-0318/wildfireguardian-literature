@@ -1,0 +1,42 @@
+paper_id: yu2020disruption
+title: "Disruption of emergency response to vulnerable populations during floods"
+authors: ["Dapeng Yu", "Jie Yin", "Robert L. Wilby", "Stuart N. Lane", "Jeroen C. J. H. Aerts", "Ning Lin", "Min Liu", "Hongyong Yuan", "Jianguo Chen", "Christel Prudhomme", "Mingfu Guan", "Avinoam Baruch", "C. W. D. Johnson", "Xi Tang", "Lizhong Yu", "Shiyuan Xu"]
+year: 2020
+venue: Nature Sustainability
+venue_type: journal
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: 10.1038/s41893-020-0516-7
+url: https://doi.org/10.1038/s41893-020-0516-7
+publication_status: PEER_REVIEWED
+open_access_status: OA   # BRONZE
+date_verified: 2026-09-19
+verified_via: Semantic Scholar API (DOI, title, year, venue, full author list, OA status); abstract via Consensus record
+category: [2, 9]
+threat_level: HIGH
+threatens_claims: [WG-C-003]
+matrix:
+  future_fire: false   # hazard is flood inundation of the road network, modelled at varying severity
+  traffic: partial     # flood-induced travel-time increase on the network
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: partial   # emergency response TO vulnerable sites (care homes, sheltered accommodation, nurseries, schools); no transport of residents out
+  inbound_responder: true        # this is the paper's whole subject: inbound ambulance / fire-and-rescue travel under hazard
+  pickup: false
+  egress: false
+  dispatch_by_deadline: false    # output is spatial coverage and compliance rate against a fixed mandatory response-time standard
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial        # compares centralised vs decentralised station policies
+  scarce_resources: partial      # station distribution optimisation is discussed as an implication
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: true          # all ambulance and fire-and-rescue stations in England
+  osse: false
+one_line_difference: >
+  Yu et al. model the inbound responder leg under a modelled hazard for exactly the vulnerable sites WildfireGuardian cares
+  about, but they check arrival against an externally fixed response-time standard and never model pickup, egress, or a
+  latest-dispatch time; the mission ends at arrival.

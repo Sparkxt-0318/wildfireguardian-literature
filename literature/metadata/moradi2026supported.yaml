@@ -1,0 +1,43 @@
+paper_id: moradi2026supported
+title: "A Relaxation-Based Decomposition Approach for Solving a Supported-Evacuation Problem in Wildfires"
+authors: ["Shahryar Moradi", "Antoine Sauré", "Jonathan Patrick"]
+year: 2026
+venue: arXiv (Telfer School of Management, University of Ottawa); noted on title page as "Preprint submitted to Elsevier August 8, 2025"
+venue_type: preprint
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2608.05413
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: alphaXiv get_paper_content full text of arXiv 2608.05413; corroborated by Consensus record and WebSearch
+category: [2, 9]
+threat_level: CRITICAL
+threatens_claims: [WG-C-003, WG-C-005, WG-C-011]
+matrix:
+  future_fire: partial   # fire enters only as exogenous stochastic node/arc closure times + categorical fire origin; no spread model is run
+  traffic: partial       # congestion modelled as a % travel-time surcharge on "partially disrupted" arcs
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true
+  inbound_responder: true   # vehicles stationed at medical facilities travel TO assembly areas; arc hard time windows bind on that leg
+  pickup: true              # split pickup with vehicle-specific loading dwell times
+  egress: true              # split delivery to hospitals / special-needs medical shelters
+  dispatch_by_deadline: false  # output is fleet size, shelter locations, routes, evacuee counts -- NOT a latest-dispatch time
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial   # compares against 3 benchmark heuristic policies (CF, STWF, MCF)
+  scarce_resources: true    # first-stage fleet sizing and shelter activation under cost
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial  # parameterised from the Roxborough Park, CO community wildfire drill (Gwynne et al. 2023); not validated against a real evacuation
+  osse: false
+one_line_difference: >
+  Moradi et al. impose fire-arrival hard time windows on every arc of a base->assembly-area->medical-facility round trip for
+  residents who cannot self-evacuate, but those windows are exogenous sampled parameters and the reported output is a routing
+  and fleet-sizing plan; WildfireGuardian's proposed output is the latest fire-relative dispatch time itself, derived from a
+  modelled future fire and reported as a function of forecast error.

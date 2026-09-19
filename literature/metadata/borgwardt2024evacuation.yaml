@@ -1,0 +1,41 @@
+paper_id: borgwardt2024evacuation
+title: "Evacuation Planning on Time-Expanded Networks with Integrated Wildfire Information"
+authors: ["Steffen Borgwardt", "Nicholas Crawford", "Drew Horton", "Angela Morrison", "Emily Speakman"]
+year: 2024
+venue: arXiv (University of Colorado Denver)
+venue_type: preprint
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2410.14500
+publication_status: PREPRINT
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: alphaXiv get_paper_content full text of arXiv 2410.14500 (title page, abstract, keyword scan)
+category: [2]
+threat_level: LOW
+threatens_claims: []
+matrix:
+  future_fire: true    # an initial plan is built on a PREDICTED fire and then updated on revised fire information mid-evacuation
+  traffic: partial     # max-flow arc capacities on a time-expanded network
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: false   # population-level max flow; no assisted or vehicle-collected evacuees
+  inbound_responder: false     # keyword scan found no inbound, dispatch or responder terms
+  pickup: false
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: partial    # the plan is re-solved when revised fire information arrives; latency itself is not a studied variable
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: false
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial     # three locations of historic deadly fires, OpenStreetMap data
+  osse: false
+one_line_difference: >
+  Uses a predicted fire to build and then update a self-evacuation flow plan; contains no assisted evacuation, no responder
+  and no deadline. Relevant to WG-C-001/002, not to WG-C-003.

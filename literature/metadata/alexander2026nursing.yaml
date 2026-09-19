@@ -1,0 +1,41 @@
+paper_id: alexander2026nursing
+title: "Operational Decision Support for Evacuating Nursing Home Residents: A Hamburg Benchmark and Metaheuristic Comparison Under a 5-Minute Time Budget"
+authors: ["Nick Alexander", "Milva Tannenbaum", "Jörg Noennig"]
+year: 2026
+venue: Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '26)
+venue_type: conference
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: 1029-1037
+doi: 10.1145/3795095.3805113
+url: https://doi.org/10.1145/3795095.3805113
+publication_status: PEER_REVIEWED
+open_access_status: OA   # Semantic Scholar reports HYBRID
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, pages, venue, authors, date); Semantic Scholar API (abstract, OA status)
+category: [2, 9]
+threat_level: HIGH
+threatens_claims: [WG-C-005, WG-C-011]
+matrix:
+  future_fire: false     # hazards are unexploded ordnance exclusion zone and storm surge; no fire
+  traffic: partial       # asymmetric real road-network travel times, static
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true   # explicitly mobility-impaired nursing home residents
+  inbound_responder: true     # open-ended multi-trip shuttling from vehicle origins to facilities
+  pickup: true                # split pickups with load-dependent service times
+  egress: true                # shelters with capacities
+  dispatch_by_deadline: false # objective is demand-weighted average waiting time and makespan
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial     # constructive dispatcher baseline vs GA / MA / ALNS
+  scarce_resources: true      # five scenario-fleet configurations compared
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial    # real facility data and expert-specified scenarios; no real evacuation
+  osse: false
+one_line_difference: >
+  Alexander et al. minimise waiting time and makespan for shuttling mobility-impaired residents under a solver time budget;
+  no hazard progression constrains any leg and no departure deadline is computed.

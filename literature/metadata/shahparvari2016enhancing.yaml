@@ -1,0 +1,41 @@
+paper_id: shahparvari2016enhancing
+title: "Enhancing emergency evacuation response of late evacuees: Revisiting the case of Australian Black Saturday bushfire"
+authors: ["Shahrooz Shahparvari", "Prem Chhetri", "Babak Abbasi", "Ahmad Abareshi"]
+year: 2016
+venue: "Transportation Research Part E: Logistics and Transportation Review"
+venue_type: journal
+volume: 93
+issue: UNVERIFIED
+pages: 148-176
+doi: 10.1016/j.tre.2016.05.010
+url: https://doi.org/10.1016/j.tre.2016.05.010
+publication_status: PEER_REVIEWED
+open_access_status: OA   # Semantic Scholar reports GREEN
+date_verified: 2026-09-19
+verified_via: Crossref API; Semantic Scholar API (abstract, OA status)
+category: [2]
+threat_level: MODERATE
+threatens_claims: [WG-C-005, WG-C-011]
+matrix:
+  future_fire: partial
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true
+  inbound_responder: true
+  pickup: partial
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial
+  scarce_resources: true   # sensitivity to disruption of one or two resources
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial
+  osse: false
+one_line_difference: >
+  Multi-objective tactical plan for clearing late evacuees inside a hard time window; the reported result is feasibility of the
+  plan, not the latest time at which dispatch would still have been feasible.

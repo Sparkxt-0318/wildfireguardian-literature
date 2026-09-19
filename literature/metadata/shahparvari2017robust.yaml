@@ -1,0 +1,41 @@
+paper_id: shahparvari2017robust
+title: "Robust stochastic vehicle routing and scheduling for bushfire emergency evacuation: An Australian case study"
+authors: ["Shahrooz Shahparvari", "Babak Abbasi"]
+year: 2017
+venue: Transportation Research Part A: Policy and Practice
+venue_type: journal
+volume: 104
+issue: UNVERIFIED
+pages: 32-49
+doi: 10.1016/j.tra.2017.04.036
+url: https://doi.org/10.1016/j.tra.2017.04.036
+publication_status: PEER_REVIEWED
+open_access_status: CLOSED
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, pages, authors); abstract elided by publisher on Semantic Scholar -- abstract text taken from the Consensus record only (E2)
+category: [2]
+threat_level: HIGH
+threatens_claims: [WG-C-005, WG-C-011]
+matrix:
+  future_fire: partial   # bushfire propagation treated as an uncertain scenario parameter
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: partial  # stochastic scenarios over evacuee population, time windows and fire propagation
+  multiple_fire_models: false
+  assisted_evacuation: true
+  inbound_responder: true
+  pickup: partial
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial   # greedy heuristic compared against a genetic algorithm
+  scarce_resources: true
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial
+  osse: false
+one_line_difference: >
+  Time windows are themselves treated as an uncertain input distribution to be planned against, rather than as a quantity to be
+  computed from a modelled fire and reported as a dispatch deadline.

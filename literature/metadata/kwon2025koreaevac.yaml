@@ -1,0 +1,43 @@
+paper_id: kwon2025koreaevac
+title: An Integrated Optimization for Resilient Wildfire Evacuation System Design: A Case Study of a Rural County in Korea
+authors: [Kyubin Kwon, Yejin Kim, Jinil Han]
+year: 2025
+venue: Systems
+venue_type: journal
+volume: 13
+issue: 12
+pages: 1125
+doi: 10.3390/systems13121125
+url: https://doi.org/10.3390/systems13121125
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: [Crossref API record, publisher DOI landing]
+category: [8, 2]
+threat_level: HIGH
+threatens_claims: [WG-C-007, WG-C-011]
+matrix:
+  future_fire: no
+  traffic: partial
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: yes
+  voi: no
+  active_sensing: no
+  korean_setting: yes
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Strategic mixed-integer shelter-location and backup-linkage design for a rural
+  Korean county using static topographic/environmental wildfire risk indices; it
+  does not model fire progression in time, and produces a network plan rather
+  than any time-of-day decision, let alone a responder dispatch deadline.

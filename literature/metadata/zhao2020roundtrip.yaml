@@ -1,0 +1,41 @@
+paper_id: zhao2020roundtrip
+title: "A round-trip bus evacuation model with scheduling and routing planning"
+authors: ["Xing Zhao", "Kang Ji", "Peng Xu", "Wen-wen Qian", "Gang Ren", "Xiao-nian Shan"]
+year: 2020
+venue: "Transportation Research Part A: Policy and Practice"
+venue_type: journal
+volume: 137
+issue: UNVERIFIED
+pages: 285-300
+doi: 10.1016/j.tra.2020.05.008
+url: https://doi.org/10.1016/j.tra.2020.05.008
+publication_status: PEER_REVIEWED
+open_access_status: CLOSED
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, pages, authors, date); abstract summary via WebSearch result -- E2
+category: [2]
+threat_level: MODERATE
+threatens_claims: [WG-C-003, WG-C-005]
+matrix:
+  future_fire: false
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true
+  inbound_responder: true
+  pickup: true
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: true
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: false
+  osse: false
+one_line_difference: >
+  Owns the phrase "round-trip" in bus evacuation -- depot to pickup point to shelter and back, with bus capacity, demand and
+  time-window constraints -- but minimises total evacuee time cost with no hazard progression and no departure deadline.

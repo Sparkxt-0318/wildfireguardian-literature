@@ -1,0 +1,43 @@
+paper_id: orphanoudakis2025mora
+title: "MORA: A Multicriteria Optimal Resource Allocation and Decision Support Toolkit for Wildfire Management"
+authors: [Theofanis Orphanoudakis, Christos Betzelos, Helen Catherine Leligou]
+year: 2025
+venue: Algorithms
+venue_type: journal
+volume: 18
+issue: 11
+pages: 677
+doi: 10.3390/a18110677
+url: https://doi.org/10.3390/a18110677
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: [Crossref API record, publisher DOI landing]
+category: [2]
+threat_level: HIGH
+threatens_claims: [WG-C-011, WG-C-013]
+matrix:
+  future_fire: partial
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: no
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: partial
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: partial
+  scarce_resources: yes
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Operational multicriteria resource-allocation DSS for incident commanders
+  (SILVANUS project) allocating suppression resources; the allocated units are
+  suppression assets, the objective is multicriteria fire management, and no
+  resident-collection round trip or latest-dispatch time is computed.

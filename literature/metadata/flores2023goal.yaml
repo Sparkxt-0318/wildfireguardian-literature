@@ -1,0 +1,41 @@
+paper_id: flores2023goal
+title: "A goal programming model for early evacuation of vulnerable people and relief distribution during a wildfire"
+authors: ["Inmaculada Flores", "M. Teresa Ortuño", "Gregorio Tirado"]
+year: 2023
+venue: Safety Science
+venue_type: journal
+volume: 164
+issue: UNVERIFIED
+pages: 106117
+doi: 10.1016/j.ssci.2023.106117
+url: https://doi.org/10.1016/j.ssci.2023.106117
+publication_status: PEER_REVIEWED
+open_access_status: CLOSED
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, article number, authors); Semantic Scholar API (OA status; abstract null). Content description taken from Moradi et al. (2026) literature review and publisher landing page -- E2, NEEDS_FULL_TEXT.
+category: [2, 9]
+threat_level: HIGH
+threatens_claims: [WG-C-005, WG-C-011]
+matrix:
+  future_fire: partial
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true   # vulnerable people unable to evacuate independently, gathered at pick-up points
+  inbound_responder: true     # heterogeneous vehicles routed from safe areas to unsafe pick-up points
+  pickup: true
+  egress: true
+  dispatch_by_deadline: false # multi-objective: number evacuated, evacuation time, cost, unmet supply
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: true      # health-priority classification governs who is served first
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial    # case study based on the 2019 Saddleridge Fire, California
+  osse: false
+one_line_difference: >
+  Flores et al. decide who is collected and in what order under a lexicographic objective; the timing question they answer is
+  "how long does the plan take", not "how late may dispatch start".

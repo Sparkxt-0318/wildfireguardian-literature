@@ -1,0 +1,42 @@
+paper_id: rambha2021staged
+title: "A stochastic optimization model for staged hospital evacuation during hurricanes"
+authors: ["Tarun Rambha", "Linda K. Nozick", "Rachel Davidson", "Wenqi Yi", "Kun Yang"]
+year: 2021
+venue: "Transportation Research Part E: Logistics and Transportation Review"
+venue_type: journal
+volume: 151
+issue: UNVERIFIED
+pages: 102321
+doi: 10.1016/j.tre.2021.102321
+url: https://doi.org/10.1016/j.tre.2021.102321
+publication_status: PEER_REVIEWED
+open_access_status: CLOSED
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, article number, authors); Semantic Scholar API (full abstract)
+category: [2, 9]
+threat_level: HIGH
+threatens_claims: [WG-C-003, WG-C-005, WG-C-011]
+matrix:
+  future_fire: false   # hazard is hurricane track/intensity; uses evolving flood, wind and roadway traffic PREDICTIONS
+  traffic: true        # roadway traffic predictions are an input to the recourse formulation
+  household_trigger: false
+  probabilistic_trigger: true   # stochastic scenario tree over hurricane evolution, with recourse
+  multiple_fire_models: false
+  assisted_evacuation: true     # hospital patients who cannot self-evacuate
+  inbound_responder: partial    # transport is modelled but the paper's decision is sequencing, not vehicle ingress feasibility
+  pickup: partial
+  egress: true
+  dispatch_by_deadline: partial # **the closest analogue found**: decides the ORDER and TIMING of patient evacuation over the storm's evolution, trading off cost and risk -- but reports an adaptive policy, not a single latest-dispatch time
+  forecast_latency: false       # forecast update timing enters via the scenario tree stages, but latency is not a studied variable
+  forecast_skill_boundary: false
+  decision_value: true          # explicitly demonstrates the advantage of a recourse formulation that adapts to new forecast information vs. one that does not
+  scarce_resources: partial
+  voi: partial                  # value of adapting to new information is the headline result, though not framed as VOI
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial      # North Carolina / Hurricane Isabel case study fusing real data
+  osse: false
+one_line_difference: >
+  Rambha et al. answer "in what order and at which forecast stage should patients be moved", producing an adaptive
+  evacuate/shelter policy over a hurricane scenario tree; WildfireGuardian asks the inverse, closed-form question --
+  the single latest departure instant at which one responder's full round trip still closes under a modelled fire.

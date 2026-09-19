@@ -1,0 +1,39 @@
+paper_id: shahparvari2017possibilistic
+title: "Possibilistic scheduling routing for short-notice bushfire emergency evacuation under uncertainties: An Australian case study"
+authors: ["Shahrooz Shahparvari", "Babak Abbasi", "Prem Chhetri"]
+year: 2017
+venue: Omega
+venue_type: journal
+volume: 72
+issue: UNVERIFIED
+pages: 96-117
+doi: 10.1016/j.omega.2016.11.007
+url: https://doi.org/10.1016/j.omega.2016.11.007
+publication_status: PEER_REVIEWED
+open_access_status: CLOSED
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, pages, authors). Abstract NOT retrieved (Semantic Scholar returned none; publisher closed). NEEDS_FULL_TEXT.
+category: [2]
+threat_level: MODERATE
+threatens_claims: [WG-C-005]
+matrix:
+  future_fire: UNKNOWN
+  traffic: UNKNOWN
+  household_trigger: false
+  probabilistic_trigger: partial   # possibilistic (fuzzy) treatment of uncertainty
+  multiple_fire_models: false
+  assisted_evacuation: true
+  inbound_responder: UNKNOWN
+  pickup: UNKNOWN
+  egress: true
+  dispatch_by_deadline: UNKNOWN
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: UNKNOWN
+  scarce_resources: true
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial
+  osse: false
+one_line_difference: NEEDS_FULL_TEXT -- recorded from bibliographic metadata only; no abstract retrieved.

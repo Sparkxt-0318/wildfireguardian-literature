@@ -1,0 +1,47 @@
+paper_id: mendes2024robustsuppression
+title: A robust optimisation approach for the placement of forest fire suppression resources
+authors: [Andre Bergsten Mendes, Filipe Pereira e Alvelos]
+year: 2024
+venue: International Transactions in Operational Research
+venue_type: journal
+volume: 32
+issue: 3
+pages: 1312-1342
+doi: 10.1111/itor.13524
+url: https://doi.org/10.1111/itor.13524
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+date_verified: 2026-09-19
+verified_via: [Crossref API record, publisher DOI landing]
+note: >
+  Crossref issued date is 2024-08-05 (online) with the issue in volume 32(3);
+  secondary sources list this as a 2025 paper. Recorded as 2024 per Crossref.
+  This discrepancy is exactly the kind our auditor exists to catch.
+category: [2]
+threat_level: MODERATE
+threatens_claims: [WG-C-009, WG-C-013]
+matrix:
+  future_fire: yes
+  traffic: no
+  household_trigger: no
+  probabilistic_trigger: partial
+  multiple_fire_models: no
+  assisted_evacuation: no
+  inbound_responder: partial
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: no
+  forecast_skill_boundary: no
+  decision_value: no
+  scarce_resources: yes
+  voi: no
+  active_sensing: no
+  korean_setting: no
+  real_validation: no
+  osse: no
+one_line_difference: >
+  Robust initial-attack placement of suppression resources against uncertain
+  predicted fire behaviour; robustness is over fire-behaviour uncertainty for
+  asset positioning, not over whether a named resident remains extractable,
+  and the decision is placement, not dispatch timing.

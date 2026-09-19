@@ -1,0 +1,41 @@
+paper_id: xu2022multiparking
+title: "Multi-Parking Lot and Shelter Heterogeneous Vehicle Routing Problem With Split Pickup Under Emergencies"
+authors: ["Lina Xu", "Ziyang Wang", "Xudong Chen", "Zhengwei Lin"]
+year: 2022
+venue: IEEE Access
+venue_type: journal
+volume: 10
+issue: UNVERIFIED
+pages: 36073-36090
+doi: 10.1109/access.2022.3163715
+url: https://doi.org/10.1109/access.2022.3163715
+publication_status: PEER_REVIEWED
+open_access_status: OA
+date_verified: 2026-09-19
+verified_via: Crossref API (DOI, volume, pages, authors); abstract via Consensus record
+category: [2, 9]
+threat_level: MODERATE
+threatens_claims: [WG-C-005, WG-C-011]
+matrix:
+  future_fire: false   # generic "disaster scenario"; no hazard progression model
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: true   # explicitly distinguishes high-mobility from low-mobility individuals (e.g. the elderly)
+  inbound_responder: true     # vehicles depart from parking lots, reach residential areas, then transport to shelters -- origin != destination
+  pickup: true                # split pickup
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial     # compared against classical VRP
+  scarce_resources: true      # heterogeneous fleet with wheelchair-equipped special vehicles and volunteers; matching constraints between individual type and vehicle type
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: false      # numerical instances only
+  osse: false
+one_line_difference: >
+  Owns the "who gets which vehicle" matching constraint (mobility class to vehicle class) that WG-C-011 would otherwise claim,
+  but with no hazard progression and no timing feasibility at all.
