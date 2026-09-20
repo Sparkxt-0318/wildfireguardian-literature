@@ -71,9 +71,24 @@ mapped before we invest:
 
 ## Setting
 
-Korea is the intended application setting: steep terrain, dense pine
-(*Pinus densiflora*) fuels, an ageing rural population, narrow mountain road
-networks, and a centralized disaster-management apparatus (KFS, NIFoS, MOIS).
+Korea is the intended application setting. The characteristics below are
+listed with their evidence status, because an unsourced setting description is
+how an unsupported claim enters a paper by the back door:
+
+| Characteristic | Evidence status |
+|---|---|
+| Steep terrain amplifies spread | **Sourced** — upslope spread 4.68x downslope at 30 degrees (`an2008slope`) |
+| Ridge channelling | **Sourced** — ridge enrichment 2.3 vs 1.5 proximity-only over 118 Korean fires (`choi2026ridgeline`) |
+| Gust-driven spread | **Sourced** — +1 m/s peak wind ~ +8.5 ha over 905 fires 1980-2024 (`park2025drivers`) |
+| Dense *Pinus densiflora* fuels | **Sourced** — canopy bulk density 1.6x higher in unmanaged stands (`lee2021crownfuel`) |
+| Observation latency over Korea | **Sourced** — GK2A mean detection delay 12.9 min; the sub-minute direct-readout tier does not cover Korea (`sung2025geostationary`) |
+| Ageing rural population | **Partially sourced** — older adults showed the lowest movement intensity under identical warning content (`an2026donghae`); national demographic structure not yet cited here |
+| **Narrow mountain road networks** | **UNSOURCED — do not assert.** No verified Korean road-geometry evidence exists in the corpus (`novelty/OPEN_QUESTIONS.md` C4) |
+| Centralized disaster management (KFS, NIFoS, MOIS) | **Sourced** — operational 5 h / 8 h evacuation staging (`mois2025evacuationstages`) |
+
+The road-geometry row is the one that matters most to RQ2, since a dispatch
+deadline depends on travel times over that network, and it is precisely the row
+we cannot yet support.
 Korean specificity is a *possible* axis of novelty, but it is a weak one on its
 own — see `docs/NOVELTY_STANDARD.md` §4 on geographic novelty.
 
