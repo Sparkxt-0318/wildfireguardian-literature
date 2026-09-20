@@ -43,3 +43,36 @@ They are orthogonal and are frequently confused:
 A `CRITICAL` threat known only at `E2` is the most urgent item in the
 repository: it may kill the project and we have not read it. Such items go
 straight to `novelty/OPEN_QUESTIONS.md` and `fair/MUST_PRINT.md` Tier 1.
+
+---
+
+## Relationship to `fulltext_status`
+
+Two scales now exist and they must not drift apart. They measure different
+things and both are needed:
+
+- **Evidence level (E0–E5)** is about *a statement*: how well supported is this
+  particular assertion we are making about the paper?
+- **`fulltext_status`** is about *the paper record*: how much of this paper has
+  anyone actually read?
+
+Mapping (the tier is the ceiling on the evidence level any statement about that
+paper can carry):
+
+| `fulltext_status` | Ceiling on evidence level | What may be asserted |
+|---|---|---|
+| `TITLE_ONLY` | E1 | Existence and topic only |
+| `ABSTRACT_VERIFIED` | E2 | Topic and headline claim. **Not** method details, and **not** the absence of a feature |
+| `FULL_TEXT_READ` | E3 | Method, assumptions, reported results |
+| `METHODS_VERIFIED` | E4 | Equations, parameters, located quantitative values |
+| `RESULTS_VERIFIED` | E5 | Results corroborated or reproduced |
+
+**The asymmetry that matters.** Asserting a paper *does* something is often
+safe at E2 — the abstract says so. Asserting a paper does **not** do something
+requires `FULL_TEXT_READ` at minimum, because absence is not reported in
+abstracts. Almost every novelty argument in this repository is an absence
+argument, which is why `NOVELTY_STANDARD.md` §10 gates confidence on the tier
+rather than on the number of searches.
+
+Run `python3 bibliography/check_fulltext_tiers.py` to see each claim's current
+ceiling.
