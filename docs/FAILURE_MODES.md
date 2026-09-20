@@ -151,6 +151,15 @@ same source and found the figures disagreed, then discarded them.
 **Guard:**
 1. **Never extract numbers from a binary PDF through a summarising fetch.** Use
    an HTML rendering, the publisher's landing page, or a real text extractor.
+   **A real extractor now exists in this repository:**
+   `python3 bibliography/extract_pdf_text.py <file.pdf>` (pdfminer, with pypdf
+   fallback) emits page-marked text, and `--grep` reports whether a term
+   appears at all, with its page. Use it instead of asking a model to read a
+   PDF. It also warns when a PDF yields too little text per page, which is the
+   signature of a scanned document or a form — the case where a summarising
+   fetch is most likely to invent content. An earlier agent reported that no
+   extraction toolchain was available; that was wrong, and the wrong belief
+   cost a retrieval.
 2. Any quantitative value requires evidence level **E4** — located at a
    specific page or section — and corroboration from a second rendering.
 3. When a retrieved number and an abstract disagree, **discard the number**.
@@ -158,3 +167,51 @@ same source and found the figures disagreed, then discarded them.
 
 This is not a hypothetical. It happened during the first sweep, and the only
 reason it did not enter the repository is that the agent checked.
+
+---
+
+## §11. Self-citation contamination (observed 2026-09-20)
+
+**The failure:** a literature search returned **the project's own GitHub
+repository**, and the search engine paraphrased its README back as though it
+were an independent source. A novelty search that finds our own writing and
+reports it as prior art is not merely useless — it is self-confirming in the
+most dangerous direction, because our own README says what we want to be true.
+
+**Why it is insidious:** the returned text is topically perfect, fluently
+phrased, and agrees with us. Every heuristic an agent uses to judge relevance
+fires positively.
+
+**Guard:**
+1. Any result from `github.com/Sparkxt-0318/*`, this repository, or any
+   WildfireGuardian project surface is **self-citation, never prior art, and
+   never corroboration.** Discard it and log the query as contaminated.
+2. A source that agrees with us unusually well deserves *more* scrutiny than
+   one that contradicts us, not less.
+3. Corroboration requires a source with an independent origin. Two aggregators
+   copying one upstream record are one source (`CITATION_RULES.md`); our own
+   repository echoed back is zero sources.
+
+---
+
+## §12. Verifying a fact and then asserting its opposite (observed 2026-09-20)
+
+**The failure:** the repository recorded that wildfire forecast-value
+evaluations do not use tuned baselines, and built a defensive claim (WG-C-006)
+on that gap. Full-text reading of `ardid2026forecastvalue` showed the opposite:
+it selects the optimal classification threshold per region, retrospectively, to
+maximise the same value metric it then reports. The comparator **is** tuned.
+
+The belief was formed at E2 — the abstract does not mention thresholds — and
+was never revisited when the paper was promoted to a CRITICAL threat.
+
+**Why it matters beyond the one fact:** the defence "their comparator wasn't
+tuned" would have been spoken to a judge who had read the Methods section.
+
+**Guard:**
+1. A claim of the form "nobody does X" must be re-checked against the full text
+   of the closest work **before** any argument is built on it, not after.
+2. When a paper is promoted to `CRITICAL` or `HIGH`, every existing assertion
+   about it is re-opened, not inherited.
+3. Absence claims are E3 claims (`EVIDENCE_LEVELS.md`). This one was made at E2
+   and stood for a day.

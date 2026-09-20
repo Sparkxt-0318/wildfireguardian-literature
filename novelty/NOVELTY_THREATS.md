@@ -18,7 +18,7 @@ Ranked by conceptual overlap with the two live research questions.
 | Rank | Paper | Similarity | What it already does | What it does not do | Threat |
 |---|---|---|---|---|---|
 | 1 | `moradi2026supported` — Moradi, Sauré & Patrick, arXiv:2608.05413 (**PREPRINT**) | Very high on RQ2 | Two-stage stochastic **supported evacuation in wildfires**: shelter location + fleet sizing + split pickup/delivery routing. Vehicles start at a base, drive **in**, dwell at an assembly area, deliver out. **Hard time window on every arc, defined as the time after which the route "is reached by the fire."** Takes **WG-DBD-1 outright.** | **Full text read (METHODS_VERIFIED, E4).** Dispatch is not computed — constraints (26)/(50) pin every vehicle's arrival time to 0, so departure is an *assumption*, not a variable; "latest", "deadline" and "dispatch time" appear zero times. Gating is at the arc **origin** only (53)/(56), never during traversal. Second-stage routing knows the *realized* closure times — oracle information. No fire field: closure times are scalars from `Uniform(400,850)` with fire origin drawn independently. No evacuee egress stream; roads uncapacitated. | **CRITICAL** |
-| 2 | `beyki2026modular` — Beyki et al., *Safety Science* 199:107200 | Very high on RQ2 | Names "the lack of inbound traffic and rescue operations" as the field's gap **and closes it**: high-resolution fire model drives live road-segment closure, explicit **emergency extraction** agents, adaptive rerouting on **inbound** legs, validated against a Portuguese drill. | Reports simulated evacuation/extraction outcomes, not a latest-dispatch quantity — **pending full text, which could change this row.** | **CRITICAL** |
+| 2 | `beyki2026modular` — Beyki et al., *Safety Science* 199:107200 | Very high on RQ2 | **Abstract level only (E2).** Names "the lack of inbound traffic and rescue operations" as the field's gap and asserts it closes it: fire-driven road-segment closure, an **emergency extraction** agent class, dynamic rerouting, Portuguese case study. | **UNKNOWN — the body has never been read.** 25 retrieval routes failed; the article is genuinely CC-BY but ScienceDirect is its sole host and denies this network (403, ref `CPE00001`), including to a real headless browser. Of 12 target topics, 7 are absent even from the abstract: pickup, egress, departure time, dispatch time, latest feasible extraction, deadlines, time windows. | **CRITICAL** |
 | 3 | `kalogeropoulos2026ensemble` — Kalogeropoulos & Rein, *Fire Safety Journal* 165:104912 | Total on WG-C-004 | Trigger boundaries from a **multi-model ensemble** of flame-spread models (Farsite, Prometheus/WISE, ELMFIRE, Google EPD, EPD-ConvLSTM), Fort McMurray. Finds triggers extend beyond practical detection distances. | Egress triggers for self-evacuating communities. No responder, no pickup, no dispatch time. | **CRITICAL** |
 | 4 | `regnier2008public` — Regnier, *Management Science* 54(1):16–28 | High on RQ1 | Derives the **forecast-quality boundary for evacuation ordering**: a 10% miss probability requires ≥76% false alarms. This is WG-C-002's object, in hurricanes, since 2008. | Hurricanes; single evacuate/don't decision; no tuned spatial-trigger comparator; no wildfire. | **HIGH** |
 | 5 | `ardid2026forecastvalue` — Ardid et al., *IJWF* 35(4):WF25221 | High on RQ1 | **Skill → potential economic value in wildfire**, sub-hourly, Australian regions, against the Fire Behaviour Index. | Fire-danger forecasting, not evacuation mission feasibility; comparator is an index, not a tuned trigger. | **HIGH** |
@@ -40,7 +40,7 @@ Four of its five components are occupied:
 | Component | Occupied by | Status |
 |---|---|---|
 | Non-self-evacuating residents modelled | `moradi2026supported`, `flores2023goal`, `shahparvari2017robust` | **Occupied** |
-| Inbound responder simulated with outbound evacuation | `beyki2026modular`, `averill2007emergencyresponse` | **Occupied — this sentence must be struck from our claim** |
+| Inbound responder simulated with outbound evacuation | `averill2007emergencyresponse` (load-bearing); `beyki2026modular` (corroborating, **E2 only**) | **Occupied — this sentence must be struck from our claim.** Load-bearing citation reordered 2026-09-20: `EVIDENCE_LEVELS.md` Rule 1 requires E3 to call a claim occupied, and Beyki's body could not be retrieved. The sentence stays forbidden on Averill regardless. |
 | Pickup dwell + delivery in one routed mission | `moradi2026supported`, `flores2023goal` | **Occupied** |
 | Fire-arrival feasibility on the **inbound** leg | `moradi2026supported` (in form) | **Occupied in form** |
 | **Latest dispatch time reported as the output, from a modelled future fire, as a function of forecast error** | *no occupying prior art identified in the searched corpus* | **Open, pending full-text comparison** |
@@ -69,7 +69,7 @@ immediate, deserved loss of credibility.
 
 - "First to model future wildfire spread for evacuation routing." → `cova2005trigger` (2005).
 - "First to use probabilistic or ensemble fire predictions for triggers." → `kalogeropoulos2023kperil`, `kalogeropoulos2026ensemble`.
-- "No one models responders moving inbound against evacuees." → `beyki2026modular`, `averill2007emergencyresponse`.
+- "No one models responders moving inbound against evacuees." → `averill2007emergencyresponse` (NIST IR 7425, **government report**, responder counterflow, 2007) — load-bearing at topic level; `beyki2026modular` corroborates at abstract level only.
 - "No one models evacuation of people who cannot self-evacuate." → `moradi2026supported`, `flores2023goal`, `shahparvari2017robust`.
 - "Nobody has done forecast value for wildfire." → `ardid2026forecastvalue`.
 - "We are the first to note that prediction accuracy ≠ decision quality." → `murphy1987accuracyvalue` (1987).
@@ -85,9 +85,17 @@ immediate, deserved loss of credibility.
 
 Ranked by how much damage they do if the full text says what we fear.
 
-1. **`beyki2026modular`** — if its full text reports a latest-extraction or
-   safe-time-remaining quantity per waypoint, **WG-C-003 moves to OCCUPIED**
-   and RQ2 must be abandoned or re-scoped. *Highest priority read in the repo.*
+1. **`beyki2026modular`** — still unread and still #1. A full-text attempt on
+   2026-09-20 **failed**: 25 routes, all blocked. The article is CC-BY but
+   ScienceDirect is its sole host and denies this IP range at the network level
+   (403, Elsevier ref `CPE00001`), including to a real headless browser;
+   Unpaywall and OpenAlex both report no repository copy, and the authors'
+   project site is stale since 2025-07.
+   **A previously recorded "safe time remaining ... least of the fire arrival
+   times" mechanism has been RETRACTED** — it could not be traced to any
+   primary source and is now `RECALL_UNVERIFIED`. It must not be cited.
+   *Remaining routes: email the corresponding author (it is CC-BY), or any
+   institutional network — the block is on this IP, not on the reader.*
 2. **`moradi2026supported` journal version** — if peer review adds
    spread-model-derived time windows, or relaxes constraint (26)/(50) into a
    departure variable, **WG-DBD-2 and WG-DBD-3 close.** Only v1 exists

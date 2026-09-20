@@ -127,7 +127,7 @@ trigger or buffer** and reports the skill boundary.
 | `georgakakos2025evacuationtiming` | generic life-threat | issue evacuation statement now vs delay | none | no | partial | lead time + completion interval |
 | `stephenson2025extremeloss` | generic | warn / don't warn | no-action | analytic optimum | yes (VaR vs expected-loss optima differ) | no |
 | `olivetti2026compounding` | multi-hazard urban | protect / don't protect | competing forecast systems | varying C/L | yes (rank flips by C/L) | no |
-| `ardid2026forecastvalue` | **wildfire** | fire-potential warning / preparedness | Fire Behaviour Index | **not stated** | no explicit boundary | no (sub-hourly cadence only) |
+| `ardid2026forecastvalue` | **wildfire** | agency pre-positioning vs 2-10 day regional fire *occurrence* | Fire Behaviour Index | **YES — tuned** (corrected 2026-09-20 at E3): "The optimal classification threshold for each model is selected retrospectively to maximise PEV", per region | no boundary of any kind; one cost-loss point (C=A$50k, L=A$10M) | no — `latency`, `delay`, `timeliness` and even `lead time` are ABSENT from the body; "sub-hourly" is the 30-min input cadence |
 | `berlinghieri2024pm25` | **wildfire smoke** | go outside? when to go outside? | **persistence** | baseline is strong, not tuned | partial (task-dependent) | no |
 | `raeth2025decisionskill` | weather (generic) | frost/heat protection, wind dispatch | competing forecast models | thresholds varied | partial | no |
 | `masiwal2026decisionoriented` | monsoon | when to disseminate onset forecast | climatology | no | yes (skill horizon ~3 weeks) | operational runnability, not quantified |
@@ -229,7 +229,8 @@ a fixed buffer to a buffer tuned on the same scenario distribution."
 Comparator tuning is standard practice in the forecast-value literature
 (Richardson 2000, Bouttier & Marchal 2024) and decision-level evaluation against
 strong baselines already exists in the wildfire domain (`berlinghieri2024pm25`
-uses persistence; `ardid2026forecastvalue` uses FBI). The *specific* comparator —
+uses persistence; `ardid2026forecastvalue` uses a **tuned** FBI threshold). The
+*specific* comparator —
 a positional trigger boundary with an optimised parameter — is not used anywhere
 as a forecast-value benchmark, and that is the only part worth stating. It is
 N3-weak and must never be presented as a contribution on its own; its function is
