@@ -108,3 +108,84 @@ A `SUPPORTED_CANDIDATE` claim is not settled. Each claim carries
 `last_reviewed`. Any claim older than 90 days is automatically re-opened to
 `UNKNOWN` at the next audit unless re-searched. New 2025–2026 preprints are the
 most likely killers and are swept separately.
+
+---
+
+## §8. Four axes, scored separately
+
+A claim's novelty is scored on four axes, never collapsed into one verdict:
+
+| Axis | Question | Field |
+|---|---|---|
+| **CONCEPT_NOVELTY** | Has anyone posed this question or defined this quantity? | `concept` |
+| **METHOD_NOVELTY** | Is the way we compute it new *as a method*? | `method` |
+| **EMPIRICAL_NOVELTY** | Is the *result* — the numbers, for this setting — new? | `empirical` |
+| **OPERATIONAL_ARTIFACT_NOVELTY** | Is the produced artifact (an atlas, a map, a benchmark, a dataset) new and usable? | `operational_artifact` |
+
+Each takes one of `OCCUPIED` · `WEAKENED` · `PLAUSIBLE` · `UNKNOWN`.
+
+**Why this matters.** A single status forces a false choice. A dispatch-by
+algorithm may be methodologically occupied while a Korean dispatch-by atlas
+remains empirically open; collapsing those into "WEAKENED" hides a real
+contribution, and collapsing them into "PLAUSIBLE" claims one we do not have.
+
+The axes are stored in `docs/claims.yaml` under `novelty_axes` and rendered
+into the registry. **An empirical or artifact contribution is a legitimate
+scientific contribution.** A program with `method: OCCUPIED` and
+`empirical: PLAUSIBLE` is not a failed program — it is an empirical paper.
+
+---
+
+## §9. Decomposition before scoring
+
+Do not score a compound claim. Split it into components that can be occupied
+independently, and score each on its own evidence.
+
+"We compute the latest dispatch time for an assisted evacuation" is not one
+claim; it is at least seven (`novelty/DBD_DECOMPOSITION.md`). A paper that
+models a responder round trip does not thereby report a latest dispatch instant,
+and a paper that reports a single deadline does not thereby represent a
+non-monotone feasible *set*.
+
+Scoring the compound is how conjunction novelty (§3.1) creeps back in wearing a
+different hat: the compound always looks open because no single paper does all
+of it. Score the parts; state which parts are ours.
+
+---
+
+## §10. Full-text tier gates confidence
+
+Every threatening paper carries `fulltext_status`, one of:
+
+```
+TITLE_ONLY < ABSTRACT_VERIFIED < FULL_TEXT_READ < METHODS_VERIFIED < RESULTS_VERIFIED
+```
+
+**A claim may not be held at high confidence when its closest threat has been
+read only at `TITLE_ONLY` or `ABSTRACT_VERIFIED`.** Concluding that a paper
+does *not* compute our quantity, on the strength of its abstract, is not a
+finding — abstracts omit most of what a paper does, and the omission is exactly
+where an occupant hides.
+
+`bibliography/check_fulltext_tiers.py` reports each claim's ceiling and, with
+`--strict`, fails while any `CRITICAL` paper is below `FULL_TEXT_READ`.
+
+---
+
+## §11. Required reporting for every surviving claim
+
+A claim may not be listed as surviving unless it reports all six:
+
+```
+search coverage            which tiers/queries actually ran
+full-text coverage         tier of the closest threats
+unsearched databases       named, not gestured at
+language limitations       which literatures were not read
+publication-date cutoff    when the sweep stopped
+confidence                 bounded by §10
+```
+
+"No occupying prior art was identified in the searched corpus" is the required
+wording for a null result. Never "0 occupants, therefore novel" — a null search
+establishes `UNKNOWN` (§3.2), and only full-text comparison against the closest
+work can support more.
