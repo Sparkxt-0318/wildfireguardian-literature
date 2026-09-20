@@ -1,0 +1,46 @@
+paper_id: kemisetti2026stochsipp
+title: "StochSIPP: Safe Interval Path Planning in Stochastic Dynamic Environments"
+authors: ["Ajith Kemisetti", "Shahaf S. Shperberg", "Yoonchang Sung"]
+year: 2026
+venue: "arXiv:2608.00792 [cs.RO]"
+venue_type: preprint
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2608.00792
+publication_status: PREPRINT
+open_access_status: OA
+fulltext_status: METHODS_VERIFIED
+fulltext_status_basis: "full text retrieved 2026-09-20 via alphaXiv get_paper_content; problem-setup section read and quoted verbatim"
+date_verified: 2026-09-20
+verified_via: "alphaXiv get_paper_content full text (title page, author list, abstract, problem formulation); arXiv stamp on page reads 'arXiv:2608.00792v1 [cs.RO] 1 Aug 2026'"
+category: [2, 5]
+threat_level: HIGH
+threatens_claims: [WG-C-003, WG-C-008]
+dbd_components: [WG-DBD-4, WG-DBD-5, WG-DBD-6]
+matrix:
+  future_fire: false          # uncertain temporal blockage with supplied safety probabilities; no hazard model
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: partial   # per-interval Bernoulli safety probabilities on edges and vertices
+  multiple_fire_models: false
+  assisted_evacuation: false
+  inbound_responder: false
+  pickup: false
+  egress: false
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: partial     # contingent policy minimising expected arrival time under observation outcomes
+  scarce_resources: false
+  voi: partial                # plans WHICH uncertain statuses will be observed before committing to motion
+  active_sensing: partial
+  korean_setting: false
+  real_validation: partial    # Gazebo warehouse simulation; controlled roadmap instances
+  osse: false
+one_line_difference: >
+  States WG-DBD-5 as a definition -- "an edge safety event at departure time t states whether the complete execution of e over
+  [t, t + W(e)) is collision-free" -- attaches a SET of valid departure times to every edge (WG-DBD-4), and conditions
+  feasibility on statuses "revealed locally during execution" rather than on oracle knowledge (WG-DBD-6); but it is a robot
+  navigating a roadmap to a goal, with no round trip, no hazard model, no forecast quality axis and no dispatch quantity.

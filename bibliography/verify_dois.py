@@ -24,39 +24,19 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+import yaml
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 META = ROOT / "literature" / "metadata"
 REGISTRY = ROOT / "bibliography" / "doi_registry.csv"
 UA = "WildfireGuardianLiteratureAudit/1.0 (mailto:noreply@anthropic.com)"
 
-# Deliberately tiny YAML reader: our metadata files are flat key: value plus a
-# one-level 'matrix:' block. Avoiding a PyYAML dependency keeps the audit
-# runnable anywhere, which matters more here than generality.
-SCALAR = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*):\s*(.*)$")
-
-
+# Metadata is real YAML and is parsed as such -- the hand-rolled line parser
+# that used to live here silently dropped block sequences (see
+# build_bibliography.py for the 33 author fields it lost).
 def read_meta(path):
-    data, cur = {}, None
-    for line in path.read_text(encoding="utf-8").splitlines():
-        if not line.strip() or line.lstrip().startswith("#"):
-            continue
-        if line.startswith(" ") or line.startswith("\t"):
-            if cur:
-                m = SCALAR.match(line.strip())
-                if m:
-                    data.setdefault(cur, {})[m.group(1)] = m.group(2).strip()
-            continue
-        m = SCALAR.match(line)
-        if not m:
-            continue
-        key, val = m.group(1), m.group(2).strip()
-        if val == "":
-            cur = key
-            data.setdefault(key, {})
-        else:
-            cur = None
-            data[key] = val.strip('"').strip("'")
-    return data
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    return data if isinstance(data, dict) else {}
 
 
 def fetch(url, attempts=4):

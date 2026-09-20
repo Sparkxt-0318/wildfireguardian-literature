@@ -22,7 +22,12 @@ verified_via: >
   NO second independent source: no DOI, no journal version located, no Crossref
   record. Metadata is therefore single-source and the DOI field is UNVERIFIED
   per AGENTS.md section 3.
-fulltext_status: PARTIAL
+fulltext_status: FULL_TEXT_READ
+fulltext_status_basis: >
+  Recorded by the finding agent as "PARTIAL", which is outside the controlled
+  vocabulary. Normalised to FULL_TEXT_READ because the note records E3 with
+  passages read directly; the abstract headline percentages remain unchecked
+  and must not be cited.
 evidence_level: E3
 evidence_level_note: >
   Abstract and the Experiment 2 passages were read directly from the retrieved

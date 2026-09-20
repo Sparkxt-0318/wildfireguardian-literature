@@ -1,0 +1,48 @@
+paper_id: kim2011evacmap
+title: "산불대피지도 작성 알고리즘에 관한 연구"
+title_en: "A Study of Evacuation Map Designing Algorithm in Forest Fire"
+title_en_source: "journal-supplied English title as displayed by KoreaScience; NOT a translation by this agent"
+authors: ["김명훈 (Kim, Myeoung-Hun)", "이병두 (Lee, Byung-Doo)", "김응식 (Kim, Eung-Sik)"]
+year: 2011
+venue: "한국화재소방학회 학술대회 논문집 (Proceedings of the Korea Institute of Fire Science and Engineering Conference) 2011.11a"
+venue_type: conference
+volume: "2011.11a"
+issue: UNVERIFIED
+pages: "289-293"
+doi: UNVERIFIED
+url: https://koreascience.kr/article/CFKO201129149561372.page
+publication_status: CONFERENCE_PROCEEDINGS   # NOT a peer-reviewed journal article; must never be cited as one
+open_access_status: UNKNOWN
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "Korean abstract retrieved verbatim from the OpenAlex record on 2026-09-20; body not read"
+date_verified: 2026-09-20
+verified_via: "OpenAlex (Korean title, year, authors, venue, pages 289-293, verbatim Korean abstract) + KoreaScience record (English title, romanised authors, article ID CFKO201129149561372)"
+category: [8, 2, 9]
+threat_level: MODERATE
+threatens_claims: [WG-C-007]
+dbd_components: [WG-DBD-7]
+matrix:
+  future_fire: partial        # routes are set "according to the wildfire's progression path and spread"; the spread model is not identified in the abstract
+  traffic: false
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: partial  # motivated explicitly by 재해 약자 (disaster-vulnerable people) as the evacuee population
+  inbound_responder: false
+  pickup: false
+  egress: true
+  dispatch_by_deadline: false
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: false
+  voi: false
+  active_sensing: false
+  korean_setting: true
+  real_validation: UNKNOWN
+  osse: false
+one_line_difference: >
+  The earliest Korean wildfire EVACUATION MAP found: a village-scale map-making algorithm that emits evacuation routes
+  "according to the wildfire's progression path and spread", written because "most of those to be evacuated consist of
+  disaster-vulnerable people" -- so the Korean wildfire-evacuation-map product, the village unit and the vulnerable-population
+  motivation are all occupied since 2011; it produces ROUTES on a map, never a time, never a deadline, and never a responder.

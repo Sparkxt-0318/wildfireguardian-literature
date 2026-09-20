@@ -21,7 +21,7 @@ useful reading is column-wise and pairwise, not row-wise.
 
 | Paper | Threat | future fire | traffic | household trigger | prob. trigger | multi fire models | assisted evac | inbound responder | pickup | egress | dispatch-by deadline | forecast latency | skill boundary | decision value | scarce resources | VOI | active sensing | Korean setting | real validation | OSSE |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| `beyki2026modular` | CRITICAL | Y | Y | . | . | . | Y | Y | ~ | Y | . | . | . | . | ~ | . | . | . | Y | . |
+| `beyki2026modular` | CRITICAL | Y | Y | . | . | . | Y | Y | ? | Y | ? | . | . | . | ? | . | . | . | Y | . |
 | `cova2005trigger` | CRITICAL | Y | . | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | . | . |
 | `kalogeropoulos2023kperil` | CRITICAL | Y | . | . | Y | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | . | . |
 | `kalogeropoulos2025dire` | CRITICAL | Y | . | . | Y | . | . | . | . | Y | . | . | . | Y | . | . | . | . | ~ | . |
@@ -41,10 +41,13 @@ useful reading is column-wise and pairwise, not row-wise.
 | `dayan2026conformal` | HIGH | Y | . | . | Y | Y | . | . | . | ~ | . | . | ~ | ~ | ~ | . | . | . | ~ | . |
 | `dennison2007wuivac` | HIGH | Y | . | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | . | . |
 | `flores2023goal` | HIGH | . | . | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | ~ | . |
+| `fluschnik2026decaying` | HIGH | . | ~ | . | . | . | . | . | . | Y | ~ | . | . | . | ~ | . | . | . | ~ | . |
 | `georgakakos2025evacuationtiming` | HIGH | . | . | . | Y | . | . | . | . | Y | . | Y | ~ | Y | . | . | . | . | . | Y |
 | `jewson2026evacuation` | HIGH | . | . | ~ | Y | . | . | . | . | . | . | ~ | Y | Y | . | Y | . | . | . | . |
 | `kalogeropoulos2022kperil` | HIGH | Y | . | . | Y | . | . | . | . | Y | . | . | . | . | . | . | . | . | . | . |
+| `kamphuis2025departure` | HIGH | . | Y | . | ~ | . | . | . | . | ~ | Y | ~ | . | . | . | . | . | . | ~ | . |
 | `kamyabniya2022thesis` | HIGH | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | . | ? | ? |
+| `kemisetti2026stochsipp` | HIGH | . | . | . | ~ | . | . | . | . | . | . | . | . | ~ | . | ~ | ~ | . | ~ | . |
 | `kwon2025koreaevac` | HIGH | . | ~ | . | . | . | . | . | . | Y | . | . | . | . | Y | . | . | Y | . | . |
 | `larsen2011cedar` | HIGH | Y | . | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | ~ | . |
 | `li2015household` | HIGH | Y | . | Y | . | . | . | . | . | Y | . | . | . | ~ | ~ | . | . | . | . | . |
@@ -61,6 +64,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `orphanoudakis2025mora` | HIGH | ~ | . | . | . | . | . | ~ | . | . | . | . | . | ~ | Y | . | . | . | . | . |
 | `palmer1998singular` | HIGH | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . |
 | `papaioannou2026adaptive` | HIGH | Y | . | . | . | . | . | . | . | . | . | ~ | . | . | ~ | Y | Y | . | . | . |
+| `phillips2011sipp` | HIGH | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | . | ~ | . |
 | `rainforth2024modernbed` | HIGH | . | . | . | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . |
 | `rambha2021staged` | HIGH | . | Y | . | Y | . | Y | ~ | ~ | Y | ~ | . | . | Y | ~ | ~ | . | . | ~ | . |
 | `ramirez2019stochastic` | HIGH | Y | . | Y | Y | . | . | . | . | Y | . | ~ | . | ~ | . | . | . | . | ~ | . |
@@ -91,6 +95,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `grajdura2022fastmoving` | MODERATE | ~ | Y | Y | . | . | . | . | . | Y | . | ~ | . | . | ~ | . | . | . | Y | . |
 | `gwynne2023roxborough` | MODERATE | . | Y | . | . | . | . | . | . | Y | . | . | . | . | . | . | . | . | Y | . |
 | `hope2024wildfiresat` | MODERATE | . | . | . | . | . | . | . | . | . | . | . | . | Y | . | Y | . | . | . | . |
+| `kim2011evacmap` | MODERATE | ~ | . | . | . | . | ~ | . | . | Y | . | . | . | . | . | . | . | Y | ? | . |
 | `kim2024directional` | MODERATE | Y | Y | . | . | . | . | . | . | Y | . | . | . | . | . | . | . | . | . | . |
 | `kwak2021evacroute` | MODERATE | ~ | . | . | . | . | . | . | . | Y | . | . | . | . | . | . | . | Y | . | . |
 | `masiwal2026decisionoriented` | MODERATE | . | . | . | . | . | . | . | . | . | . | ~ | Y | Y | . | . | . | . | Y | . |
@@ -100,6 +105,7 @@ useful reading is column-wise and pairwise, not row-wise.
 | `olivetti2026compounding` | MODERATE | . | . | . | . | . | . | . | . | . | . | . | Y | Y | . | . | . | . | . | . |
 | `rodriguezfernandez2025mcda` | MODERATE | ~ | . | . | . | . | . | . | . | . | . | . | . | ~ | Y | . | . | . | . | . |
 | `sevim2025savrural` | MODERATE | ? | Y | ? | . | . | Y | Y | Y | Y | ? | . | . | ? | Y | . | . | . | ? | . |
+| `sezer2026infodesign` | MODERATE | ~ | Y | ~ | Y | . | . | . | . | Y | . | . | ~ | Y | ~ | Y | . | . | ~ | . |
 | `shahparvari2016enhancing` | MODERATE | ~ | . | . | . | . | Y | Y | ~ | Y | . | . | . | ~ | Y | . | . | . | ~ | . |
 | `shahparvari2017possibilistic` | MODERATE | ? | ? | . | ~ | . | Y | ? | ? | Y | ? | . | . | ? | Y | . | . | . | ~ | . |
 | `shahparvari2019fleet` | MODERATE | . | . | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | . | . |
@@ -195,24 +201,24 @@ useful reading is column-wise and pairwise, not row-wise.
 
 | Column | Y | ~ | . | Reading |
 |---|---|---|---|---|
-| future fire | 46 | 14 | 103 | heavily occupied |
-| traffic | 15 | 6 | 141 | heavily occupied |
-| household trigger | 3 | 3 | 158 | occupied |
-| prob. trigger | 13 | 7 | 143 | heavily occupied |
-| multi fire models | 5 | 0 | 160 | heavily occupied |
-| assisted evac | 19 | 8 | 139 | heavily occupied |
-| inbound responder | 19 | 4 | 140 | heavily occupied |
-| pickup | 12 | 6 | 146 | heavily occupied |
-| egress | 50 | 6 | 109 | heavily occupied |
-| dispatch-by deadline | 0 | 2 | 161 | sparse -- investigate whether this is genuinely open or merely unsearched |
-| forecast latency | 12 | 14 | 140 | heavily occupied |
-| skill boundary | 11 | 14 | 141 | heavily occupied |
-| decision value | 32 | 21 | 105 | heavily occupied |
-| scarce resources | 23 | 13 | 128 | heavily occupied |
-| VOI | 10 | 8 | 147 | heavily occupied |
-| active sensing | 13 | 4 | 149 | heavily occupied |
-| Korean setting | 22 | 1 | 144 | heavily occupied |
-| real validation | 25 | 35 | 98 | heavily occupied |
-| OSSE | 12 | 0 | 151 | heavily occupied |
+| future fire | 46 | 16 | 107 | heavily occupied |
+| traffic | 17 | 7 | 144 | heavily occupied |
+| household trigger | 3 | 4 | 163 | occupied |
+| prob. trigger | 14 | 9 | 146 | heavily occupied |
+| multi fire models | 5 | 0 | 166 | heavily occupied |
+| assisted evac | 19 | 9 | 144 | heavily occupied |
+| inbound responder | 19 | 4 | 146 | heavily occupied |
+| pickup | 12 | 5 | 152 | heavily occupied |
+| egress | 53 | 7 | 111 | heavily occupied |
+| dispatch-by deadline | 1 | 3 | 164 | sparse -- investigate whether this is genuinely open or merely unsearched |
+| forecast latency | 12 | 15 | 145 | heavily occupied |
+| skill boundary | 11 | 15 | 146 | heavily occupied |
+| decision value | 33 | 22 | 109 | heavily occupied |
+| scarce resources | 23 | 14 | 132 | heavily occupied |
+| VOI | 11 | 9 | 151 | heavily occupied |
+| active sensing | 13 | 5 | 154 | heavily occupied |
+| Korean setting | 23 | 1 | 149 | heavily occupied |
+| real validation | 25 | 40 | 98 | heavily occupied |
+| OSSE | 12 | 0 | 157 | heavily occupied |
 
-*167 papers recorded.*
+*173 papers recorded.*

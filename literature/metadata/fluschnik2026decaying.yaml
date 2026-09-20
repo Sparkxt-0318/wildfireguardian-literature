@@ -1,0 +1,49 @@
+paper_id: fluschnik2026decaying
+title: "Smooth Routing in Decaying Trees"
+authors: ["Till Fluschnik", "Amela Pucic", "Malte Renken"]
+year: 2026
+venue: "arXiv:2603.23504 [cs.DS]"
+venue_type: preprint
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: https://arxiv.org/abs/2603.23504
+publication_status: PREPRINT
+open_access_status: OA
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "abstract reproduced verbatim from the arXiv abs page on 2026-09-20; body not read"
+date_verified: 2026-09-20
+verified_via: "arXiv abs page (title, authors, submission line, primary category cs.DS, verbatim abstract) retrieved twice"
+id_caveat: >
+  The arXiv listing page reached at /abs/2603.23504 displays "[Submitted on 6 Feb 2026]", which does not match the 2603
+  (March 2026) identifier prefix. Recorded as displayed; NOT reconciled. Resolve before citation.
+category: [2]
+threat_level: HIGH
+threatens_claims: [WG-C-003]
+dbd_components: [WG-DBD-3, WG-DBD-5]
+matrix:
+  future_fire: false          # motivated by forest fires/flooding, but decay times are given inputs, not modelled
+  traffic: partial            # vertex capacities and edge-exclusivity, i.e. congestion in combinatorial form
+  household_trigger: false
+  probabilistic_trigger: false
+  multiple_fire_models: false
+  assisted_evacuation: false
+  inbound_responder: false
+  pickup: false
+  egress: true
+  dispatch_by_deadline: partial   # ILP computes "the latest possible time to evacuate"
+  forecast_latency: false
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: partial
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial    # "semi-artificial" instances from German cities along rivers
+  osse: false
+one_line_difference: >
+  Reports the LATEST FEASIBLE START INSTANT as the computed output quantity for evacuation on a graph "where connections
+  become impassable at some point in time" -- "We provide an integer linear program (ILP) to compute the latest possible time
+  to evacuate" -- which is WG-DBD-3's quantity in a graph-algorithms venue; but the paths are outbound only, the decay times
+  are exogenous inputs rather than a modelled fire, there is no responder, no pickup, no probability index and no forecast.

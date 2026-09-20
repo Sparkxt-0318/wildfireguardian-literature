@@ -1,21 +1,82 @@
 paper_id: beyki2026modular
 title: "A modular agent-based framework for wildfire evacuation: Integrating fire spread, multimodal transport, and dynamic routing"
 authors: ["Shahab Mohammad Beyki", "Anne S. Patricio", "Antonio Gameiro Lopes", "Aldina Santiago", "Luis Laim"]
+author_affiliations:
+  - "Shahab Mohammad Beyki (corresponding): University of Coimbra, Department of Mechanical Engineering, Portugal"
+  - "Anne S. Patricio: MaaSLab, Limassol, Cyprus"
+  - "Antonio Gameiro Lopes: University of Coimbra, Department of Mechanical Engineering (Polo II), Portugal"
+  - "Aldina Santiago: University of Coimbra, Department of Civil Engineering, Portugal"
+  - "Luis Laim: University of Coimbra, Department of Civil Engineering, Portugal"
 year: 2026
 venue: "Safety Science"
 venue_type: journal
 volume: "199"
 issue: ""
 pages: "107200"
+article_number: "107200"
+pii: "S0925-7535(26)00091-3"
 doi: 10.1016/j.ssci.2026.107200
 url: https://doi.org/10.1016/j.ssci.2026.107200
 publication_status: PEER_REVIEWED
 open_access_status: OA
-date_verified: 2026-09-19
-verified_via: ["Crossref API record (article-number 107200, Safety Science vol 199, issued 2026-07)", "OpenAlex record with full abstract (is_oa=true, hybrid)", "Consensus search record with the same abstract"]
+open_access_license: "CC-BY 4.0"
+open_access_type: "Full (Elsevier hybrid; sponsor: Portugal institutions Core Hybrid journals RAP 2025)"
+date_online: 2026-03-21
+date_cover: 2026-07
+reference_count: 43
+date_verified: 2026-09-20
+verified_via: ["Crossref API record (volume 199, article-number 107200, issued 2026-07, 43 references, CC-BY licence element)", "Unpaywall API record (is_oa true, oa_status hybrid, cc-by, oa_date 2026-03-21, has_repository_copy false, full author list with raw affiliations)", "Elsevier Article-Retrieval API coredata view, no key (PII, EID, openaccessType Full, openaccessUserLicense CC-BY 4.0, coverDate 2026-07-31)", "OpenAlex record with publisher-deposited abstract and highlights"]
+
+fulltext_status: ABSTRACT_VERIFIED
+evidence_level: E2
+evidence_level_note: "E2 for all content. Bibliographic metadata alone reaches E4-equivalent (three independent primary records). No paginated text was ever read, so any page- or section-numbered citation to this paper would be fabricated."
+access_route: "FAILED for the article body. Publisher-deposited metadata and abstract obtained via Crossref API, Unpaywall API, OpenAlex API and the Elsevier Article-Retrieval API (coredata view, no API key). 25 distinct routes to the body were attempted and all failed; ScienceDirect is the sole host and returns HTTP 403 with Elsevier reference CPE00001 to this IP range, including to a real headless Chromium 127. SSRN (also Elsevier) returns the same block. No repository copy exists (Unpaywall has_repository_copy false; OpenAIRE, CORE, BASE, Europe PMC and Universidade de Coimbra Estudo Geral all negative). web.archive.org is blocked by this session's egress policy and was reported rather than routed around. Full log: literature/reviews/fulltext-beyki2026.md section 0."
+fulltext_blocking_cause: "Elsevier IP-level access denial (CPE00001), not a solvable captcha and not a licensing restriction. The article is genuinely CC-BY."
+fulltext_retry_routes: ["Re-check evacuarfloresta.enb.pt (authors' project site open-posts their own publisher PDFs; media library stale since 2025-07-28)", "Email corresponding author Beyki; article is CC-BY so he may send it and we may hold it", "Retrieve via any institutional network (block is on this IP range, not on the reader)", "Watch for a Universidade de Coimbra Estudo Geral deposit"]
+
 category: [3]
 threat_level: CRITICAL
+threat_level_note: "Unchanged, and deliberately NOT downgraded for being unread. Threat level measures conceptual overlap; evidence level measures our knowledge of the paper. Per docs/EVIDENCE_LEVELS.md a CRITICAL threat held at E2 is the most urgent item in the repository."
 threatens_claims: ["WG-C-003", "WG-C-005", "WG-C-001"]
+claim_status_effect: "NONE. This audit produced no evidence permitting any claim to move in either direction. WG-C-003 remains SUPPORTED_CANDIDATE; WG-C-005 remains OCCUPIED; WG-C-001 remains REJECTED. Paper remains NEEDS_FULL_TEXT and watch-list item 1."
+
+dbd_scoring:
+  WG-DBD-1: PARTIALLY_OCCUPIED
+  WG-DBD-2: NOT_DETERMINED
+  WG-DBD-3: NOT_DETERMINED
+  WG-DBD-4: NOT_DETERMINED
+  WG-DBD-5: NOT_DETERMINED
+  WG-DBD-6: NOT_DETERMINED
+  WG-DBD-7: NOT_OCCUPIED
+
+dbd_scoring_evidence:
+  WG-DBD-1: "PARTIALLY_OCCUPIED, provisional at E2. Ingress and an 'emergency extraction' agent class are asserted by the authors' own deposited abstract and highlights, which are topic-level statements E2 does support. The service (pickup/loading dwell) element is wholly unevidenced, and nothing shows ingress, service and egress are chained into one accounted mission rather than three separate simulated behaviours."
+  WG-DBD-2: "NOT_DETERMINED. Nothing at E2. An untraceable secondary description of a per-route 'safe time remaining' would, if ever verified, push this toward PARTIALLY_OCCUPIED for routes, not for dispatch instants."
+  WG-DBD-3: "NOT_DETERMINED. The decisive question and the one that could not be answered. Weak negative indicators only: a latest-dispatch quantity is not among the outputs the abstract lists, and none of the 43 references is a routing, scheduling or dispatch-optimisation work. Neither indicator is admissible to score a component."
+  WG-DBD-4: "NOT_DETERMINED. No evidence either way. Scored independently: WG-DBD-1 being partially occupied does not touch this. A framework simulating an inbound leg need not represent feasibility as anything, let alone as a non-singleton set. If the unverified 'safe time remaining' lead is confirmed, its min-over-waypoints structure is one scalar per route and would count AGAINST occupancy here."
+  WG-DBD-5: "NOT_DETERMINED. The highlight 'Fire-driven road-segment closures dynamically update network availability during the evacuation' establishes that network state is time-varying; it does not establish whether an agent already traversing an edge is re-checked against fire arrival mid-traversal. That distinction is exactly Q-B4 and is invisible at E2."
+  WG-DBD-6: "NOT_DETERMINED. Unreadable at E2. Flagged first-order for the next attempt: a coupled fire-evacuation simulator can trivially hand its router the true future fire, and whether the authors gate the router's information is unaddressed in every retrievable record."
+  WG-DBD-7: "NOT_OCCUPIED, confirmed. E2 suffices because this is a topic-level fact about the case study, not a method detail. Abstract: 'tested in a case study in Portugal'. Four authors are at Portuguese institutions and one in Cyprus. Korea appears nowhere in the record."
+
+qb_answers:
+  Q-B1: "NOT_DETERMINED_NO_FULL_TEXT"
+  Q-B2: "NOT_DETERMINED_NO_FULL_TEXT"
+  Q-B3: "NOT_DETERMINED_NO_FULL_TEXT"
+  Q-B4: "NOT_DETERMINED_NO_FULL_TEXT"
+  Q-B5: "NOT_DETERMINED_NO_FULL_TEXT"
+  Q-B6: "NOT_DETERMINED_NO_FULL_TEXT"
+qb_answers_note: "The permitted vocabulary was YES / NO / NOT_ADDRESSED_IN_TEXT. None of the three is available, because 'NOT_ADDRESSED_IN_TEXT' is itself an assertion about a text that was never read. AGENTS.md section 9 requires UNKNOWN in this situation."
+
+retracted_content:
+  - claim: "Determining safe time remaining for evacuation routes based on fire arrival time for each waypoint on the route, where the safe time remaining is the least of the fire arrival times."
+    previous_location: "literature/notes/beyki2026modular.md, tentatively attributed"
+    status: RECALL_UNVERIFIED
+    finding: "Could not be traced to any primary source. Not present in the publisher-deposited abstract or highlights, nor in any retrievable record (Crossref, Unpaywall, OpenAlex, Semantic Scholar, Elsevier coredata). A fresh WebSearch reproduced the same description, but that is a second helping of the same class of source, not a second source. Must not be cited, quoted, or described as something the paper says. Highest-value item to check first on the next retrieval."
+
+audit_findings_out_of_scope:
+  - "novelty/NOVELTY_THREATS.md section 2, WG-C-003 table, marks the component 'Inbound responder simulated with outbound evacuation' as Occupied citing beyki2026modular first. That paper is at E2, and docs/EVIDENCE_LEVELS.md Rule 1 requires E3 minimum for an OCCUPIED status. The row should be reordered so averill2007emergencyresponse (if held at E3 or better) is load-bearing and beyki2026modular is listed as corroborating-pending-full-text. This is a bookkeeping defect, not a reason to reclaim the territory, and the forbidden sentence 'No one models responders moving inbound against evacuees' must remain forbidden either way."
+  - "The task brief and prior notes treat the author team as uniformly Coimbra-affiliated. The second author, Anne S. Patricio, is at MaaSLab, Limassol, Cyprus."
+
 matrix:
   future_fire: yes
   traffic: yes
@@ -24,17 +85,19 @@ matrix:
   multiple_fire_models: no
   assisted_evacuation: yes
   inbound_responder: yes
-  pickup: partial
+  pickup: unknown
   egress: yes
-  dispatch_by_deadline: no
+  dispatch_by_deadline: unknown
   forecast_latency: no
   forecast_skill_boundary: no
   decision_value: no
-  scarce_resources: partial
+  scarce_resources: unknown
   voi: no
   active_sensing: no
   korean_setting: no
   real_validation: yes
   osse: no
+matrix_note: "Cells changed from 'partial'/'no' to 'unknown' on 2026-09-20 where the prior value rested on an abstract-level inference that the failed full-text read could not confirm: pickup, dispatch_by_deadline, scarce_resources. 'no' asserts a fact about the paper and is not available at E2 for these three."
+
 one_line_difference: >
-  The first wildfire evacuation model we could verify that explicitly simulates INBOUND rescue traffic and emergency extraction simultaneously with outbound self-evacuation on a fire-degraded network — it occupies the simultaneity, but the reported output is simulated evacuation time validated against a drill, not a latest-safe-dispatch deadline.
+  The first wildfire evacuation model we could verify that explicitly simulates INBOUND rescue traffic and emergency extraction simultaneously with outbound self-evacuation on a fire-degraded network -- it occupies the simultaneity, but whether it reports any latest-safe-dispatch quantity is UNKNOWN, because the full text could not be retrieved and the abstract lists only simulated evacuation times, drill agreement and scenario analysis as outputs.

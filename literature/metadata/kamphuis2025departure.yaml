@@ -1,0 +1,48 @@
+paper_id: kamphuis2025departure
+title: "Optimal departure-time advice in road networks with stochastic disruptions"
+authors: ["Rens Kamphuis", "Nikki Levering", "Michel Mandjes"]
+year: 2025
+venue: "Computers & Operations Research"
+venue_type: journal
+volume: 183
+issue: UNVERIFIED
+pages: 107148
+doi: 10.1016/j.cor.2025.107148
+url: https://doi.org/10.1016/j.cor.2025.107148
+publication_status: PEER_REVIEWED
+open_access_status: UNKNOWN
+preprint_version: "arXiv:2208.14516 [math.OC], submitted 30 Aug 2022, same title (hyphenation differs)"
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "abstract of the arXiv version reproduced verbatim on 2026-09-20; the journal full text was NOT retrieved and the published abstract was NOT independently compared"
+date_verified: 2026-09-20
+verified_via: "OpenAlex works records for both the journal article (DOI, volume, article number, authors) and the arXiv version; arXiv abs page for the verbatim abstract"
+category: [2, 4]
+threat_level: HIGH
+threatens_claims: [WG-C-003, WG-C-012]
+dbd_components: [WG-DBD-3, WG-DBD-6]
+matrix:
+  future_fire: false          # Markovian background process over link speeds; no hazard
+  traffic: true               # time-dependent, stochastic link travel times, Dutch highway network
+  household_trigger: false
+  probabilistic_trigger: partial   # the departure time is indexed by a chosen on-time arrival probability
+  multiple_fire_models: false
+  assisted_evacuation: false
+  inbound_responder: false
+  pickup: false
+  egress: partial             # a single one-way origin-destination trip
+  dispatch_by_deadline: true  # "the latest time of departure for which a chosen on-time arrival probability can be guaranteed"
+  forecast_latency: partial   # an ONLINE variant updates the advised departure time while the traveller is still at the origin
+  forecast_skill_boundary: false
+  decision_value: false
+  scarce_resources: false
+  voi: false
+  active_sensing: false
+  korean_setting: false
+  real_validation: partial    # numerical experiments on the Dutch highway network
+  osse: false
+one_line_difference: >
+  Computes and names WG-DBD-3's quantity in a peer-reviewed OR venue -- "their optimal departure time: the latest time of
+  departure for which a chosen on-time arrival probability can be guaranteed" -- on a stochastic time-dependent road network,
+  and adds an online version in which the advice is revised from information available while the traveller is still at the
+  origin (WG-DBD-6); but the trip is a single one-way commute, the uncertainty is a Markovian incident process rather than a
+  spreading hazard, there is no mission to complete, no second leg and no fire.

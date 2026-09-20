@@ -16,6 +16,8 @@ import pathlib
 import re
 import sys
 
+import yaml
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 META = ROOT / "literature" / "metadata"
 CSV_OUT = ROOT / "bibliography" / "literature.csv"
@@ -50,51 +52,18 @@ CSV_COLS = ["paper_id", "title", "authors", "year", "venue", "venue_type",
             "threatens_claims", "one_line_difference"]
 
 THREAT_ORDER = {"CRITICAL": 0, "HIGH": 1, "MODERATE": 2, "LOW": 3, "BACKGROUND": 4}
-SCALAR = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*):\s*(.*)$")
-
-
+# Metadata is real YAML and is parsed as such. A hand-rolled line parser lived
+# here and silently dropped block sequences:
+#
+#     authors:
+#       - "Furkan Sezer"
+#
+# parsed to an empty value, so 34 records reached the BibTeX file with no
+# author field at all. Correct-looking output, missing data -- exactly the
+# failure this repository exists to catch.
 def read_meta(path):
-    """Flat key: value plus one nested 'matrix:' block. Handles YAML folded
-    scalars ('>' and '|') by joining their indented continuation lines."""
-    data, cur_block, folding_key, folded = {}, None, None, []
-    lines = path.read_text(encoding="utf-8").splitlines()
-    for line in lines:
-        stripped = line.strip()
-        indented = line[:1] in (" ", "\t")
-
-        if folding_key is not None:
-            if indented and stripped:
-                folded.append(stripped)
-                continue
-            data[folding_key] = " ".join(folded)
-            folding_key, folded = None, []
-
-        if not stripped or stripped.startswith("#"):
-            continue
-
-        if indented:
-            if cur_block:
-                m = SCALAR.match(stripped)
-                if m:
-                    val = m.group(2).split("#")[0].strip().strip('"').strip("'")
-                    data.setdefault(cur_block, {})[m.group(1)] = val
-            continue
-
-        m = SCALAR.match(line)
-        if not m:
-            continue
-        key, val = m.group(1), m.group(2).strip()
-        if val in (">", "|", ">-", "|-"):
-            folding_key, folded, cur_block = key, [], None
-        elif val == "":
-            cur_block = key
-            data.setdefault(key, {})
-        else:
-            cur_block = None
-            data[key] = val.strip('"').strip("'")
-    if folding_key is not None:
-        data[folding_key] = " ".join(folded)
-    return data
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    return data if isinstance(data, dict) else {}
 
 
 def clean(v):
@@ -102,6 +71,8 @@ def clean(v):
 
 
 def split_items(v):
+    if isinstance(v, (list, tuple)):
+        return [clean(x) for x in v if clean(x)]
     """Split a list-ish field into items.
 
     Metadata uses two conventions: bracketed lists ('[A, B]') and
