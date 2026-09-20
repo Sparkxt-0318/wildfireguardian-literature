@@ -13,6 +13,21 @@ publication_status: PREPRINT
 open_access_status: OA
 fulltext_status: ABSTRACT_VERIFIED
 fulltext_status_basis: "abstract reproduced verbatim from the arXiv abs page on 2026-09-20; body not read"
+priority_date: 2026-02-06
+priority_date_note: >
+  Date anomaly RESOLVED by the lead 2026-09-20. The identifier prefix 2603
+  suggests March 2026 while the abs page displays "[Submitted on 6 Feb 2026]".
+  The arXiv Atom API gives <published>2026-02-06T12:16:55Z</published>, which
+  agrees with the displayed date. An arXiv identifier prefix is not a reliable
+  guide to submission month, so there is no discrepancy to reconcile: priority
+  date is 2026-02-06.
+lead_verification: >
+  Abstract recovered verbatim from the arXiv abs page and corroborated by the
+  Atom API. Quoted verbatim: "Motivated by evacuation scenarios arising in
+  extreme events such as flooding or forest fires" and "We provide an integer
+  linear program (ILP) to compute the latest possible time to evacuate."
+  This is a latest-evacuation-time computation explicitly motivated by forest
+  fire, on graphs whose connections become impassable over time.
 date_verified: 2026-09-20
 verified_via: "arXiv abs page (title, authors, submission line, primary category cs.DS, verbatim abstract) retrieved twice"
 id_caveat: >

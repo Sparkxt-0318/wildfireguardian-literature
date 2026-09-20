@@ -14,6 +14,20 @@ open_access_status: UNKNOWN
 preprint_version: "arXiv:2208.14516 [math.OC], submitted 30 Aug 2022, same title (hyphenation differs)"
 fulltext_status: ABSTRACT_VERIFIED
 fulltext_status_basis: "abstract of the arXiv version reproduced verbatim on 2026-09-20; the journal full text was NOT retrieved and the published abstract was NOT independently compared"
+priority_date: 2022-08-30
+priority_date_note: >
+  VERIFIED by the lead 2026-09-20. A preprint of this work has been public as
+  arXiv:2208.14516 [math.OC] since 2022-08-30, carrying the same definition
+  ("the latest time of departure for which a chosen on-time arrival probability
+  can be guaranteed"). Per CITATION_RULES the PRIORITY DATE is that first
+  disclosure, not the 2025 journal issue. The quantity WG-C-003 proposed to
+  claim has therefore been public for four years, not one. Cite the journal
+  version; date the priority to 2022.
+lead_verification: >
+  Crossref record confirms Computers & Operations Research 183:107148, issued
+  2025-11, journal-article, three authors as recorded. The defining sentence was
+  independently recovered from the arXiv abstract page, i.e. a second source
+  with an independent origin, not an aggregator copy.
 date_verified: 2026-09-20
 verified_via: "OpenAlex works records for both the journal article (DOI, volume, article number, authors) and the arXiv version; arXiv abs page for the verbatim abstract"
 category: [2, 4]

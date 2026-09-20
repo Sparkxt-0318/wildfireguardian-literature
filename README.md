@@ -73,12 +73,11 @@ CRITICAL  HIGH  MODERATE  LOW  BACKGROUND
 **Verdict:**
 
 <!-- CLAIM-COUNTS:BEGIN -->
-**14 registered claims** — 1 SUPPORTED_CANDIDATE · 7 WEAKENED · 4 OCCUPIED · 1 REJECTED · 1 UNKNOWN (sums to 14).
+**14 registered claims** — 8 WEAKENED · 4 OCCUPIED · 1 REJECTED · 1 UNKNOWN (sums to 14).
 
 | Status | Count |
 |---|---|
-| `SUPPORTED_CANDIDATE` | 1 |
-| `WEAKENED` | 7 |
+| `WEAKENED` | 8 |
 | `OCCUPIED` | 4 |
 | `REJECTED` | 1 |
 | `UNKNOWN` | 1 |

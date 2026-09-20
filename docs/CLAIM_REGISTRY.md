@@ -15,12 +15,11 @@ be collapsed: a dispatch-by algorithm can be methodologically occupied while
 a Korean dispatch-by atlas remains empirically open.
 
 <!-- CLAIM-COUNTS:BEGIN -->
-**14 registered claims** — 1 SUPPORTED_CANDIDATE · 7 WEAKENED · 4 OCCUPIED · 1 REJECTED · 1 UNKNOWN (sums to 14).
+**14 registered claims** — 8 WEAKENED · 4 OCCUPIED · 1 REJECTED · 1 UNKNOWN (sums to 14).
 
 | Status | Count |
 |---|---|
-| `SUPPORTED_CANDIDATE` | 1 |
-| `WEAKENED` | 7 |
+| `WEAKENED` | 8 |
 | `OCCUPIED` | 4 |
 | `REJECTED` | 1 |
 | `UNKNOWN` | 1 |
@@ -35,12 +34,12 @@ a Korean dispatch-by atlas remains empirically open.
 | ID | Claim | Status | Concept | Method | Empirical | Artifact | Threat papers |
 |---|---|---|---|---|---|---|---|
 | WG-C-001 | First to model future fire spread for evacuation routing | REJECTED | OCCUPIED | OCCUPIED | OCCUPIED | OCCUPIED | `cova2005trigger` `dennison2007wuivac` `li2018coupling` |
-| WG-C-002 | Forecast-skill boundary for protective action vs tuned trigger | WEAKENED | OCCUPIED | WEAKENED | UNKNOWN | UNKNOWN | `regnier2008public` `ardid2026forecastvalue` `bouttier2024optimal` |
-| WG-C-003 | Inbound-inclusive assisted-evacuation dispatch deadline | SUPPORTED_CANDIDATE | WEAKENED | UNKNOWN | UNKNOWN | UNKNOWN | `moradi2026supported` `beyki2026modular` |
+| WG-C-002 | Forecast-skill boundary for protective action vs tuned trigger | WEAKENED | OCCUPIED | WEAKENED | UNKNOWN | UNKNOWN | `regnier2008public` `ardid2026forecastvalue` `jewson2026evacuation` `bouttier2024optimal` |
+| WG-C-003 | Inbound-inclusive assisted-evacuation dispatch deadline | WEAKENED | OCCUPIED | OCCUPIED | PLAUSIBLE | PLAUSIBLE | `kamphuis2025departure` `fluschnik2026decaying` `phillips2011sipp` `kemisetti2026stochsipp` `moradi2026supported` `beyki2026modular` |
 | WG-C-004 | Probabilistic / ensemble trigger boundaries | OCCUPIED | OCCUPIED | OCCUPIED | OCCUPIED | WEAKENED | `kalogeropoulos2026ensemble` `kalogeropoulos2023kperil` `li2018coupling` |
 | WG-C-005 | Assisted evacuation of non-self-evacuating residents modelled | OCCUPIED | OCCUPIED | OCCUPIED | OCCUPIED | WEAKENED | `moradi2026supported` `flores2023goal` `shahparvari2017robust` |
-| WG-C-006 | Tuned-trigger comparator as evaluation standard | WEAKENED | OCCUPIED | OCCUPIED | UNKNOWN | UNKNOWN | `li2018coupling` `berlinghieri2024pm25` |
-| WG-C-007 | Korean-setting wildfire evacuation-timing analysis | WEAKENED | OCCUPIED | OCCUPIED | UNKNOWN | UNKNOWN | `kwon2025koreaevac` `mois2025evacuationstages` `mois2026aievacroute` `kwak2021evacroute` |
+| WG-C-006 | Tuned-trigger comparator as evaluation standard | WEAKENED | OCCUPIED | OCCUPIED | UNKNOWN | UNKNOWN | `ardid2026forecastvalue` `li2018coupling` `berlinghieri2024pm25` `jewson2026evacuation` |
+| WG-C-007 | Korean-setting wildfire evacuation-timing analysis | WEAKENED | OCCUPIED | OCCUPIED | UNKNOWN | UNKNOWN | `kim2011evacmap` `kwon2025koreaevac` `mois2025evacuationstages` `mois2026aievacroute` `kwak2021evacroute` |
 | WG-C-008 | Decision-directed / deadline-aware wildfire sensing (VOI) | WEAKENED | OCCUPIED | OCCUPIED | UNKNOWN | UNKNOWN | `sun2025decisionfocusedsensing` `malings2016voisensor` `shao2026beliefaware` |
 | WG-C-009 | Robust protectability under fire-model error | UNKNOWN | WEAKENED | UNKNOWN | UNKNOWN | UNKNOWN | `mendes2024robustsuppression` `dayan2026conformal` |
 | WG-C-010 | OSSE methodology applied to wildfire evacuation decisions | WEAKENED | OCCUPIED | OCCUPIED | UNKNOWN | UNKNOWN | `wu2025denkf` `zha2024distributed` `zeng2020osse` |
@@ -108,12 +107,13 @@ adjacent_risk: 'Forecast-value / cost-loss theory (hurricane, flood, severe weat
   general machinery. Only the wildfire instantiation can be novel.
 
   '
-last_reviewed: '2026-09-19'
+last_reviewed: '2026-09-20'
 search_tier: S1-S2 (not S3; Korean sweep incomplete)
 short: Forecast-skill boundary for protective action vs tuned trigger
 threat_papers:
 - regnier2008public
 - ardid2026forecastvalue
+- jewson2026evacuation
 - bouttier2024optimal
 novelty_axes:
   concept: OCCUPIED
@@ -121,6 +121,11 @@ novelty_axes:
   empirical: UNKNOWN
   operational_artifact: UNKNOWN
 family: WG-C
+verdict_2026_09_20: 'ardid2026forecastvalue read at E3 occupies RQ1''s PREMISE, not RQ1: no boundary of
+  any kind, forecast error never manipulated, latency never mentioned, truth never hidden. But jewson2026evacuation
+  (Frontiers in Communication, 2026-04-10, peer-reviewed) publishes the SHAPE of the experiment -- evacuate-now-vs-wait
+  by decision loss, sweeping a forecast-uncertainty dimension until the recommendation flips -- in extreme
+  weather. WG-FV-5 and WG-FV-6 are OCCUPIED; WG-FV-3 is the only component above UNKNOWN.'
 ```
 
 ### WG-C-003 — Inbound-inclusive assisted-evacuation dispatch deadline
@@ -132,7 +137,7 @@ claim: '"For residents who cannot self-evacuate, we compute the latest fire-rela
   fire-arrival feasibility enforced on the inbound leg as well as the outbound leg."
 
   '
-status: SUPPORTED_CANDIDATE
+status: WEAKENED
 verdict_2026_09_19: 'The one empty column in the novelty matrix. Four of five components are occupied
   (see NOVELTY_THREATS section 2); only the output quantity is open. Admissible ONLY if we show a case
   where the deadline and the routing plan give different operational answers.
@@ -148,18 +153,35 @@ falsifier: 'Any work computing a responder-inclusive latest-dispatch time under 
   deadline.
 
   '
-last_reviewed: '2026-09-19'
+last_reviewed: '2026-09-20'
 search_tier: S1-S2 (not S3; Korean sweep incomplete)
 short: Inbound-inclusive assisted-evacuation dispatch deadline
 threat_papers:
+- kamphuis2025departure
+- fluschnik2026decaying
+- phillips2011sipp
+- kemisetti2026stochsipp
 - moradi2026supported
 - beyki2026modular
 novelty_axes:
-  concept: WEAKENED
-  method: UNKNOWN
-  empirical: UNKNOWN
-  operational_artifact: UNKNOWN
+  concept: OCCUPIED
+  method: OCCUPIED
+  empirical: PLAUSIBLE
+  operational_artifact: PLAUSIBLE
 family: WG-C
+verdict_2026_09_20: DOWNGRADED from SUPPORTED_CANDIDATE. Decomposition into WG-DBD-1..7 plus adjacent-field
+  search found the 'one empty column' is not empty as written. DBD-3 (latest feasible departure instant
+  as an operational output) is OCCUPIED by kamphuis2025departure -- 'the latest time of departure for
+  which a chosen on-time arrival probability can be guaranteed' -- peer-reviewed in Computers & OR 183:107148
+  and public as a preprint since 2022-08-30, and by fluschnik2026decaying, which computes 'the latest
+  possible time to evacuate' on decaying graphs explicitly motivated by forest fires. DBD-4 (non-monotone
+  feasible set) is the standard SIPP representation since 2011; DBD-5 (whole-traversal hazard) is stated
+  as a definition in StochSIPP. The vocabulary differs -- robotics and graph algorithms, not fire science
+  -- which is exactly why earlier fire-science-only sweeps missed it.
+what_survives: 'Not the method. The empirical and artifact axes: the specific quantity instantiated for
+  an assisted wildfire evacuation under a MODELLED fire with quantified forecast error, and reported as
+  a Korean village-scale result. Per NOVELTY_STANDARD section 3.1 this is admissible only if the feasible
+  SET and a routing plan are shown to disagree operationally.'
 ```
 
 ### WG-C-004 — Probabilistic / ensemble trigger boundaries
@@ -241,18 +263,24 @@ note: 'This is a methodological hygiene claim. It is defensible as rigor but is 
   its own. Its real function is to protect WG-C-002 from the "you beat a strawman" objection.
 
   '
-last_reviewed: '2026-09-19'
+last_reviewed: '2026-09-20'
 search_tier: S1-S2 (not S3; Korean sweep incomplete)
 short: Tuned-trigger comparator as evaluation standard
 threat_papers:
+- ardid2026forecastvalue
 - li2018coupling
 - berlinghieri2024pm25
+- jewson2026evacuation
 novelty_axes:
   concept: OCCUPIED
   method: OCCUPIED
   empirical: UNKNOWN
   operational_artifact: UNKNOWN
 family: WG-C
+verdict_2026_09_20: 'Correction at E3: we had recorded that wildfire forecast-value work uses untuned
+  baselines. ardid2026forecastvalue selects the optimal threshold per region, retrospectively, to maximise
+  the same metric it reports -- the comparator IS tuned. The defence is now ''tuned index threshold vs
+  tuned positional trigger, point estimate vs frontier'', not ''theirs was untuned''.'
 ```
 
 ### WG-C-007 — Korean-setting wildfire evacuation-timing analysis
@@ -272,10 +300,11 @@ gate: 'Admissible only under NOVELTY_STANDARD §4 (a), (b), or (c). Must NOT be 
   without one of those demonstrated.
 
   '
-last_reviewed: '2026-09-19'
+last_reviewed: '2026-09-20'
 search_tier: S1-S2 (not S3; Korean sweep incomplete)
 short: Korean-setting wildfire evacuation-timing analysis
 threat_papers:
+- kim2011evacmap
 - kwon2025koreaevac
 - mois2025evacuationstages
 - mois2026aievacroute
@@ -286,6 +315,8 @@ novelty_axes:
   empirical: UNKNOWN
   operational_artifact: UNKNOWN
 family: WG-C
+verdict_2026_09_20: kim2011evacmap (2011 Korean conference proceedings, found via the first true Korean-language
+  sweep) pushes Korean wildfire evacuation-map occupancy back a decade. It emits routes, never a time.
 ```
 
 ### WG-C-008 — Decision-directed / deadline-aware wildfire sensing (VOI)

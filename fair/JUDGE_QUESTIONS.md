@@ -257,3 +257,40 @@ Prepared honesty is better than improvised confidence:
   it's in our own setting.
 - **"What's your citation for narrow Korean mountain roads?"** We don't have
   one. Do not assert it.
+
+---
+
+## Q11. "Hasn't someone already computed a latest departure time?"
+
+**30s.** Yes — and not in fire science, which is why it took us five search
+rounds to find it. Kamphuis, Levering and Mandjes compute "the latest time of
+departure for which a chosen on-time arrival probability can be guaranteed";
+that has been public since 2022 and peer-reviewed in *Computers & Operations
+Research* in 2025. Safe-interval path planning has represented alternating
+safe and unsafe intervals since 2011. We claim no new method. We apply those
+methods to assisted wildfire evacuation under a modelled fire with quantified
+forecast error, and report numbers nobody has measured.
+
+**Evidence.** `kamphuis2025departure`; `phillips2011sipp`;
+`kemisetti2026stochsipp`; `fluschnik2026decaying` (an ILP for "the latest
+possible time to evacuate", explicitly motivated by forest fires);
+`novelty/NOVELTY_TREE.md`.
+
+**Follow-up: "Then what is actually new?"**
+An empirical result and an artifact, not a method. See
+`FINAL_NOVELTY_RESOLUTION.md` §9–10. If that sounds modest, say so plainly —
+it is modest, and it is true, which is the trade we are making.
+
+---
+
+## Q12. "Why did you miss that for five rounds?"
+
+**30s.** Because we searched fire vocabulary. The occupying work is in
+robotics path planning and stochastic vehicle routing and never says
+"wildfire". Once we decomposed the claim into components and searched each in
+its own field's language — safe intervals, forbidden intervals, departure-time
+advice — it turned up immediately. That is recorded as a process failure, not
+glossed: `NOVELTY_STANDARD.md` §9 now requires decomposition before scoring.
+
+**This is a good answer to give.** It shows the method that found our own error
+is the method we are still using.

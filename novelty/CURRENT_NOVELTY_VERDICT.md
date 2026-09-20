@@ -1,3 +1,10 @@
+> **SUPERSEDED 2026-09-20 by `novelty/FINAL_NOVELTY_RESOLUTION.md`.**
+> This verdict rested on abstract-level evidence and on one empty column in the
+> novelty matrix. Full-text comparison showed that column is not empty: the
+> latest-feasible-departure quantity is occupied by `kamphuis2025departure`
+> (priority 2022-08-30) and the non-monotone feasible set by `phillips2011sipp`
+> (2011). Retained unedited as the record of what was believed on 2026-09-19.
+
 # CURRENT_NOVELTY_VERDICT.md
 
 **Date:** 2026-09-19
