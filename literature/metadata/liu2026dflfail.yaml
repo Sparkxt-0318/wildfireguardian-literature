@@ -11,6 +11,8 @@ doi: 10.48550/arXiv.2606.21773
 url: https://arxiv.org/abs/2606.21773
 publication_status: PREPRINT
 open_access_status: open_access
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: WebFetch of arXiv abstract page (E2)
 category: [5]

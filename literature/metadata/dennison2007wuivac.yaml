@@ -13,6 +13,8 @@ doi: 10.1007/s11069-006-9032-y
 url: https://doi.org/10.1007/s11069-006-9032-y
 publication_status: PEER_REVIEWED
 open_access_status: UNKNOWN
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: ["Crossref API record (surname printed as 'Mortiz' in the Crossref record; 'Moritz' elsewhere)", "Consensus search record with abstract"]
 category: [1]

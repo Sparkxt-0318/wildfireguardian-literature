@@ -11,6 +11,8 @@ doi: 10.1038/s41893-020-0516-7
 url: https://doi.org/10.1038/s41893-020-0516-7
 publication_status: PEER_REVIEWED
 open_access_status: OA   # BRONZE
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: Semantic Scholar API (DOI, title, year, venue, full author list, OA status); abstract via Consensus record
 category: [2, 9]

@@ -16,6 +16,8 @@ merged_duplicate: >
   agreed on venue and threat level and differed only in which claims they
   listed. Merged here as the union of both assessments so neither agent's
   reading is silently dropped.
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: Semantic Scholar API (DOI, title, year, venue, authors, full abstract, PubMed ID 42642826, OA status)
 category: [9]

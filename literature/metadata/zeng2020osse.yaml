@@ -20,6 +20,8 @@ url: "https://doi.org/10.1175/BAMS-D-19-0155.1"
 publication_status: PEER_REVIEWED
 publication_status_as_recorded: "published"
 open_access_status: "gold"
+fulltext_status: UNSPECIFIED
+fulltext_status_basis: "note carries no explicit evidence level; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); Consensus (abstract); WebSearch (recommendations list)"
 category: [10]

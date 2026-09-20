@@ -18,6 +18,8 @@ merged_duplicate: >
   agreed on venue and threat level and differed only in which claims they
   listed. Merged here as the union of both assessments so neither agent's
   reading is silently dropped.
+fulltext_status: UNSPECIFIED
+fulltext_status_basis: "note carries no explicit evidence level; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "WebFetch of the kjrs.org article page; author order and OA status cross-checked in OpenAlex (note: OpenAlex renders author 5 as 'Shiren Yang', the journal page as 'Seyoung Yang')"
 category: [8]

@@ -11,6 +11,8 @@ doi: 10.1016/j.ssci.2024.106691
 url: https://doi.org/10.1016/j.ssci.2024.106691
 publication_status: PEER_REVIEWED
 open_access_status: OA
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: ["Crossref API record", "OpenAlex record with full abstract (is_oa=true, hybrid)", "Semantic Scholar citation graph of k-PERIL"]
 category: [1]

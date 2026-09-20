@@ -11,6 +11,8 @@ doi: 10.1071/wf23165
 url: https://doi.org/10.1071/wf23165
 publication_status: PEER_REVIEWED
 open_access_status: UNVERIFIED
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "Crossref REST API bibliographic query (article pages not returned); abstract via Consensus record"
 category: [6, 7]

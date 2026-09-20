@@ -12,6 +12,8 @@ url: https://doi.org/10.5194/nhess-24-2793-2024
 publication_status: PEER_REVIEWED
 publication_status_as_recorded: "peer_reviewed_journal"
 open_access_status: open_access
+fulltext_status: FULL_TEXT_READ
+fulltext_status_basis: "note records evidence level E3; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: WebFetch of Copernicus article page (E2/E3)
 category: [4]

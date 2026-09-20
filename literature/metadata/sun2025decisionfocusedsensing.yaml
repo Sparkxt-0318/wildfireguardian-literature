@@ -12,6 +12,8 @@ url: https://doi.org/10.1145/3736425.3770102
 publication_status: PEER_REVIEWED
 publication_status_as_recorded: "peer_reviewed_conference"
 open_access_status: UNVERIFIED
+fulltext_status: FULL_TEXT_READ
+fulltext_status_basis: "note records evidence level E3; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: alphaXiv full-text retrieval + Crossref API (E3)
 category: [5]

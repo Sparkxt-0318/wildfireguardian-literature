@@ -11,6 +11,8 @@ doi: UNVERIFIED
 url: https://arxiv.org/abs/2508.06687
 publication_status: PREPRINT
 open_access_status: OA
+fulltext_status: FULL_TEXT_READ
+fulltext_status_basis: "note records full-text retrieval; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "alphaXiv full-text retrieval of arXiv:2508.06687"
 category: [7]

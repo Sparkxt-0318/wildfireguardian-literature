@@ -13,6 +13,8 @@ doi: 10.9798/KOSHAM.2021.21.6.63
 url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002789577"
 publication_status: PEER_REVIEWED
 open_access_status: UNVERIFIED
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "WebFetch of the KCI (Korea Citation Index) bibliographic record"
 category: [8]

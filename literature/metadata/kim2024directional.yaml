@@ -11,6 +11,8 @@ doi: 10.1016/j.ssci.2023.106378
 url: https://doi.org/10.1016/j.ssci.2023.106378
 publication_status: PEER_REVIEWED
 open_access_status: UNKNOWN
+fulltext_status: FULL_TEXT_READ
+fulltext_status_basis: "note records evidence level E3; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: ["Crossref API record", "Semantic Scholar forward-citation list of k-PERIL"]
 category: [3]

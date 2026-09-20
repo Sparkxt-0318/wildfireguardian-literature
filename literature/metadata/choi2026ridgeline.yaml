@@ -13,6 +13,8 @@ doi: 10.3390/fire9060247
 url: "https://doi.org/10.3390/fire9060247"
 publication_status: PEER_REVIEWED
 open_access_status: gold_OA_CC-BY
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "OpenAlex API record (api.openalex.org/works/doi:10.3390/fire9060247); MDPI page blocked (HTTP 403)"
 category: [8]

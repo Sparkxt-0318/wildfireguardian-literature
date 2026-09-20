@@ -13,6 +13,8 @@ url: "https://doi.org/10.1057/jos.2012.20"
 publication_status: PEER_REVIEWED
 publication_status_as_recorded: "published"
 open_access_status: "hybrid"
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "Crossref API (DOI lookup)"
 category: [10]

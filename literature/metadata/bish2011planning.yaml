@@ -11,6 +11,8 @@ doi: 10.1007/s00291-011-0256-1
 url: https://doi.org/10.1007/s00291-011-0256-1
 publication_status: PEER_REVIEWED
 open_access_status: CLOSED
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: Crossref API (DOI, volume, issue, pages, author, date)
 category: [2, 9]

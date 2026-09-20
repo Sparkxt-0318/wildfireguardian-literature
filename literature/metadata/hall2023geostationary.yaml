@@ -11,6 +11,8 @@ doi: 10.1080/01431161.2023.2217983
 url: https://doi.org/10.1080/01431161.2023.2217983
 publication_status: PEER_REVIEWED
 open_access_status: OA
+fulltext_status: TITLE_ONLY
+fulltext_status_basis: "note records evidence level E1; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "Crossref REST API; full text extracted locally from NOAA Institutional Repository PDF (repository.library.noaa.gov item 53332)"
 category: [7]

@@ -11,6 +11,8 @@ doi: 10.3390/ijerph22111680
 url: https://doi.org/10.3390/ijerph22111680
 publication_status: PEER_REVIEWED
 open_access_status: OA   # GOLD
+fulltext_status: UNSPECIFIED
+fulltext_status_basis: "note carries no explicit evidence level; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: Semantic Scholar API (full abstract, venue, year, OA status); WebFetch of PMC12652914 (citation, population definitions, quoted figures)
 category: [9]

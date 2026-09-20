@@ -19,6 +19,8 @@ url: "https://doi.org/10.1175/JTECH-D-13-00011.1"
 publication_status: PEER_REVIEWED
 publication_status_as_recorded: "published"
 open_access_status: "gold"
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "Crossref API (query.bibliographic); Consensus (abstract)"
 category: [10]

@@ -13,6 +13,8 @@ doi: 10.1007/s10694-018-0771-6
 url: https://doi.org/10.1007/s10694-018-0771-6
 publication_status: PEER_REVIEWED
 open_access_status: UNKNOWN
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: ["Crossref API record", "Consensus search record with abstract"]
 category: [1, 3]

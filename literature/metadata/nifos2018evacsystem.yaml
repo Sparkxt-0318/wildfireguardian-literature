@@ -13,6 +13,8 @@ doi: UNVERIFIED
 url: "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201800042755"
 publication_status: GOVERNMENT_REPORT
 open_access_status: record_open_fulltext_unverified
+fulltext_status: ABSTRACT_VERIFIED
+fulltext_status_basis: "note records evidence level E2; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "WebFetch of the ScienceON/KISTI report record"
 category: [8]

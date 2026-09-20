@@ -11,6 +11,8 @@ doi: 10.1016/j.ssci.2025.106835
 url: https://doi.org/10.1016/j.ssci.2025.106835
 publication_status: PEER_REVIEWED
 open_access_status: UNKNOWN
+fulltext_status: FULL_TEXT_READ
+fulltext_status_basis: "note records evidence level E3; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: ["Crossref API record", "Crossref record of the earlier SSRN preprint 10.2139/ssrn.4871791 by the same authors"]
 category: [3]

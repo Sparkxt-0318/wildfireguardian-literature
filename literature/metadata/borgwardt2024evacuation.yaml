@@ -11,6 +11,8 @@ doi: UNVERIFIED
 url: https://arxiv.org/abs/2410.14500
 publication_status: PREPRINT
 open_access_status: OA
+fulltext_status: UNSPECIFIED
+fulltext_status_basis: "no note file; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: alphaXiv get_paper_content full text of arXiv 2410.14500 (title page, abstract, keyword scan)
 category: [2]

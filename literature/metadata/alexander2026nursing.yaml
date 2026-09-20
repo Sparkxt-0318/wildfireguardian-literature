@@ -11,6 +11,8 @@ doi: 10.1145/3795095.3805113
 url: https://doi.org/10.1145/3795095.3805113
 publication_status: PEER_REVIEWED
 open_access_status: OA   # Semantic Scholar reports HYBRID
+fulltext_status: UNSPECIFIED
+fulltext_status_basis: "note carries no explicit evidence level; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: Crossref API (DOI, pages, venue, authors, date); Semantic Scholar API (abstract, OA status)
 category: [2, 9]

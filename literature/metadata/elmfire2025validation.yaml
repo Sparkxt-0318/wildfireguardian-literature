@@ -11,6 +11,8 @@ doi: UNVERIFIED
 url: https://elmfire.io/validation.html
 publication_status: SOFTWARE_DOC
 open_access_status: open
+fulltext_status: UNSPECIFIED
+fulltext_status_basis: "note carries no explicit evidence level; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "WebFetch of elmfire.io/validation.html"
 category: [6]

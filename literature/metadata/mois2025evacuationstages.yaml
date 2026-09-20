@@ -13,6 +13,8 @@ doi: UNVERIFIED
 url: "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=117125"
 publication_status: GOVERNMENT_REPORT
 open_access_status: publicly_accessible_web_page
+fulltext_status: UNSPECIFIED
+fulltext_status_basis: "note carries no explicit evidence level; backfilled 2026-09-20, not an independent check"
 date_verified: 2026-09-19
 verified_via: "WebFetch of the MOIS release itself (2025-04-16); corroborated by edaily 2025-04-15, korea.kr policy news, kyongbuk.co.kr, 정책주간지 공감"
 category: [8]
