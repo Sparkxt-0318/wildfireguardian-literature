@@ -56,8 +56,11 @@ And these framings are simply false, whatever we wish:
 **P1 — The dispatch-by deadline.** `SUPPORTED_CANDIDATE`.
 The latest fire-relative departure time for a responder such that ingress +
 pickup dwell + egress all complete ahead of modelled fire arrival, reported as
-the output and as a function of forecast error. Zero occupants found; the
-literal search phrases return zero academic hits.
+the output and as a function of forecast error. No occupying prior art was
+identified in the searched corpus; the literal search phrases returned no
+academic hits. A null search establishes `UNKNOWN`, not novelty
+(`NOVELTY_STANDARD.md` §3.2) — this claim rests on the full-text comparisons in
+`FINAL_NOVELTY_RESOLUTION.md`, not on the absence of hits.
 **Condition:** admissible only if we demonstrate a case where the *deadline*
 and the *routing plan* give different operational answers. Otherwise it is
 conjunction novelty, which `NOVELTY_STANDARD.md` §3.1 forbids.

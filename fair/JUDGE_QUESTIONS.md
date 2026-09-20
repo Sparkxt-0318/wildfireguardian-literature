@@ -25,7 +25,8 @@ responder, not a distance for a resident.
 
 **Evidence.** `cova2005trigger` (Transactions in GIS 9(4):603–617);
 `kalogeropoulos2026ensemble`; `NOVELTY_MATRIX.md` column `dispatch-by deadline`
-is the only one with zero occupants.
+is the only one for which no occupying prior art was identified in the searched
+corpus.
 
 **Follow-up: "Isn't the deadline just the boundary read backwards?"**
 For a self-evacuating household, largely yes. For a round trip it isn't, because

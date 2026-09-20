@@ -25,7 +25,8 @@ killed them did not.
 **Why it survives.** The novelty matrix has one empty column out of nineteen:
 `dispatch-by deadline` (0 papers do it, 2 partially). Everything around it is
 occupied — inbound responders, pickup, fire-derived time windows, supported
-evacuation — but no retrieved work *reports the deadline as its output*. The
+evacuation — but no occupying prior art *reporting the deadline as its output*
+was identified in the searched corpus. The
 literal phrases "latest dispatch time" and "latest safe departure time"
 returned zero academic hits.
 
@@ -54,9 +55,9 @@ show that, this claim must be abandoned for the narrower S2 below.
 
 **Status:** `SUPPORTED_CANDIDATE`.
 
-This survives independently of S1 because no retrieved work — wildfire or
-otherwise — reports a *deadline* as the dependent variable in a forecast-quality
-sensitivity study. It is a smaller claim and it is more robust. If S1 dies,
+This survives independently of S1 because no occupying prior art reporting a
+*deadline* as the dependent variable in a forecast-quality sensitivity study —
+wildfire or otherwise — was identified in the searched corpus. It is a smaller claim and it is more robust. If S1 dies,
 this is the retreat position, and it should be prepared now rather than
 improvised at the fair.
 

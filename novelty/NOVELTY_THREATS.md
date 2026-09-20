@@ -43,7 +43,7 @@ Four of its five components are occupied:
 | Inbound responder simulated with outbound evacuation | `beyki2026modular`, `averill2007emergencyresponse` | **Occupied — this sentence must be struck from our claim** |
 | Pickup dwell + delivery in one routed mission | `moradi2026supported`, `flores2023goal` | **Occupied** |
 | Fire-arrival feasibility on the **inbound** leg | `moradi2026supported` (in form) | **Occupied in form** |
-| **Latest dispatch time reported as the output, from a modelled future fire, as a function of forecast error** | *nothing retrieved* | **Open** |
+| **Latest dispatch time reported as the output, from a modelled future fire, as a function of forecast error** | *no occupying prior art identified in the searched corpus* | **Open, pending full-text comparison** |
 
 ### WG-C-004 — probabilistic/ensemble triggers
 Three independent occupants: `kalogeropoulos2023kperil`, `kalogeropoulos2026ensemble`, `li2018coupling`. **Unclaimable.**

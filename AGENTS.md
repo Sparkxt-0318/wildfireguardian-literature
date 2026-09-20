@@ -72,7 +72,9 @@ Adding a paper is not done until all of these are updated:
 - [ ] `bibliography/wildfireguardian.bib` (BibTeX, correct entry type)
 - [ ] `novelty/NOVELTY_MATRIX.md` (one row, all columns filled or `-`)
 - [ ] `novelty/NOVELTY_THREATS.md` (if threat level is MODERATE or above)
-- [ ] `docs/CLAIM_REGISTRY.md` (if it affects any claim's status)
+- [ ] `docs/claims.yaml` (if it affects any claim's status), then run
+      `python3 bibliography/build_claims.py` — `docs/CLAIM_REGISTRY.md` is
+      **generated** and must never be hand-edited
 - [ ] `docs/SEARCH_PROTOCOL.md` (log the query that found it)
 
 ---
@@ -102,6 +104,45 @@ Collisions get a trailing letter: `cova2005triggera`, `cova2005triggerb`.
 - Short quotes only, with page or section reference.
 - Never paste long passages of copyrighted text into notes.
 - `literature/papers/` holds local PDFs and is **gitignored** — never commit PDFs.
+
+---
+
+## 8a. Counts are derived, never typed
+
+Claim counts appear in several documents. They are generated from
+`docs/claims.yaml` into `<!-- CLAIM-COUNTS:BEGIN/END -->` regions by
+`bibliography/build_claims.py`. **Never type a claim count by hand.** A
+hand-maintained summary once reported five figures that summed to 15 for 14
+claims, and it survived review because nobody adds up a sentence.
+
+`python3 bibliography/build_claims.py --check` exits non-zero if any generated
+file is stale. Run it before committing.
+
+---
+
+## 8b. Novelty is scored on four axes, never collapsed
+
+Every claim carries `novelty_axes`: `concept`, `method`, `empirical`,
+`operational_artifact`, each one of `OCCUPIED` / `WEAKENED` / `PLAUSIBLE` /
+`UNKNOWN`.
+
+Do not collapse them into a single verdict. A dispatch-by algorithm may be
+methodologically occupied while a Korean dispatch-by atlas remains empirically
+open — one status cannot express that, and collapsing it has previously made
+the picture look worse (and in other places better) than the evidence supports.
+
+---
+
+## 8c. How to word a null search result
+
+Forbidden: "0 occupants out of 165 papers, therefore novel."
+
+Required: "**No occupying prior art was identified in the searched corpus.**"
+
+Every surviving claim must additionally report: search coverage · full-text
+coverage · unsearched databases · language limitations · publication-date
+cutoff · confidence. A claim whose closest threat is only `TITLE_ONLY` or
+`ABSTRACT_VERIFIED` cannot be held at high confidence.
 
 ---
 
