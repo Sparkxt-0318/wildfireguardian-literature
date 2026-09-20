@@ -10,6 +10,12 @@ judge will actually ask next.
 **Drill rule:** if you cannot give the 30-second answer without reading it, you
 do not know it yet.
 
+**Standing posture: concede first, then narrow.** When a judge names a field we
+do not own — assisted evacuation, forecast value, ensembles, inbound routing,
+Korea — the first word is "Yes." Then state the one narrower thing that is
+ours. Every attempt to defend occupied ground costs credibility we need for the
+claim that is actually defensible.
+
 ---
 
 ## Q1. "Isn't this just Cova trigger modelling?"
@@ -38,13 +44,16 @@ constraints bind at different times, and a single boundary does not encode both.
 
 ## Q2. "Isn't assisted evacuation already solved?"
 
-**30s.** The modelling of it, largely yes — and we say so. Moradi et al. (2026)
-solve supported evacuation in wildfires with hard fire-arrival time windows on
-every arc; Shahparvari's bushfire work goes back to 2015; Beyki et al. (2026)
-simulate inbound rescue on a fire-degraded network. We do not claim to have
-invented assisted-evacuation modelling. What none of them report is the
-*deadline* — they all report a plan: routes, fleet sizes, shelter locations.
-The time windows are inputs to their models; the departure time is our output.
+**30s.** Yes. We do not claim assisted evacuation itself as new. Moradi et al.
+(2026) solve supported evacuation in wildfires with hard fire-arrival time
+windows on every arc; Shahparvari's bushfire work goes back to 2015; Beyki et
+al. (2026) simulate inbound rescue on a fire-degraded network. All of that is
+occupied and we concede it.
+
+The narrower difference we claim is this: every one of those papers reports a
+*plan* — routes, fleet sizes, shelter locations — and takes the time windows as
+*inputs*. We report the *departure time* as an *output*, and how it moves with
+forecast error. That is the whole claim.
 
 **Evidence.** `moradi2026supported` (arXiv 2608.05413, **preprint**);
 `shahparvari2019fleet`; `beyki2026modular`; `flores2023goal`.
@@ -56,6 +65,28 @@ we have to answer it with a demonstrated case, not an argument. If we cannot
 show a situation where the deadline and the plan imply different actions, the
 claim should be narrowed to the sensitivity result. That is written down in
 `SURVIVING_CLAIMS.md` as the condition on S1.
+
+---
+
+## Q2b. "Isn't forecast value old?"
+
+**30s.** Yes. Forecast value is established decision theory — Murphy's cost-loss
+framework, and the relative-economic-value machinery built on it. Regnier
+derived a forecast-quality boundary for hurricane evacuation ordering in 2008,
+and Ardid et al. mapped skill to economic value for wildfire in 2026. We claim
+none of that. If we have a contribution it is a specific wildfire experiment
+and its result — varying forecast error *and latency* against a tuned trigger
+baseline, with mission feasibility rather than a scalar cost as the payoff —
+and only if that result holds up.
+
+**Evidence.** `murphy1987accuracyvalue`; `regnier2008public`;
+`ardid2026forecastvalue`; `novelty/RQ1_DECOMPOSITION.md` scores the components
+separately rather than calling the whole question occupied or open.
+
+**Follow-up: "So which part is actually yours?"**
+Point at the decomposition, not at a slogan. If the honest answer is that only
+the empirical result is ours, say that — an empirical finding is a legitimate
+scientific contribution and pretending otherwise is what gets punctured.
 
 ---
 
