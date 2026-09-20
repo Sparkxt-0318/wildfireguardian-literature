@@ -124,7 +124,10 @@ means destroys the distribution tails where a timing deadline would live.
 
 ## Full-text verification 2026-09-20
 
-**Agent C — Verification Auditor.** `fulltext_status: FULL_TEXT_READ`. `evidence_level: E4`.
+**Agent C — Verification Auditor.** `fulltext_status: METHODS_VERIFIED`. `evidence_level: E4`.
+(Tier per the `docs/EVIDENCE_LEVELS.md` mapping: equations, parameters and located quantitative
+values were verified, so the tier is `METHODS_VERIFIED`, ceiling E4. It is **not**
+`RESULTS_VERIFIED` — no result was reproduced or corroborated independently.)
 Access route: alphaXiv MCP `get_paper_content(fullText=true)`, cross-checked against alphaXiv
 `answer_pdf_queries` page extraction and the arXiv abstract page.
 **Caveat:** `arxiv.org/html/2608.05413v1` returns 404 and ar5iv serves no LaTeX HTML, so no second

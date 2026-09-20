@@ -42,7 +42,9 @@ useful reading is column-wise and pairwise, not row-wise.
 | `dennison2007wuivac` | HIGH | Y | . | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | . | . |
 | `flores2023goal` | HIGH | . | . | . | . | . | Y | Y | Y | Y | . | . | . | . | Y | . | . | . | ~ | . |
 | `georgakakos2025evacuationtiming` | HIGH | . | . | . | Y | . | . | . | . | Y | . | Y | ~ | Y | . | . | . | . | . | Y |
+| `jewson2026evacuation` | HIGH | . | . | ~ | Y | . | . | . | . | . | . | ~ | Y | Y | . | Y | . | . | . | . |
 | `kalogeropoulos2022kperil` | HIGH | Y | . | . | Y | . | . | . | . | Y | . | . | . | . | . | . | . | . | . | . |
+| `kamyabniya2022thesis` | HIGH | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | . | ? | ? |
 | `kwon2025koreaevac` | HIGH | . | ~ | . | . | . | . | . | . | Y | . | . | . | . | Y | . | . | Y | . | . |
 | `larsen2011cedar` | HIGH | Y | . | . | . | . | . | . | . | Y | . | . | . | ~ | . | . | . | . | ~ | . |
 | `li2015household` | HIGH | Y | . | Y | . | . | . | . | . | Y | . | . | . | ~ | ~ | . | . | . | . | . |
@@ -193,24 +195,24 @@ useful reading is column-wise and pairwise, not row-wise.
 
 | Column | Y | ~ | . | Reading |
 |---|---|---|---|---|
-| future fire | 46 | 14 | 102 | heavily occupied |
-| traffic | 15 | 6 | 140 | heavily occupied |
-| household trigger | 3 | 2 | 158 | occupied |
-| prob. trigger | 12 | 7 | 143 | heavily occupied |
-| multi fire models | 5 | 0 | 159 | heavily occupied |
-| assisted evac | 19 | 8 | 138 | heavily occupied |
-| inbound responder | 19 | 4 | 139 | heavily occupied |
-| pickup | 12 | 6 | 145 | heavily occupied |
-| egress | 50 | 6 | 108 | heavily occupied |
-| dispatch-by deadline | 0 | 2 | 160 | sparse -- investigate whether this is genuinely open or merely unsearched |
-| forecast latency | 12 | 13 | 140 | heavily occupied |
-| skill boundary | 10 | 14 | 141 | heavily occupied |
-| decision value | 31 | 21 | 105 | heavily occupied |
-| scarce resources | 23 | 13 | 127 | heavily occupied |
-| VOI | 9 | 8 | 147 | heavily occupied |
-| active sensing | 13 | 4 | 148 | heavily occupied |
-| Korean setting | 22 | 1 | 142 | heavily occupied |
-| real validation | 25 | 35 | 97 | heavily occupied |
-| OSSE | 12 | 0 | 150 | heavily occupied |
+| future fire | 46 | 14 | 103 | heavily occupied |
+| traffic | 15 | 6 | 141 | heavily occupied |
+| household trigger | 3 | 3 | 158 | occupied |
+| prob. trigger | 13 | 7 | 143 | heavily occupied |
+| multi fire models | 5 | 0 | 160 | heavily occupied |
+| assisted evac | 19 | 8 | 139 | heavily occupied |
+| inbound responder | 19 | 4 | 140 | heavily occupied |
+| pickup | 12 | 6 | 146 | heavily occupied |
+| egress | 50 | 6 | 109 | heavily occupied |
+| dispatch-by deadline | 0 | 2 | 161 | sparse -- investigate whether this is genuinely open or merely unsearched |
+| forecast latency | 12 | 14 | 140 | heavily occupied |
+| skill boundary | 11 | 14 | 141 | heavily occupied |
+| decision value | 32 | 21 | 105 | heavily occupied |
+| scarce resources | 23 | 13 | 128 | heavily occupied |
+| VOI | 10 | 8 | 147 | heavily occupied |
+| active sensing | 13 | 4 | 149 | heavily occupied |
+| Korean setting | 22 | 1 | 144 | heavily occupied |
+| real validation | 25 | 35 | 98 | heavily occupied |
+| OSSE | 12 | 0 | 151 | heavily occupied |
 
-*165 papers recorded.*
+*167 papers recorded.*

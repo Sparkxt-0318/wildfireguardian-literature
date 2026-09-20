@@ -110,12 +110,21 @@ def split_items(v):
     present, is the only separator.
     """
     s = clean(v).strip()
-    if s.startswith("[") and s.endswith("]"):
+    bracketed = s.startswith("[") and s.endswith("]")
+    if bracketed:
         s = s[1:-1]
     quoted = re.findall(r'"([^"]+)"', s)
     if quoted:
         return [q.strip() for q in quoted if q.strip()]
-    sep = ";" if ";" in s else ","
+    if ";" in s:
+        sep = ";"
+    elif bracketed:
+        sep = ","                       # list syntax: [A, B, C]
+    else:
+        # An unbracketed, semicolon-free string is a single "Last, First"
+        # name. Splitting it on the comma turns one author into two, which
+        # BibTeX then renders as "Kamyabniya and Afshin".
+        return [s.strip('"').strip("'")] if s else []
     return [p.strip().strip('"').strip("'") for p in s.split(sep) if p.strip()]
 
 

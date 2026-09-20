@@ -6,16 +6,59 @@ venue: "arXiv"
 venue_type: preprint
 volume: ""
 issue: ""
-pages: "arXiv:2608.05413"
-doi: UNVERIFIED
+pages: "arXiv:2608.05413 (33 pages, 8 figures)"
+doi: "10.48550/arXiv.2608.05413"
+doi_note: "arXiv-issued DOI via DataCite, read from the arXiv abstract page 2026-09-20. This is the deposit DOI, NOT a journal DOI. No journal-reference field is populated."
 url: https://arxiv.org/abs/2608.05413
+arxiv_primary_class: "math.OC"
 publication_status: PREPRINT
+peer_reviewed: false
 open_access_status: OA
-date_verified: 2026-09-19
-verified_via: ["arXiv abstract page (submission date 2026-08-05)", "alphaXiv full text retrieval of arXiv:2608.05413 (read directly)", "alphaXiv discover_papers record"]
+versions_on_arxiv: 1
+date_verified: 2026-09-20
+
+fulltext_status: METHODS_VERIFIED
+fulltext_status_basis: >
+  Full body read 2026-09-20 by Agent C: all seven sections, constraint blocks (1)-(61), Tables 1-7
+  and the reference list. Equations (26), (28), (29), (30), (50), (51), (52), (53), (54), (55), (56),
+  (57) and the parameter table (Table 6) located and quoted by number. Tier is METHODS_VERIFIED, not
+  RESULTS_VERIFIED - no result was reproduced or corroborated by an independent source.
+evidence_level: E4
+evidence_level_basis: >
+  E4 - full text plus numbers and equations located at specific section, equation and table numbers.
+  Not E5 - see access_route_caveat; two extractions of one PDF is not corroboration by a second
+  source (docs/EVIDENCE_LEVELS.md, Rules 4).
+
+access_route: >
+  alphaXiv MCP get_paper_content(fullText=true) on https://arxiv.org/abs/2608.05413 (97,958
+  characters), cross-checked against alphaXiv answer_pdf_queries page-ranked extraction (pages 1, 6,
+  7, 9, 10, 16, 18, 19, 20, 23, 24, 25, 27), plus the arXiv abstract page via WebFetch and a second
+  independent retrieval of that page through the ar5iv redirect.
+access_route_caveat: >
+  HTML rendering does NOT exist for this submission - arxiv.org/html/2608.05413v1 returns HTTP 404
+  and ar5iv.labs.arxiv.org serves no LaTeX HTML, redirecting to the abstract page. The instruction to
+  cross-check numerics against a second RENDERING could not be satisfied. What was done instead is
+  two independent extraction passes over the same PDF by two different alphaXiv endpoints, which
+  agreed exactly on every load-bearing item (Uniform(400, 850); 6 ambulances / 16 buses / 0
+  helicopters; Table 7 evacuation times; Table 2 small-instance windows; the text and prose glosses
+  of constraints (26), (27), (28), (50), (51), (52), (53); Table 3 first arrival time = 0).
+verified_via: ["arXiv abstract page, submission history [v1] Wed, 5 Aug 2026 21:11:26 UTC", "arXiv abstract page re-retrieved via ar5iv redirect (same metadata, independent fetch)", "alphaXiv get_paper_content full-text extraction of arXiv:2608.05413", "alphaXiv answer_pdf_queries page extraction of arXiv:2608.05413"]
+
+priority_date_note: >
+  Two dates, both verified, roughly one year apart. The arXiv abstract page submission history reads
+  exactly "[v1] Wed, 5 Aug 2026 21:11:26 UTC (7,635 KB)" and only v1 exists (v2 returns HTTP 404).
+  The PDF title page footer reads exactly "Preprint submitted to Elsevier August 8, 2025". The footer
+  is the manuscript's own compile-time stamp and is corroborated by internal evidence - section 6.5.1
+  uses "Google Maps estimates from January 2025" - so the manuscript is about a year older than its
+  arXiv posting. RESOLUTION - the earliest demonstrable public priority date is 2026-08-05. August
+  2025 is the authors' unverifiable title-page claim and may not be asserted by us as established
+  priority. Neither date changes its force as prior art. No acceptance or publication evidence was
+  retrieved and the target Elsevier journal is not named anywhere in the document.
+
 category: [3]
 threat_level: CRITICAL
 threatens_claims: ["WG-C-003", "WG-C-005", "WG-C-011"]
+
 matrix:
   future_fire: partial
   traffic: partial
@@ -36,5 +79,131 @@ matrix:
   korean_setting: no
   real_validation: partial
   osse: no
+
+dbd_scoring:
+  scored_on: 2026-09-20
+  scored_by: "Agent C - Verification Auditor"
+  scored_against: "this paper only, at METHODS_VERIFIED / E4"
+  overall_label: MATHEMATICALLY_IMPLICIT
+  overall_label_basis: >
+    The latest feasible dispatch time is obtainable from the formulation by parametric re-solving over
+    a shifted time origin, but it is never extracted, reported, plotted, varied or named. The strings
+    "latest", "deadline" and "dispatch time" do not occur in the body; "dispatch" occurs twice and
+    both times means a location. Dispatch is an assumption here (t = 0), not a result. A constraint
+    that bounds arrival times is not a reported latest dispatch time.
+  WG-DBD-1:
+    component: "Complete assisted mission = responder ingress + service + egress"
+    score: OCCUPIED
+    evidence: >
+      Base is the medical facility a vehicle is stationed at (section 3; constraints (7)-(8); Table 3
+      stop 1 = H5). Ingress to an assembly area, explicit loading dwell c^v_l and unloading dwell
+      d^v_m (section 3), delivery to hospital or shelter. All legs timed by the arrival recursion
+      (29)/(30), Model 2 (54)/(55), and gated by (53) regardless of direction. Caveat - the pickup
+      node is a temporary assembly area, not a residence (section 1), and the door-to-door leg is
+      outside the model.
+  WG-DBD-2:
+    component: "Fire-relative feasible dispatch times computed"
+    score: NOT_OCCUPIED
+    evidence: >
+      Dispatch is the constant zero, imposed by constraint (26) in Model 1 and (50) in Model 2 -
+      "arrival times start at 0". No release, departure, delay or waiting variable exists. Nothing in
+      the paper computes a time at which to begin.
+  WG-DBD-3:
+    component: "Latest feasible dispatch instant reported as an operational quantity"
+    score: NOT_OCCUPIED
+    evidence: >
+      Absent from the body. Every reported output is a plan (fleet size, shelter set, routes) or a
+      forward COMPLETION time - Table 7's "Evacuation time for given % of the population [min]" at
+      50/70/100 per cent, and Table 3's per-stop arrival times. Sensitivity analyses cover shelter
+      count, fire origin, population, priority mix and window length, never dispatch or start time.
+  WG-DBD-4:
+    component: "Non-monotone feasible dispatch windows as a SET, not a single deadline"
+    score: NOT_OCCUPIED
+    evidence: >
+      One closure instant per node and per arc, permanent - "after which it cannot be visited"
+      (section 3), "becomes completely unavailable" (section 5.4). Strictly monotone, nothing
+      reopens. The soft window STR^s_ll' is a one-way step raising travel time by y per cent from
+      that instant on (constraints (56)-(57)), not a second interval. No set-valued feasibility
+      object exists anywhere in the paper.
+  WG-DBD-5:
+    component: "Full traversal-interval hazard evaluated (vs hazard checked only at arc entry)"
+    score: NOT_OCCUPIED
+    evidence: >
+      Constraint (53) bounds the arrival time at l, the ORIGIN of arc (l, l') - i.e. the moment of
+      arc entry - against that arc's hard window. The soft-disruption trigger (56) is built the same
+      way and the authors state it in words before (56). Nothing constrains arrival at l' or the arc
+      state during traversal, so a vehicle entering one minute before closure completes the
+      traversal unharmed however long it takes - up to 38.6 km in Table 5's distance matrix.
+  WG-DBD-6:
+    component: "Feasibility conditioned on decision-time information rather than oracle future knowledge"
+    score: NOT_OCCUPIED
+    evidence: >
+      Every second-stage variable is indexed by scenario s and optimized knowing that scenario's
+      realized TW^s_l, STR^s_ll' and TWR^s_ll' - i.e. knowing exactly when the fire reaches every node
+      and arc. No filtration, no rolling horizon, no re-planning on observation, no forecast. NUANCE
+      RECORDED - the first-stage fleet-sizing and shelter-activation decision IS non-anticipative, but
+      mission feasibility is a second-stage question and that stage has oracle knowledge.
+  WG-DBD-7:
+    component: "Korean rural wildfire geometry"
+    score: NOT_OCCUPIED
+    evidence: >
+      Roxborough Park, Colorado, USA - a WUI community of about 900 homes and 9,057 people, on Google
+      Maps distances from January 2025 (section 6.5.1, Table 5). Canada, USA and Australia framing
+      throughout section 1. Korea does not appear in the paper.
+  kills_dispatch_by_deadline_claim: ONLY_PARTLY
+  kills_note: >
+    Takes WG-DBD-1 outright - the sentence "nobody models the assisted-evacuation round trip as one
+    timed mission" is now forbidden. Leaves WG-DBD-2 through WG-DBD-7 standing, six of seven.
+
+time_window_distribution_verified:
+  claim_checked: "previous agent reported Uniform(400, 850) minutes with a categorical fire-origin label"
+  verdict: CONFIRMED_AND_EXTENDED
+  exact_text: "Time windows for assembly areas [min] Uniform(400, 850) / Time windows for routes [min] Uniform(400, 850) / Fire origin Random(south,west, north)"
+  location: "Table 6, section 6.5.1"
+  correction: >
+    The previous record was correct but incomplete in a way that matters. BOTH the assembly-area
+    windows and the ROUTE windows are drawn from Uniform(400, 850), and the fire origin is drawn
+    INDEPENDENTLY as Random(south, west, north) - nothing in the sampling makes a southern node's
+    window depend on a southern ignition. Section 3's causal sentence, "Depending on the origin of the
+    fire, wind direction, and vegetation density, each assembly area l is subject to a time window",
+    is asserted and never operationalised. The apparent coupling in section 6.5.2 ("in category 32 the
+    fire originates in the south, allowing more time to evacuate northern assembly areas") is post-hoc
+    narrative read onto categories whose parameters were drawn independently. Separately, the 10,000
+    sampled scenarios are collapsed to 54 categories by AVERAGING, which destroys the distribution
+    tails where a timing deadline would live.
+
+finite_resources:
+  case_study_available: {ambulances: 10, buses: 20, helicopters: 2}
+  case_study_capacity: {ambulance: 1, bus: 10, helicopter: 2}
+  case_study_speed_kmh: {ambulance: 60, bus: 50, helicopter: 200}
+  case_study_activated: {ambulances: 6, buses: 16, helicopters: 0}
+  shelters: "2 of 3 candidates opened (S8, S9); 3 hospitals at 80 beds each"
+  small_instance_available: {ambulances: 4, buses: 4, helicopters: 2}
+  small_instance_activated: {ambulances: 2, buses: 2, helicopters: 0}
+  max_stops_per_vehicle: 20
+  demand: "about 900 people, 10 per cent of Roxborough Park's 9,057; about 5 per cent high-priority"
+
+citation_lead_resolved:
+  kamyabniya_2022:
+    verbatim_reference: "Kamyabniya, A. (2022). Integrated and Coordinated Relief Logistics Planning Under Uncertainty for Relief Logistics Operations. University of Ottawa."
+    location: "reference list; cited in section 2 as \"Kamyabniya Kamyabniya (2022)\" (doubled surname is a citation-macro error in the original)"
+    type: "doctoral thesis, University of Ottawa - which is why article search never found it"
+    evidence_level: E1
+    status: "reference-list record only; NOT retrieved. Moradi et al.'s description of it is theirs, not ours, and may not be attributed to the thesis."
+    why_still_a_threat: >
+      Same institution and group - Saure and Patrick co-author Kamyabniya et al. (2024), so this is
+      almost certainly a predecessor thesis under the same supervisors. Moradi et al. section 2
+      describe it as a mixed-integer model for supported evacuation jointly optimizing temporary
+      shelter locations and vehicle routing, "formulated as a time-step-based two-stage stochastic
+      problem". A time-step formulation is the structure most likely to carry a per-step feasibility
+      indicator, i.e. the closest thing in this lineage to a dispatch SET. RETRIEVE from uO Research.
+    do_not_confuse_with: "Kamyabniya, A., Saure, A., Salman, F. S., Benichou, N., & Patrick, J. (2024). Optimization models for disaster response operations: A literature review. OR Spectrum, 46, 737-783."
+
 one_line_difference: >
-  Formulates supported evacuation of people who cannot self-evacuate as a two-stage stochastic facility-location + multi-vehicle PDPTW in which BOTH the assembly area and the ROUTE carry a hard time window 'after which the route is reached by the fire' — so the inbound leg IS fire-constrained; but the time windows are drawn from Uniform(400,850) minutes rather than from a fire-spread model, and the output is a routing/fleet plan, not a latest-safe-dispatch time.
+  Formulates supported evacuation of people who cannot self-evacuate as a two-stage stochastic
+  facility-location + multi-vehicle PDPTW in which BOTH the assembly area and the ROUTE carry a hard
+  time window "after which the route is reached by the fire" - so the inbound leg IS fire-constrained;
+  but every vehicle's departure is pinned to t=0 by constraints (26)/(50), the windows are drawn from
+  Uniform(400,850) minutes independently of the fire-origin label rather than from a fire-spread model,
+  the hazard is gated only at arc entry, and the output is a routing/fleet plan plus a forward
+  completion time, never a latest-safe-dispatch time.

@@ -1,0 +1,76 @@
+paper_id: kamyabniya2022thesis
+title: "Integrated and Coordinated Relief Logistics Planning Under Uncertainty for Relief Logistics Operations"
+title_verification: >
+  Title taken VERBATIM from the reference list of moradi2026supported and NOT
+  independently verified. uO Research (ruor.uottawa.ca) is a JavaScript-driven
+  DSpace whose search could not be driven by fetch on 2026-09-20. Treat the
+  title as single-source until the repository record is retrieved.
+authors: "Kamyabniya, Afshin"
+year: 2022
+venue: "University of Ottawa (Telfer School of Management)"
+venue_type: thesis
+volume: UNVERIFIED
+issue: UNVERIFIED
+pages: UNVERIFIED
+doi: UNVERIFIED
+url: UNVERIFIED
+publication_status: THESIS
+open_access_status: UNKNOWN
+date_verified: 2026-09-20
+verified_via: >
+  Reference list of moradi2026supported (full text, E4 read) for the citation
+  itself; Telfer School of Management PhD Spotlight page independently confirms
+  Afshin Kamyabniya as a uOttawa PhD student in Management supervised by
+  Jonathan Patrick and Antoine Saure -- the same two researchers who co-author
+  moradi2026supported. That corroborates the author and the lineage, NOT the
+  thesis title or year.
+fulltext_status: TITLE_ONLY
+evidence_level: E1
+category: [2]
+threat_level: HIGH
+threat_level_basis: >
+  Rated on described structure, not on read content. Moradi et al. characterise
+  it as a TIME-STEP-based two-stage stochastic supported-evacuation model with
+  joint shelter location and routing. A time-step formulation is the structure
+  most likely in this lineage to carry a per-step feasibility indicator -- i.e.
+  the nearest thing yet identified to a dispatch-feasible SET (WG-DBD-4). If it
+  reports one, WG-DBD-4 closes.
+threatens_claims: [WG-C-003, WG-C-005, WG-C-011]
+dbd_scoring:
+  WG-DBD-1: UNKNOWN
+  WG-DBD-2: UNKNOWN
+  WG-DBD-3: UNKNOWN
+  WG-DBD-4: UNKNOWN
+  WG-DBD-5: UNKNOWN
+  WG-DBD-6: UNKNOWN
+  WG-DBD-7: NOT_OCCUPIED
+attribution_warning: >
+  Everything known about this work's CONTENT comes from how a later paper by
+  the same research group describes it. Per AGENTS.md section 3 that is not
+  attributable to the thesis. No statement about its method or results may be
+  made until the thesis itself is read.
+matrix:
+  future_fire: "?"
+  traffic: "?"
+  household_trigger: "?"
+  probabilistic_trigger: "?"
+  multiple_fire_models: "?"
+  assisted_evacuation: "?"
+  inbound_responder: "?"
+  pickup: "?"
+  egress: "?"
+  dispatch_by_deadline: "?"
+  forecast_latency: "?"
+  forecast_skill_boundary: "?"
+  decision_value: "?"
+  scarce_resources: "?"
+  voi: "?"
+  active_sensing: "?"
+  korean_setting: no
+  real_validation: "?"
+  osse: "?"
+one_line_difference: >
+  Unread predecessor thesis from the same supervisory group as
+  moradi2026supported; its described time-step structure is the most likely
+  known location of a dispatch-feasible set, so no difference may be asserted
+  until it is retrieved.

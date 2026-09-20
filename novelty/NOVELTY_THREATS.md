@@ -17,7 +17,7 @@ Ranked by conceptual overlap with the two live research questions.
 
 | Rank | Paper | Similarity | What it already does | What it does not do | Threat |
 |---|---|---|---|---|---|
-| 1 | `moradi2026supported` — Moradi, Sauré & Patrick, arXiv:2608.05413 (**PREPRINT**) | Very high on RQ2 | Two-stage stochastic **supported evacuation in wildfires**: shelter location + fleet sizing + split pickup/delivery routing. Vehicles start at a base, drive **in**, dwell at an assembly area, deliver out. **Hard time window on every arc, defined as the time after which the route "is reached by the fire."** | Fire is never simulated: windows are sampled `Uniform(400,850)` min with a categorical fire-origin label. Output is a routing plan and fleet size (6 ambulances, 16 buses), never a departure time. No forecast, skill, or latency. | **CRITICAL** |
+| 1 | `moradi2026supported` — Moradi, Sauré & Patrick, arXiv:2608.05413 (**PREPRINT**) | Very high on RQ2 | Two-stage stochastic **supported evacuation in wildfires**: shelter location + fleet sizing + split pickup/delivery routing. Vehicles start at a base, drive **in**, dwell at an assembly area, deliver out. **Hard time window on every arc, defined as the time after which the route "is reached by the fire."** Takes **WG-DBD-1 outright.** | **Full text read (METHODS_VERIFIED, E4).** Dispatch is not computed — constraints (26)/(50) pin every vehicle's arrival time to 0, so departure is an *assumption*, not a variable; "latest", "deadline" and "dispatch time" appear zero times. Gating is at the arc **origin** only (53)/(56), never during traversal. Second-stage routing knows the *realized* closure times — oracle information. No fire field: closure times are scalars from `Uniform(400,850)` with fire origin drawn independently. No evacuee egress stream; roads uncapacitated. | **CRITICAL** |
 | 2 | `beyki2026modular` — Beyki et al., *Safety Science* 199:107200 | Very high on RQ2 | Names "the lack of inbound traffic and rescue operations" as the field's gap **and closes it**: high-resolution fire model drives live road-segment closure, explicit **emergency extraction** agents, adaptive rerouting on **inbound** legs, validated against a Portuguese drill. | Reports simulated evacuation/extraction outcomes, not a latest-dispatch quantity — **pending full text, which could change this row.** | **CRITICAL** |
 | 3 | `kalogeropoulos2026ensemble` — Kalogeropoulos & Rein, *Fire Safety Journal* 165:104912 | Total on WG-C-004 | Trigger boundaries from a **multi-model ensemble** of flame-spread models (Farsite, Prometheus/WISE, ELMFIRE, Google EPD, EPD-ConvLSTM), Fort McMurray. Finds triggers extend beyond practical detection distances. | Egress triggers for self-evacuating communities. No responder, no pickup, no dispatch time. | **CRITICAL** |
 | 4 | `regnier2008public` — Regnier, *Management Science* 54(1):16–28 | High on RQ1 | Derives the **forecast-quality boundary for evacuation ordering**: a 10% miss probability requires ≥76% false alarms. This is WG-C-002's object, in hurricanes, since 2008. | Hurricanes; single evacuate/don't decision; no tuned spatial-trigger comparator; no wildfire. | **HIGH** |
@@ -89,12 +89,27 @@ Ranked by how much damage they do if the full text says what we fear.
    safe-time-remaining quantity per waypoint, **WG-C-003 moves to OCCUPIED**
    and RQ2 must be abandoned or re-scoped. *Highest priority read in the repo.*
 2. **`moradi2026supported` journal version** — if peer review adds
-   spread-model-derived time windows, the last structural difference closes.
+   spread-model-derived time windows, or relaxes constraint (26)/(50) into a
+   departure variable, **WG-DBD-2 and WG-DBD-3 close.** Only v1 exists
+   (2026-08-05); the title page's "submitted to Elsevier August 8, 2025" is a
+   compile stamp and the target journal is unnamed. Re-check periodically.
 3. **`tang2025transit`** — abstract never retrieved. Transit evacuation of
    carless populations is structurally our trip and is not indexed as wildfire.
-4. **Kamyabniya (2022)** — a citation-only lead inside Moradi §2, described as
-   two-stage stochastic supported evacuation with shelter location and routing.
-   Unidentified. Could be another CRITICAL.
+4. **`kamyabniya2022thesis`** — **IDENTIFIED** as a University of Ottawa
+   (Telfer) doctoral thesis, which is why article searches never found it.
+   Afshin Kamyabniya was supervised by Jonathan Patrick and Antoine Sauré —
+   the same two researchers who co-author `moradi2026supported`, independently
+   confirmed from a Telfer PhD profile. Moradi et al. describe it as a
+   **time-step-based** two-stage stochastic supported-evacuation model with
+   joint shelter location and routing.
+   **Why it still matters:** a time-step formulation is the structure most
+   likely in this lineage to carry a *per-step feasibility indicator* — the
+   nearest thing yet identified to a dispatch-feasible **set** (WG-DBD-4).
+   Everything known about its content comes from how a later paper by the same
+   group describes it, which is not attributable (E1, `TITLE_ONLY`). Retrieve
+   from uO Research; the repository is a JS-driven DSpace and was not
+   searchable by fetch on 2026-09-20. Do not confuse with Kamyabniya et al.
+   (2024), *OR Spectrum* 46:737–783.
 5. **`murphy1987accuracyvalue` / `chen1987qualityvalue`** — known at E1/E2 only,
    and they are the load-bearing killers of WG-C-014.
 6. **Korean KCI/RISS/DBpia keyword sweep could not be completed** (server-side

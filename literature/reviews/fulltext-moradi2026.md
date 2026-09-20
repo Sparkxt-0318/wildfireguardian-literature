@@ -12,8 +12,8 @@ Solving a Supported-Evacuation Problem in Wildfires." arXiv:2608.05413 [math.OC]
 
 | Field | Value |
 |---|---|
-| `fulltext_status` | `FULL_TEXT_READ` — complete body, all 7 sections, all constraint blocks (1)–(61), Tables 1–7, reference list |
-| `evidence_level` | **E4** — equations and numbers located at specific section/equation/table |
+| `fulltext_status` | **`METHODS_VERIFIED`** — complete body, all 7 sections, all constraint blocks (1)–(61), Tables 1–7, reference list; equations and parameters located by number. Not `RESULTS_VERIFIED`: nothing was reproduced or independently corroborated |
+| `evidence_level` | **E4** — the ceiling `docs/EVIDENCE_LEVELS.md` sets for `METHODS_VERIFIED` |
 | `access_route` | alphaXiv MCP `get_paper_content(fullText=true)` on `arxiv.org/abs/2608.05413` (97,958 chars), cross-checked against alphaXiv `answer_pdf_queries` page-ranked extraction (pages 1, 6, 7, 9, 10, 16, 18, 19, 20, 23, 24, 25, 27) and against the arXiv abstract page via WebFetch |
 | HTML renderings | **Not available.** `arxiv.org/html/2608.05413v1` → HTTP 404. `ar5iv.labs.arxiv.org/html/2608.05413` → 200 but redirects to the abstract page (no LaTeX source HTML published). |
 

@@ -1,0 +1,80 @@
+paper_id: sezer2026infodesign
+title: "Continuous-Time Information Design for Hurricane Evacuation: Disclosure, Congestion, and Optimal Phasing under Model Uncertainty"
+authors:
+  - "Furkan Sezer"
+affiliation_as_recorded: "Texas A&M University"
+year: 2026
+venue: "arXiv"
+venue_type: preprint
+volume: null
+issue: null
+pages: "arXiv:2606.30320v1 [math.OC]"
+doi: UNVERIFIED
+arxiv_id: "2606.30320"
+url: https://arxiv.org/abs/2606.30320
+publication_status: PREPRINT
+publication_status_as_recorded: "arXiv preprint, submitted 2026-06-29; NOT peer reviewed"
+open_access_status: OA
+date_verified: 2026-09-20
+verified_via: >
+  alphaXiv full-text retrieval of arXiv:2606.30320 (3,086 lines of extracted
+  text, read directly by this agent) and the alphaXiv discover_papers record.
+  NO second independent source: no DOI, no journal version located, no Crossref
+  record. Metadata is therefore single-source and the DOI field is UNVERIFIED
+  per AGENTS.md section 3.
+fulltext_status: PARTIAL
+evidence_level: E3
+evidence_level_note: >
+  Abstract and the Experiment 2 passages were read directly from the retrieved
+  full text (not through a summarising intermediary), so they are E3. The
+  quantitative headline figures (89% and 70% social-cost reductions) are
+  recorded from the abstract only and are NOT independently checked against the
+  results section; do not cite them.
+access_route: "arXiv / alphaXiv full-text retrieval. PREPRINT."
+category: [4]
+threat_level: MODERATE
+threatens_claims: [WG-C-002, WG-C-014]
+occupies_components: ["WG-FV-1 (partial, adjacent hazard, signal precision rather than forecast error)", "WG-FV-5"]
+matrix:
+  future_fire: partial       # latent storm modelled as a jump-diffusion with a belief filter; not a spatial hazard field
+  traffic: yes               # capacity-constrained congestion game on shared corridors
+  household_trigger: partial # zones cross an evacuation threshold on their belief
+  probabilistic_trigger: yes
+  multiple_fire_models: "-"
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: yes
+  dispatch_by_deadline: no
+  forecast_latency: no       # disclosure TIMING (staggered release) is a lever; observation-to-product latency is not treated
+  forecast_skill_boundary: partial  # a sign reversal in the value of precision, not a skill boundary
+  decision_value: yes
+  scarce_resources: partial  # shared corridor capacity
+  voi: yes
+  active_sensing: no
+  korean_setting: no
+  real_validation: partial   # calibrated to Hurricane Rita using NHC archives, TxDOT capacities, HRRC surveys; not validated against outcomes
+  osse: no
+one_line_difference: >
+  Sezer sweeps the PRECISION of the information released to evacuating zones and
+  plots expected social cost against it (Experiment 2, Fig. 6), finding that
+  precision is self-defeating under a single broadcast and valuable only once
+  releases are staggered - i.e. an information-quality axis varied in a
+  controlled experiment with DECISION LOSS as the outcome, in hurricane
+  evacuation; the quantity varied is the precision of a deliberately designed
+  public signal rather than forecast error, there is no assisted evacuation, no
+  responder round trip, no observation-to-product latency and no comparator
+  trigger policy, and it is a preprint.
+key_quotes:
+  - quote: "public-signal precision is sign-ambiguous due to an informational Braess effect, where vague advisories are optimal unless complemented by a staggered order"
+    locus: "Abstract"
+    evidence_level: E3
+  - quote: "Expected social cost versus public-signal precision. Under a single common signal (K = 1) cost rises with precision and the optimum is the vague corner"
+    locus: "Figure 6 caption, Experiment 2"
+    evidence_level: E3
+  - quote: "Sequencing and precision are therefore complements: precision is self-defeating as a single broadcast"
+    locus: "Section 6.4, Experiment 2"
+    evidence_level: E3
+  - quote: "zone whose landfall and storm-surge hazard arrive early and whose evacuation routes flood at a surge deadline"
+    locus: "Section 6.4"
+    evidence_level: E3

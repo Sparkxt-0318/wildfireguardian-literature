@@ -17,12 +17,18 @@ The paper explicitly names "the lack of inbound traffic and rescue operations"
 as the gap it fills. *Resolution: full text (CC-BY, obtainable; ScienceDirect
 returned 403 to the agent).* **Highest-priority read in the repository.**
 
-**A2. What is Kamyabniya (2022)?**
-A citation-only lead inside `moradi2026supported` §2, described there as a
-two-stage stochastic supported-evacuation model with shelter location and
-routing. Unidentified — we do not know if it is a thesis, a paper, or what it
-outputs. *Resolution: resolve the citation from Moradi's reference list.*
-Could be another CRITICAL.
+**A2. What does `kamyabniya2022thesis` output? — PARTIALLY RESOLVED**
+**Identified:** a University of Ottawa (Telfer) doctoral thesis by Afshin
+Kamyabniya, supervised by Patrick and Sauré — the same researchers who
+co-author `moradi2026supported`. That is why article searches never found it.
+**Still open:** what it actually outputs. Moradi et al. describe it as
+*time-step-based*, and a time-step formulation is the most likely place in this
+lineage to carry a per-step feasibility indicator — i.e. a dispatch-feasible
+**set**, which is WG-DBD-4, the component we would otherwise claim.
+*Resolution: retrieve the thesis from uO Research.* The repository is a
+JS-driven DSpace and its search could not be driven by fetch on 2026-09-20;
+try ProQuest Dissertations, a direct handle, or the supervisors' pages.
+**This is now the top unresolved Tier A item after Beyki.**
 
 **A3. Does `tang2025transit` report a departure deadline?**
 Transit evacuation of carless populations by RL (*TR-C* 180:105342). Abstract

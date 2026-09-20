@@ -1,0 +1,89 @@
+paper_id: jewson2026evacuation
+title: "An extreme weather evacuation cost-lost model and the implications for early warning weather forecasting systems"
+title_note: >
+  The word "cost-lost" is not a transcription error by this agent. It appears
+  that way in both the Crossref record and the publisher page. Reproduce it
+  verbatim; do not silently correct it to "cost-loss" in the bibliography.
+authors:
+  - "Stephen Jewson"
+year: 2026
+venue: "Frontiers in Communication"
+venue_type: journal
+volume: "11"
+issue: null
+pages: null
+article_number: "1762033"
+doi: 10.3389/fcomm.2026.1762033
+url: https://doi.org/10.3389/fcomm.2026.1762033
+publication_status: PEER_REVIEWED
+publication_status_as_recorded: "journal-article"
+open_access_status: OA   # CC BY 4.0 per Crossref license record
+published_date: 2026-04-10
+issn: "2297-900X"
+date_verified: 2026-09-20
+verified_via: >
+  Crossref REST API work record (DOI, title, container-title, volume,
+  article-number, author, published date, CC BY licence, ISSN) AND the
+  Frontiers publisher full-text page, independently. Two independent sources
+  per docs/CITATION_RULES.md; the Crossref abstract and the publisher abstract
+  agree word for word.
+fulltext_status: PARTIAL
+evidence_level: E3
+evidence_level_note: >
+  Abstract verified at E4 equivalent (identical text from two independent
+  sources). Body statements below are E3: quoted from the publisher full-text
+  page through a single rendering. Worked-example parameter values are recorded
+  but must not be cited as WildfireGuardian numbers until independently
+  re-rendered (docs/EVIDENCE_LEVELS.md rule 3).
+access_route: "Frontiers open-access full text; DOI landing page. CC BY 4.0."
+category: [4]
+threat_level: HIGH
+threatens_claims: [WG-C-002, WG-C-012, WG-C-014]
+occupies_components: ["WG-FV-1 (partial, adjacent hazard)", "WG-FV-4 (one-dimensional form)", "WG-FV-5"]
+matrix:
+  future_fire: no
+  traffic: no
+  household_trigger: partial   # evacuate-or-stay is the modelled action, but abstracted, no household model
+  probabilistic_trigger: yes   # the decision rule is a probability threshold p_crit
+  multiple_fire_models: "-"
+  assisted_evacuation: no
+  inbound_responder: no
+  pickup: no
+  egress: no
+  dispatch_by_deadline: no
+  forecast_latency: partial    # forecast UPDATE timing (evacuate now vs wait for the next forecast) is the whole subject; observation-to-product latency is not
+  forecast_skill_boundary: yes # a critical standard deviation of probability change separates "evacuate" from "wait"
+  decision_value: yes
+  scarce_resources: no
+  voi: yes                     # what forecast information is worth providing is the paper's own framing
+  active_sensing: no
+  korean_setting: no
+  real_validation: no          # explicitly idealized; "Idealized models of this type are not intended to be used as actual decision making algorithms"
+  osse: no
+one_line_difference: >
+  Jewson poses the RQ1 decision structure in its purest published form - evacuate
+  now or wait for the next forecast, solved by a cost-loss model - and sweeps a
+  NAMED forecast-uncertainty dimension (the standard deviation of the change in
+  forecast probability between updates) to find the value at which the
+  recommendation flips from evacuate to wait; the hazard is a tropical cyclone,
+  the model is explicitly idealized with no landscape, no comparator policy, no
+  observation-to-product latency, no responder and no assisted evacuation, and
+  the frontier is one-dimensional in forecast uncertainty rather than a set in
+  error x latency space.
+key_quotes:
+  - quote: "A more subtle but perhaps more relevant question that also arises in many evacuation situations is whether to evacuate now or wait for the next forecast."
+    locus: "Abstract"
+    evidence_level: E4
+  - quote: "We find that uncertainty around the probability of extreme weather does not make any difference to decisions. However, we find that information about how the probability might change between forecasts does make a difference."
+    locus: "Abstract"
+    evidence_level: E4
+  - quote: "We give an example in which low standard deviations imply evacuation as the best option, while higher standard deviations imply waiting for the next forecast as the best option."
+    locus: "Abstract"
+    evidence_level: E4
+  - quote: "For low standard deviations the model recommends evacuation, while for high standard deviations the model recommends waiting."
+    locus: "Results / worked example"
+    evidence_level: E3
+  - quote: "Idealized models of this type are not intended to be used as actual decision making algorithms in real situations."
+    locus: "Abstract"
+    evidence_level: E4
+absent_terms: ["wildfire", "latency", "assisted", "vulnerable"]

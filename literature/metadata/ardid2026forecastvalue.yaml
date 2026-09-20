@@ -11,9 +11,54 @@ doi: 10.1071/WF25221
 url: https://doi.org/10.1071/WF25221
 publication_status: PEER_REVIEWED
 publication_status_as_recorded: "peer_reviewed_journal"
-open_access_status: UNVERIFIED
+open_access_status: OA   # CC BY-NC-ND 4.0, stated on the ConnectSci article page; OpenAlex oa_status "hybrid", license "cc-by-nc-nd", version "publishedVersion"
 date_verified: 2026-09-19
-verified_via: WebFetch of FRAMES catalog record + ConnectSci listing (E2; full text not read)
+verified_via: WebFetch of FRAMES catalog record + ConnectSci listing (E2 metadata); OpenAlex work record (DOI, OA status, license)
+fulltext_status: READ
+fulltext_read_date: 2026-09-20
+fulltext_read_by: "Agent C+B (RQ1 decomposition)"
+evidence_level: E3
+evidence_level_note: >
+  E3, not E4. All body text came through a single rendering (WebFetch of the
+  ConnectSci HTML). Independent second renderings failed: curl to ConnectSci
+  HTTP 403 (Cloudflare); University of Canterbury repository
+  hdl.handle.net/10092/109982 HTTP 403 to both curl and WebFetch;
+  publish.csiro.au/WF/WF25221 301-redirects to the same ConnectSci host;
+  OpenAlex reports any_repository_has_fulltext false. Per
+  docs/EVIDENCE_LEVELS.md rule 3, no number from this paper may be cited as a
+  WildfireGuardian figure until a second rendering confirms it. Extraction was
+  guarded by a negative-control term sweep (10 of 11 terms returned ABSENT), a
+  false-premise trap (fabricated Korean case study and rescue dispatch time
+  both correctly refused), and a repeated-table cross-check (FBI rows agreed
+  exactly across two separately worded calls).
+access_route: >
+  DOI 10.1071/WF25221 -> HTTP 302 -> ConnectSci (CSIRO Publishing) article page
+  https://connectsci.au/wf/article/35/4/WF25221/271634/From-forecast-skill-to-economic-value-sub-hourly
+  rendered as HTML. Open access, CC BY-NC-ND 4.0. Section headings present:
+  Introduction; Background; Our study; Methods (Study sites and data streams /
+  Feature engineering and forecast target / Model architecture and training /
+  Cross-validation and transfer learning / Evaluation metrics / Cost-loss for
+  forecast utility); Results (Hobart / Brisbane fringe / Sunshine Coast);
+  Discussion (Model generalisation and data sufficiency / How our findings
+  extend fire-risk forecasting research); Conclusion.
+fulltext_findings: >
+  Decision modelled is agency precautionary deployment (C = A$50,000 vs
+  L = A$10 million), against a binary label "a fire occurred within a future
+  look-ahead window (2, 5 or 10 days)"; "sub-hourly" is the 30-min input and
+  update cadence, not the forecast lead. CORRECTION TO EARLIER E2 RECORD: the
+  FBI baseline IS tuned - "The optimal classification threshold for each model
+  is selected retrospectively to maximise PEV", with per-region optimal FBI
+  thresholds reported, and "all FBI values in this study were recalculated
+  directly from observed AWS data". No break-even point, no skill threshold, no
+  PEV-versus-cost-loss-ratio sweep and no PEV>0 region: C and L are fixed
+  throughout the main text, with only a stability check in Supplementary Text
+  S2. The words latency, delay, timeliness, lead time, evacuation, trigger
+  boundary, buffer, OSSE, synthetic and perturb are all ABSENT from the body.
+  Forecasts are evaluated as-is on "the full, naturally imbalanced held-out
+  records"; nothing is perturbed or degraded. Truth is real (about 50 years of
+  AWS observations, 126 documented fires from official incident reports), so
+  there is no hidden-truth design. No evacuation, responder, pickup or Korean
+  content. See literature/reviews/fulltext-ardid2026.md.
 category: [4]
 threat_level: HIGH
 threatens_claims: [WG-C-002, WG-C-006]
